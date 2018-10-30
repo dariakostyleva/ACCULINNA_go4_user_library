@@ -31,7 +31,7 @@ public:
 	/**
 	 * Accessor
 	 */
-	TClonesArray* GetDetMessages(void) const { return fData; }
+	TClonesArray* GetDetMessages(void) { return fData; }
 
 private:
 	/**

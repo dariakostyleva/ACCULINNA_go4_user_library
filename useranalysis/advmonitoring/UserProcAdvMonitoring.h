@@ -10,6 +10,7 @@
 #include <TGo4EventProcessor.h> // mother class
 
 class TGo4EventElement;
+class TGo4CompositeEvent;
 
 class UserHistosAdvMonitoring;
 class SetupConfiguration;
@@ -31,7 +32,7 @@ public: // methods
 	virtual void UserPostLoop();
 
 private: // methods
-	void ProcessMessage(DetMessage* p_message);
+	void ProcessMessage(DetMessage* p_message, TString stName);
 
 private: // data members
 	/**
@@ -51,9 +52,13 @@ private: // data members
 	const SetupConfiguration* fSetupConfig;
 
 	/**
-	 * Summary stream
+	 * Summary stream	
 	 */
 	FILE* fFileSummary;
+	
+	//parameters 
+	UInt_t fTrigger; // value of the trigger came from BeamDet 
+  TString fst_MWPC; // name of the MWPC station
 
 	ClassDef(UserProcAdvMonitoring, 1);
 };

@@ -1,12 +1,13 @@
 #!/bin/bash
 
-SOFTDIR=/home/evovch/soft
+#SOFTDIR=/home/evovch/soft
+SOFTDIR=/home/daria/Documents
 
-cd ${SOFTDIR}/go4_trunk/
+cd ${SOFTDIR}/go4-5.3.0
 . ./go4login
 cd -
 
-cd ${SOFTDIR}/FairSoft_install/bin/
+cd ${SOFTDIR}/root-6.14.04/builddir/bin
 . ./thisroot.sh
 cd -
 

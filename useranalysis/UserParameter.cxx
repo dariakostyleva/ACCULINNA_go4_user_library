@@ -7,37 +7,31 @@ using std::endl;
 
 // Project
 #include "setupconfigcppwrapper/SetupConfiguration.h"
-#include "setupconfigcppwrapper/ElectronicsChars.h"
 
 UserParameter::UserParameter(const char* name) :
 	TGo4Parameter(name),
-	fSetupConfiguration(nullptr),
-	fElectrChars(nullptr)
+	fSetupConfiguration(nullptr)
 {
 }
 
 void UserParameter::Init(void)
 {
 	// Construct SetupConfiguration, which includes the input of the XML file
-	fSetupConfiguration = new SetupConfiguration(fSetupConfigFilename);
-	fElectrChars = new ElectronicsChars(fElectrCharsFilename);
+	fSetupConfiguration = new SetupConfiguration(mSetupConfigFilename);
 }
 
 UserParameter::~UserParameter()
 {
-	if (fSetupConfiguration) { delete fSetupConfiguration; fSetupConfiguration = nullptr; }
-	if (fElectrChars) { delete fElectrChars; fElectrChars = nullptr; }
+	if (fSetupConfiguration) delete fSetupConfiguration;
 }
 
 Int_t UserParameter::PrintParameter(Text_t* buffer, Int_t buflen)
 {
-	cerr << "fInputFilename       = '" << fInputFilename << "'" << endl;
-	cerr << "fSetupConfigFilename = '" << fSetupConfigFilename << "'" << endl;
-	cerr << "fElectrCharsFilename = '" << fElectrCharsFilename << "'" << endl;
-	cerr << "fOutputFilename      = '" << fOutputFilename << "'" << endl;
+	cerr << "mInputFilename       = '" << mInputFilename << "'" << endl;
+	cerr << "mSetupConfigFilename = '" << mSetupConfigFilename << "'" << endl;
+	cerr << "mOutputFilename      = '" << mOutputFilename << "'" << endl;
 	fSetupConfiguration->Print();
-	fElectrChars->Print();
-	
+
 	return 1; //TODO what should it return?
 }
 

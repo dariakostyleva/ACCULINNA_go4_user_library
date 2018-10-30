@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "commonxml.h"
 #include "xmlparsing.h"
 
 /* ============================================================================================= */
@@ -17,6 +16,17 @@ void InitStcMapping(stc_mapping* ptr)
 	strncpy(ptr->fCrateName, "", 64);
 	ptr->fCrateProcid = 0;
 
+	/*ptr->fAddr = 0;
+	strncpy(ptr->fElblock, "", 64);
+	ptr->fStartelectrch = 0;
+	ptr->fNelectrch = 0;
+	ptr->fStepelectrch = 1;
+	strncpy(ptr->fStation, "", 64);
+	ptr->fStartstatch = 0;
+	strncpy(ptr->fDetector, "", 64);
+	strncpy(ptr->fDigicomp, "", 64);*/
+
+	/* I'd better call for reset here: */
 	ResetStcMapping(ptr);
 }
 

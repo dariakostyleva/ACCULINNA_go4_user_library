@@ -18,7 +18,6 @@
 #include <TString.h>
 
 class SetupConfiguration;
-class ElectronicsChars;
 
 class UserParameter : public TGo4Parameter {
 public:
@@ -38,83 +37,58 @@ public:
 	/**
 	 * Modifier
 	 */
-	void SetInputFilename(TString p_filename) { fInputFilename = p_filename; }
+	void SetInputFilename(TString p_filename) { mInputFilename = p_filename; }
 
 	/**
 	 * Modifier
 	 */
-	void SetSetupConfigFilename(TString p_filename) { fSetupConfigFilename = p_filename; }
+	void SetSetupConfigFilename(TString p_filename) { mSetupConfigFilename = p_filename; }
 
 	/**
 	 * Modifier
 	 */
-	void SetElectrCharsFilename(TString p_filename) { fElectrCharsFilename = p_filename; }
-
-	/**
-	 * Modifier
-	 */
-	void SetOutputFilename(TString p_filename) { fOutputFilename = p_filename; }
+	void SetOutputFilename(TString p_filename) { mOutputFilename = p_filename; }
 
 	/**
 	 * Accessor
 	 */
-	//TString GetInputFilename(void) const { return fInputFilename; }
+	//TString GetInputFilename(void) const { return mInputFilename; }
 
 	/**
 	 * Accessor
 	 */
-	//TString GetSetupConfigFilename(void) const { return fSetupConfigFilename; }
+	//TString GetSetupConfigFilename(void) const { return mSetupConfigFilename; }
 
 	/**
 	 * Accessor
 	 */
-	//TString GetElectrCharsFilename(void) const { return fElectrCharsFilename; }
-
-	/**
-	 * Accessor
-	 */
-	//TString GetOutputFilename(void) const { return fOutputFilename; }
+	//TString GetOutputFilename(void) const { return mOutputFilename; }
 
 	/**
 	 *
 	 */
 	const SetupConfiguration* GetSetupConfig(void) const { return fSetupConfiguration; }
 
-	/**
-	 *
-	 */
-	const ElectronicsChars* GetElectrChars(void) const { return fElectrChars; }
-
 private:
 	/**
 	 * Input .lmd raw data file name
 	 */
-	TString fInputFilename;
+	TString mInputFilename;
 
 	/**
 	 * Input .xml setup configuration file name
 	 */
-	TString fSetupConfigFilename;
-
-	/**
-	 * Input .xml electronics characteristics file name
-	 */
-	TString fElectrCharsFilename;
+	TString mSetupConfigFilename;
 
 	/**
 	 * Output .root processed data file name
 	 */
-	TString fOutputFilename;
+	TString mOutputFilename;
 
 	/**
 	 * Setup configuration object
 	 */
 	SetupConfiguration* fSetupConfiguration;
-
-	/**
-	 * Electronics characteristics object
-	 */
-	ElectronicsChars* fElectrChars;
 
 	ClassDef(UserParameter, 1);
 };
