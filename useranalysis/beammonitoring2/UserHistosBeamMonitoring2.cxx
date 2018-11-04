@@ -67,10 +67,10 @@ UserHistosBeamMonitoring2::UserHistosBeamMonitoring2()
 	fPlaneProjW = a->MakeTH2('I',"BM2/PlaneProjW","Proj. to plane at the dist. from target, wires", 46, -23., 23., 46, -23., 23.,"X","Y");
 	fPlaneProjC = a->MakeTH2('I',"BM2/PlaneProjC","Proj. to plane at the dist. from target, clusters", 46, -23., 23., 46, -23., 23.,"X","Y");
 
-	fMWPCtime[0] = a->MakeTH1('I',"BM2/fMWPCtime/time_MWPC0","some time 0", 500, 0, 10e3);
-	fMWPCtime[1] = a->MakeTH1('I',"BM2/fMWPCtime/time_MWPC1","some time 1", 500, 0, 10e3);
-	fMWPCtime[2] = a->MakeTH1('I',"BM2/fMWPCtime/time_MWPC2","some time 2", 500, 0, 10e3);
-	fMWPCtime[3] = a->MakeTH1('I',"BM2/fMWPCtime/time_MWPC3","some time 3", 500, 0, 10e3);
+	fMWPCtime[0] = a->MakeTH1('I',"BM2/fMWPCtime/time_MWPC0","time measured by MWPC 0", 500, 0, 10e3);
+	fMWPCtime[1] = a->MakeTH1('I',"BM2/fMWPCtime/time_MWPC1","time measured by MWPC 1", 500, 0, 10e3);
+	fMWPCtime[2] = a->MakeTH1('I',"BM2/fMWPCtime/time_MWPC2","time measured by MWPC 2", 500, 0, 10e3);
+	fMWPCtime[3] = a->MakeTH1('I',"BM2/fMWPCtime/time_MWPC3","time measured by MWPC 3", 500, 0, 10e3);
 	TGo4Picture *pic = new TGo4Picture("pic","picpicpic");
 	pic->AddH1(fMWPCwireEff);
 	pic->SetDrawOption("col");

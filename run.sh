@@ -12,7 +12,7 @@ fi
 # Please specify the path to a directory which contains the file you want to analyse
 # You should not put the trailing slash sign (but actually if you will, it should not affect the result...)
 #INPUTLMDDIR=/home/vratislav/data/exp1804/lmdForTests
-INPUTLMDDIR=/home/daria/7H_experiment/lmd_exp042018
+INPUTLMDDIR=/home/daria/7H_experiment/clb_data201810
 
 if [ ! -d "${INPUTLMDDIR}" ]; then
 	echo -e "Directory ${INPUTLMDDIR} does not exist. Aborting."
@@ -21,21 +21,21 @@ fi
 
 # Please specify the path to the output directory where the resulting root files will be written
 #OUTPUTROOTDIR=/home/vratislav/data/go4ivanWorkDir
-OUTPUTROOTDIR=/home/daria/7H_experiment/out_exp042018
+OUTPUTROOTDIR=/home/daria/7H_experiment/out_clb201810
 
 # TODO check that ${OUTPUTROOTDIR} exists ???
 
 # Please specify the input XML configuration file
-SETUPFILE=./usr/setup2_exp201803.xml
+SETUPFILE=./usr/setup2_exp201810.xml
 
 # TODO check that ${SETUPFILE} exists
 
 # Please specify input file name
 #INPUTFILENAME=h5_14_0001.lmd
-INPUTFILENAME=h5_14_0099.lmd
+INPUTFILENAME=test_he8_0001.lmd
 
 # Please specify number of events to process
-NEVENTS=10000 # Specify 0 to process the full file
+NEVENTS=0 # Specify 0 to process the full file
 
 TEXTERRFILE=textoutput/err.txt  # Default: textoutput/err.txt
 #TEXTERRFILE=/dev/null    # suppress error stream. Saves a little bit of hdd space
