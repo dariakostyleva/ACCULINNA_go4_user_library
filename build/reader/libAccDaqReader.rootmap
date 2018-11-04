@@ -1,0 +1,4 @@
+[ libAccDaqReader.so ]
+# List of selected classes
+class Reader
+header Reader.h

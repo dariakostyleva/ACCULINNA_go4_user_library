@@ -1,0 +1,2508 @@
+=============================== SUMMARY ==============================
+The following channels are mapped:
+10000000: procid=100	addr=0	ch=0	ok
+10000001: procid=100	addr=0	ch=1	ok
+10000002: procid=100	addr=0	ch=2	ok
+10000003: procid=100	addr=0	ch=3	ok
+10000004: procid=100	addr=0	ch=4	ok
+10000005: procid=100	addr=0	ch=5	ok
+10000006: procid=100	addr=0	ch=6	ok
+10000007: procid=100	addr=0	ch=7	ok
+10000008: procid=100	addr=0	ch=8	ok
+10000009: procid=100	addr=0	ch=9	ok
+10000010: procid=100	addr=0	ch=10	ok
+10000011: procid=100	addr=0	ch=11	ok
+10000012: procid=100	addr=0	ch=12	ok
+10000013: procid=100	addr=0	ch=13	ok
+10000014: procid=100	addr=0	ch=14	ok
+10000015: procid=100	addr=0	ch=15	ok
+10001000: procid=100	addr=1	ch=0	ok
+10001001: procid=100	addr=1	ch=1	ok
+10001002: procid=100	addr=1	ch=2	ok
+10001003: procid=100	addr=1	ch=3	ok
+10001004: procid=100	addr=1	ch=4	ok
+10001005: procid=100	addr=1	ch=5	ok
+10001006: procid=100	addr=1	ch=6	ok
+10001007: procid=100	addr=1	ch=7	ok
+10001008: procid=100	addr=1	ch=8	ok
+10001009: procid=100	addr=1	ch=9	ok
+10001010: procid=100	addr=1	ch=10	ok
+10001011: procid=100	addr=1	ch=11	ok
+10001012: procid=100	addr=1	ch=12	ok
+10001013: procid=100	addr=1	ch=13	ok
+10001014: procid=100	addr=1	ch=14	ok
+10001015: procid=100	addr=1	ch=15	ok
+10001016: procid=100	addr=1	ch=16	ok
+10001017: procid=100	addr=1	ch=17	ok
+10001018: procid=100	addr=1	ch=18	ok
+10001019: procid=100	addr=1	ch=19	ok
+10001020: procid=100	addr=1	ch=20	ok
+10001021: procid=100	addr=1	ch=21	ok
+10001022: procid=100	addr=1	ch=22	ok
+10001023: procid=100	addr=1	ch=23	ok
+10001024: procid=100	addr=1	ch=24	ok
+10001025: procid=100	addr=1	ch=25	ok
+10001026: procid=100	addr=1	ch=26	ok
+10001027: procid=100	addr=1	ch=27	ok
+10001028: procid=100	addr=1	ch=28	ok
+10001029: procid=100	addr=1	ch=29	ok
+10001030: procid=100	addr=1	ch=30	ok
+10001031: procid=100	addr=1	ch=31	ok
+10002000: procid=100	addr=2	ch=0	ok
+10002001: procid=100	addr=2	ch=1	ok
+10002002: procid=100	addr=2	ch=2	ok
+10002003: procid=100	addr=2	ch=3	ok
+10002004: procid=100	addr=2	ch=4	ok
+10002005: procid=100	addr=2	ch=5	ok
+10002006: procid=100	addr=2	ch=6	ok
+10002007: procid=100	addr=2	ch=7	ok
+10002008: procid=100	addr=2	ch=8	ok
+10002009: procid=100	addr=2	ch=9	ok
+10002010: procid=100	addr=2	ch=10	ok
+10002011: procid=100	addr=2	ch=11	ok
+10002012: procid=100	addr=2	ch=12	ok
+10002013: procid=100	addr=2	ch=13	ok
+10002014: procid=100	addr=2	ch=14	ok
+10002015: procid=100	addr=2	ch=15	ok
+10002016: procid=100	addr=2	ch=16	ok
+10002017: procid=100	addr=2	ch=17	ok
+10002018: procid=100	addr=2	ch=18	ok
+10002019: procid=100	addr=2	ch=19	ok
+10002020: procid=100	addr=2	ch=20	ok
+10002021: procid=100	addr=2	ch=21	ok
+10002022: procid=100	addr=2	ch=22	ok
+10002023: procid=100	addr=2	ch=23	ok
+10002024: procid=100	addr=2	ch=24	ok
+10002025: procid=100	addr=2	ch=25	ok
+10002026: procid=100	addr=2	ch=26	ok
+10002027: procid=100	addr=2	ch=27	ok
+10002028: procid=100	addr=2	ch=28	ok
+10002029: procid=100	addr=2	ch=29	ok
+10002030: procid=100	addr=2	ch=30	ok
+10002031: procid=100	addr=2	ch=31	ok
+10003000: procid=100	addr=3	ch=0	ok
+10003001: procid=100	addr=3	ch=1	ok
+10003002: procid=100	addr=3	ch=2	ok
+10003003: procid=100	addr=3	ch=3	ok
+10003004: procid=100	addr=3	ch=4	ok
+10003005: procid=100	addr=3	ch=5	ok
+10003006: procid=100	addr=3	ch=6	ok
+10003007: procid=100	addr=3	ch=7	ok
+10003008: procid=100	addr=3	ch=8	ok
+10003009: procid=100	addr=3	ch=9	ok
+10003010: procid=100	addr=3	ch=10	ok
+10003011: procid=100	addr=3	ch=11	ok
+10003012: procid=100	addr=3	ch=12	ok
+10003013: procid=100	addr=3	ch=13	ok
+10003014: procid=100	addr=3	ch=14	ok
+10003015: procid=100	addr=3	ch=15	ok
+10003016: procid=100	addr=3	ch=16	ok
+10003017: procid=100	addr=3	ch=17	ok
+10003018: procid=100	addr=3	ch=18	ok
+10003019: procid=100	addr=3	ch=19	ok
+10003020: procid=100	addr=3	ch=20	ok
+10003021: procid=100	addr=3	ch=21	ok
+10003022: procid=100	addr=3	ch=22	ok
+10003023: procid=100	addr=3	ch=23	ok
+10003024: procid=100	addr=3	ch=24	ok
+10003025: procid=100	addr=3	ch=25	ok
+10003026: procid=100	addr=3	ch=26	ok
+10003027: procid=100	addr=3	ch=27	ok
+10003028: procid=100	addr=3	ch=28	ok
+10003029: procid=100	addr=3	ch=29	ok
+10003030: procid=100	addr=3	ch=30	ok
+10003031: procid=100	addr=3	ch=31	ok
+10004000: procid=100	addr=4	ch=0	ok
+10004001: procid=100	addr=4	ch=1	ok
+10004002: procid=100	addr=4	ch=2	ok
+10004003: procid=100	addr=4	ch=3	ok
+10004004: procid=100	addr=4	ch=4	ok
+10004005: procid=100	addr=4	ch=5	ok
+10004006: procid=100	addr=4	ch=6	ok
+10004007: procid=100	addr=4	ch=7	ok
+10004008: procid=100	addr=4	ch=8	ok
+10004009: procid=100	addr=4	ch=9	ok
+10004010: procid=100	addr=4	ch=10	ok
+10004011: procid=100	addr=4	ch=11	ok
+10004012: procid=100	addr=4	ch=12	ok
+10004013: procid=100	addr=4	ch=13	ok
+10004014: procid=100	addr=4	ch=14	ok
+10004015: procid=100	addr=4	ch=15	ok
+10004016: procid=100	addr=4	ch=16	ok
+10004017: procid=100	addr=4	ch=17	ok
+10004018: procid=100	addr=4	ch=18	ok
+10004019: procid=100	addr=4	ch=19	ok
+10004020: procid=100	addr=4	ch=20	ok
+10004021: procid=100	addr=4	ch=21	ok
+10004022: procid=100	addr=4	ch=22	ok
+10004023: procid=100	addr=4	ch=23	ok
+10004024: procid=100	addr=4	ch=24	ok
+10004025: procid=100	addr=4	ch=25	ok
+10004026: procid=100	addr=4	ch=26	ok
+10004027: procid=100	addr=4	ch=27	ok
+10004028: procid=100	addr=4	ch=28	ok
+10004029: procid=100	addr=4	ch=29	ok
+10004030: procid=100	addr=4	ch=30	ok
+10004031: procid=100	addr=4	ch=31	ok
+10005000: procid=100	addr=5	ch=0	ok
+10005001: procid=100	addr=5	ch=1	ok
+10005002: procid=100	addr=5	ch=2	ok
+10005003: procid=100	addr=5	ch=3	ok
+10005004: procid=100	addr=5	ch=4	ok
+10005005: procid=100	addr=5	ch=5	ok
+10005006: procid=100	addr=5	ch=6	ok
+10005007: procid=100	addr=5	ch=7	ok
+10005008: procid=100	addr=5	ch=8	ok
+10005009: procid=100	addr=5	ch=9	ok
+10005010: procid=100	addr=5	ch=10	ok
+10005011: procid=100	addr=5	ch=11	ok
+10005012: procid=100	addr=5	ch=12	ok
+10005013: procid=100	addr=5	ch=13	ok
+10005014: procid=100	addr=5	ch=14	ok
+10005015: procid=100	addr=5	ch=15	ok
+10005016: procid=100	addr=5	ch=16	ok
+10005017: procid=100	addr=5	ch=17	ok
+10005018: procid=100	addr=5	ch=18	ok
+10005019: procid=100	addr=5	ch=19	ok
+10005020: procid=100	addr=5	ch=20	ok
+10005021: procid=100	addr=5	ch=21	ok
+10005022: procid=100	addr=5	ch=22	ok
+10005023: procid=100	addr=5	ch=23	ok
+10005024: procid=100	addr=5	ch=24	ok
+10005025: procid=100	addr=5	ch=25	ok
+10005026: procid=100	addr=5	ch=26	ok
+10005027: procid=100	addr=5	ch=27	ok
+10005028: procid=100	addr=5	ch=28	ok
+10005029: procid=100	addr=5	ch=29	ok
+10005030: procid=100	addr=5	ch=30	ok
+10005031: procid=100	addr=5	ch=31	ok
+10006000: procid=100	addr=6	ch=0	ok
+10006001: procid=100	addr=6	ch=1	ok
+10006002: procid=100	addr=6	ch=2	ok
+10006003: procid=100	addr=6	ch=3	ok
+10006004: procid=100	addr=6	ch=4	ok
+10006005: procid=100	addr=6	ch=5	ok
+10006006: procid=100	addr=6	ch=6	ok
+10006007: procid=100	addr=6	ch=7	ok
+10006008: procid=100	addr=6	ch=8	ok
+10006009: procid=100	addr=6	ch=9	ok
+10006010: procid=100	addr=6	ch=10	ok
+10006011: procid=100	addr=6	ch=11	ok
+10006012: procid=100	addr=6	ch=12	ok
+10006013: procid=100	addr=6	ch=13	ok
+10006014: procid=100	addr=6	ch=14	ok
+10006015: procid=100	addr=6	ch=15	ok
+10006016: procid=100	addr=6	ch=16	ok
+10006017: procid=100	addr=6	ch=17	ok
+10006018: procid=100	addr=6	ch=18	ok
+10006019: procid=100	addr=6	ch=19	ok
+10006020: procid=100	addr=6	ch=20	ok
+10006021: procid=100	addr=6	ch=21	ok
+10006022: procid=100	addr=6	ch=22	ok
+10006023: procid=100	addr=6	ch=23	ok
+10006024: procid=100	addr=6	ch=24	ok
+10006025: procid=100	addr=6	ch=25	ok
+10006026: procid=100	addr=6	ch=26	ok
+10006027: procid=100	addr=6	ch=27	ok
+10006028: procid=100	addr=6	ch=28	ok
+10006029: procid=100	addr=6	ch=29	ok
+10006030: procid=100	addr=6	ch=30	ok
+10006031: procid=100	addr=6	ch=31	ok
+10007000: procid=100	addr=7	ch=0	ok
+10007001: procid=100	addr=7	ch=1	ok
+10007002: procid=100	addr=7	ch=2	ok
+10007003: procid=100	addr=7	ch=3	ok
+10007004: procid=100	addr=7	ch=4	ok
+10007005: procid=100	addr=7	ch=5	ok
+10007006: procid=100	addr=7	ch=6	ok
+10007007: procid=100	addr=7	ch=7	ok
+10007008: procid=100	addr=7	ch=8	ok
+10007009: procid=100	addr=7	ch=9	ok
+10007010: procid=100	addr=7	ch=10	ok
+10007011: procid=100	addr=7	ch=11	ok
+10007012: procid=100	addr=7	ch=12	ok
+10007013: procid=100	addr=7	ch=13	ok
+10007014: procid=100	addr=7	ch=14	ok
+10007015: procid=100	addr=7	ch=15	ok
+10007016: procid=100	addr=7	ch=16	ok
+10007017: procid=100	addr=7	ch=17	ok
+10007018: procid=100	addr=7	ch=18	ok
+10007019: procid=100	addr=7	ch=19	ok
+10007020: procid=100	addr=7	ch=20	ok
+10007021: procid=100	addr=7	ch=21	ok
+10007022: procid=100	addr=7	ch=22	ok
+10007023: procid=100	addr=7	ch=23	ok
+10007024: procid=100	addr=7	ch=24	ok
+10007025: procid=100	addr=7	ch=25	ok
+10007026: procid=100	addr=7	ch=26	ok
+10007027: procid=100	addr=7	ch=27	ok
+10007028: procid=100	addr=7	ch=28	ok
+10007029: procid=100	addr=7	ch=29	ok
+10007030: procid=100	addr=7	ch=30	ok
+10007031: procid=100	addr=7	ch=31	ok
+10008000: procid=100	addr=8	ch=0	ok
+10008001: procid=100	addr=8	ch=1	ok
+10008002: procid=100	addr=8	ch=2	ok
+10008003: procid=100	addr=8	ch=3	ok
+10008004: procid=100	addr=8	ch=4	ok
+10008005: procid=100	addr=8	ch=5	ok
+10008006: procid=100	addr=8	ch=6	ok
+10008007: procid=100	addr=8	ch=7	ok
+10008008: procid=100	addr=8	ch=8	ok
+10008009: procid=100	addr=8	ch=9	ok
+10008010: procid=100	addr=8	ch=10	ok
+10008011: procid=100	addr=8	ch=11	ok
+10008012: procid=100	addr=8	ch=12	ok
+10008013: procid=100	addr=8	ch=13	ok
+10008014: procid=100	addr=8	ch=14	ok
+10008015: procid=100	addr=8	ch=15	ok
+10008016: procid=100	addr=8	ch=16	ok
+10008017: procid=100	addr=8	ch=17	ok
+10008018: procid=100	addr=8	ch=18	ok
+10008019: procid=100	addr=8	ch=19	ok
+10008020: procid=100	addr=8	ch=20	ok
+10008021: procid=100	addr=8	ch=21	ok
+10008022: procid=100	addr=8	ch=22	ok
+10008023: procid=100	addr=8	ch=23	ok
+10008024: procid=100	addr=8	ch=24	ok
+10008025: procid=100	addr=8	ch=25	ok
+10008026: procid=100	addr=8	ch=26	ok
+10008027: procid=100	addr=8	ch=27	ok
+10008028: procid=100	addr=8	ch=28	ok
+10008029: procid=100	addr=8	ch=29	ok
+10008030: procid=100	addr=8	ch=30	ok
+10008031: procid=100	addr=8	ch=31	ok
+10009000: procid=100	addr=9	ch=0	ok
+10009001: procid=100	addr=9	ch=1	ok
+10009002: procid=100	addr=9	ch=2	ok
+10009003: procid=100	addr=9	ch=3	ok
+10009004: procid=100	addr=9	ch=4	ok
+10009005: procid=100	addr=9	ch=5	ok
+10009006: procid=100	addr=9	ch=6	ok
+10009007: procid=100	addr=9	ch=7	ok
+10009008: procid=100	addr=9	ch=8	ok
+10009009: procid=100	addr=9	ch=9	ok
+10009010: procid=100	addr=9	ch=10	ok
+10009011: procid=100	addr=9	ch=11	ok
+10009012: procid=100	addr=9	ch=12	ok
+10009013: procid=100	addr=9	ch=13	ok
+10009014: procid=100	addr=9	ch=14	ok
+10009015: procid=100	addr=9	ch=15	ok
+10009016: procid=100	addr=9	ch=16	ok
+10009017: procid=100	addr=9	ch=17	ok
+10009018: procid=100	addr=9	ch=18	ok
+10009019: procid=100	addr=9	ch=19	ok
+10009020: procid=100	addr=9	ch=20	ok
+10009021: procid=100	addr=9	ch=21	ok
+10009022: procid=100	addr=9	ch=22	ok
+10009023: procid=100	addr=9	ch=23	ok
+10009024: procid=100	addr=9	ch=24	ok
+10009025: procid=100	addr=9	ch=25	ok
+10009026: procid=100	addr=9	ch=26	ok
+10009027: procid=100	addr=9	ch=27	ok
+10009028: procid=100	addr=9	ch=28	ok
+10009029: procid=100	addr=9	ch=29	ok
+10009030: procid=100	addr=9	ch=30	ok
+10009031: procid=100	addr=9	ch=31	ok
+10009032: procid=100	addr=9	ch=32	NO DATA
+10009033: procid=100	addr=9	ch=33	NO DATA
+10009034: procid=100	addr=9	ch=34	NO DATA
+10009035: procid=100	addr=9	ch=35	NO DATA
+10009036: procid=100	addr=9	ch=36	NO DATA
+10009037: procid=100	addr=9	ch=37	NO DATA
+10009038: procid=100	addr=9	ch=38	NO DATA
+10009039: procid=100	addr=9	ch=39	NO DATA
+10009040: procid=100	addr=9	ch=40	NO DATA
+10009041: procid=100	addr=9	ch=41	NO DATA
+10009042: procid=100	addr=9	ch=42	NO DATA
+10009043: procid=100	addr=9	ch=43	NO DATA
+10009044: procid=100	addr=9	ch=44	NO DATA
+10009045: procid=100	addr=9	ch=45	NO DATA
+10009046: procid=100	addr=9	ch=46	NO DATA
+10009047: procid=100	addr=9	ch=47	NO DATA
+10010000: procid=100	addr=10	ch=0	ok
+10010001: procid=100	addr=10	ch=1	ok
+10010002: procid=100	addr=10	ch=2	ok
+10010003: procid=100	addr=10	ch=3	ok
+10010004: procid=100	addr=10	ch=4	ok
+10010005: procid=100	addr=10	ch=5	ok
+10010006: procid=100	addr=10	ch=6	ok
+10010007: procid=100	addr=10	ch=7	ok
+10010008: procid=100	addr=10	ch=8	ok
+10010009: procid=100	addr=10	ch=9	ok
+10010010: procid=100	addr=10	ch=10	ok
+10010011: procid=100	addr=10	ch=11	ok
+10010012: procid=100	addr=10	ch=12	ok
+10010013: procid=100	addr=10	ch=13	ok
+10010014: procid=100	addr=10	ch=14	ok
+10010015: procid=100	addr=10	ch=15	ok
+10010016: procid=100	addr=10	ch=16	ok
+10010017: procid=100	addr=10	ch=17	ok
+10010018: procid=100	addr=10	ch=18	ok
+10010019: procid=100	addr=10	ch=19	ok
+10010020: procid=100	addr=10	ch=20	ok
+10010021: procid=100	addr=10	ch=21	ok
+10010022: procid=100	addr=10	ch=22	ok
+10010023: procid=100	addr=10	ch=23	ok
+10010024: procid=100	addr=10	ch=24	ok
+10010025: procid=100	addr=10	ch=25	ok
+10010026: procid=100	addr=10	ch=26	ok
+10010027: procid=100	addr=10	ch=27	ok
+10010028: procid=100	addr=10	ch=28	ok
+10010029: procid=100	addr=10	ch=29	ok
+10010030: procid=100	addr=10	ch=30	ok
+10010031: procid=100	addr=10	ch=31	ok
+10010032: procid=100	addr=10	ch=32	NO DATA
+10010033: procid=100	addr=10	ch=33	NO DATA
+10010034: procid=100	addr=10	ch=34	NO DATA
+10010035: procid=100	addr=10	ch=35	NO DATA
+10010036: procid=100	addr=10	ch=36	NO DATA
+10010037: procid=100	addr=10	ch=37	NO DATA
+10010038: procid=100	addr=10	ch=38	NO DATA
+10010039: procid=100	addr=10	ch=39	NO DATA
+10010040: procid=100	addr=10	ch=40	NO DATA
+10010041: procid=100	addr=10	ch=41	NO DATA
+10010042: procid=100	addr=10	ch=42	NO DATA
+10010043: procid=100	addr=10	ch=43	NO DATA
+10010044: procid=100	addr=10	ch=44	NO DATA
+10010045: procid=100	addr=10	ch=45	NO DATA
+10010046: procid=100	addr=10	ch=46	NO DATA
+10010047: procid=100	addr=10	ch=47	NO DATA
+10011000: procid=100	addr=11	ch=0	ok
+10011001: procid=100	addr=11	ch=1	ok
+10011002: procid=100	addr=11	ch=2	ok
+10011003: procid=100	addr=11	ch=3	ok
+10011004: procid=100	addr=11	ch=4	ok
+10011005: procid=100	addr=11	ch=5	ok
+10011006: procid=100	addr=11	ch=6	ok
+10011007: procid=100	addr=11	ch=7	ok
+10011008: procid=100	addr=11	ch=8	NO DATA
+10011009: procid=100	addr=11	ch=9	NO DATA
+10011010: procid=100	addr=11	ch=10	NO DATA
+10011011: procid=100	addr=11	ch=11	NO DATA
+10011012: procid=100	addr=11	ch=12	ok
+10011013: procid=100	addr=11	ch=13	ok
+10011014: procid=100	addr=11	ch=14	ok
+10011015: procid=100	addr=11	ch=15	ok
+10011016: procid=100	addr=11	ch=16	ok
+10011017: procid=100	addr=11	ch=17	ok
+10011018: procid=100	addr=11	ch=18	ok
+10011019: procid=100	addr=11	ch=19	ok
+10011020: procid=100	addr=11	ch=20	ok
+10011021: procid=100	addr=11	ch=21	ok
+10011022: procid=100	addr=11	ch=22	ok
+10011023: procid=100	addr=11	ch=23	ok
+10012000: procid=100	addr=12	ch=0	ok
+10012001: procid=100	addr=12	ch=1	ok
+10012002: procid=100	addr=12	ch=2	ok
+10012003: procid=100	addr=12	ch=3	ok
+10012004: procid=100	addr=12	ch=4	ok
+10012005: procid=100	addr=12	ch=5	ok
+10012006: procid=100	addr=12	ch=6	ok
+10012007: procid=100	addr=12	ch=7	ok
+10012008: procid=100	addr=12	ch=8	NO DATA
+10012009: procid=100	addr=12	ch=9	NO DATA
+10012010: procid=100	addr=12	ch=10	NO DATA
+10012011: procid=100	addr=12	ch=11	NO DATA
+10012012: procid=100	addr=12	ch=12	ok
+10012013: procid=100	addr=12	ch=13	ok
+10012014: procid=100	addr=12	ch=14	ok
+10012015: procid=100	addr=12	ch=15	ok
+10013000: procid=100	addr=13	ch=0	ok
+10013001: procid=100	addr=13	ch=1	ok
+10013002: procid=100	addr=13	ch=2	ok
+10013003: procid=100	addr=13	ch=3	ok
+10013004: procid=100	addr=13	ch=4	ok
+10013005: procid=100	addr=13	ch=5	ok
+10013006: procid=100	addr=13	ch=6	ok
+10013007: procid=100	addr=13	ch=7	ok
+10013008: procid=100	addr=13	ch=8	ok
+10013009: procid=100	addr=13	ch=9	ok
+10013010: procid=100	addr=13	ch=10	ok
+10013011: procid=100	addr=13	ch=11	ok
+10013012: procid=100	addr=13	ch=12	ok
+10013013: procid=100	addr=13	ch=13	ok
+10013014: procid=100	addr=13	ch=14	ok
+10013015: procid=100	addr=13	ch=15	ok
+10014000: procid=100	addr=14	ch=0	ok
+10014001: procid=100	addr=14	ch=1	ok
+10014002: procid=100	addr=14	ch=2	ok
+10014003: procid=100	addr=14	ch=3	ok
+10014004: procid=100	addr=14	ch=4	ok
+10014005: procid=100	addr=14	ch=5	ok
+10014006: procid=100	addr=14	ch=6	ok
+10014007: procid=100	addr=14	ch=7	ok
+10014008: procid=100	addr=14	ch=8	ok
+10014009: procid=100	addr=14	ch=9	ok
+10014010: procid=100	addr=14	ch=10	ok
+10014011: procid=100	addr=14	ch=11	ok
+10014012: procid=100	addr=14	ch=12	ok
+10014013: procid=100	addr=14	ch=13	ok
+10014014: procid=100	addr=14	ch=14	ok
+10014015: procid=100	addr=14	ch=15	ok
+10030000: procid=100	addr=30	ch=0	ok
+10100000: procid=101	addr=0	ch=0	NO DATA
+10100001: procid=101	addr=0	ch=1	NO DATA
+10100002: procid=101	addr=0	ch=2	NO DATA
+10100003: procid=101	addr=0	ch=3	NO DATA
+10100004: procid=101	addr=0	ch=4	NO DATA
+10100005: procid=101	addr=0	ch=5	NO DATA
+10100006: procid=101	addr=0	ch=6	NO DATA
+10100007: procid=101	addr=0	ch=7	NO DATA
+10100008: procid=101	addr=0	ch=8	NO DATA
+10100009: procid=101	addr=0	ch=9	NO DATA
+10100010: procid=101	addr=0	ch=10	NO DATA
+10100011: procid=101	addr=0	ch=11	NO DATA
+10100012: procid=101	addr=0	ch=12	NO DATA
+10100013: procid=101	addr=0	ch=13	NO DATA
+10100014: procid=101	addr=0	ch=14	NO DATA
+10100015: procid=101	addr=0	ch=15	NO DATA
+10100016: procid=101	addr=0	ch=16	NO DATA
+10100017: procid=101	addr=0	ch=17	NO DATA
+10100018: procid=101	addr=0	ch=18	NO DATA
+10100019: procid=101	addr=0	ch=19	NO DATA
+10100020: procid=101	addr=0	ch=20	NO DATA
+10100021: procid=101	addr=0	ch=21	NO DATA
+10100022: procid=101	addr=0	ch=22	NO DATA
+10100023: procid=101	addr=0	ch=23	NO DATA
+10100024: procid=101	addr=0	ch=24	NO DATA
+10100025: procid=101	addr=0	ch=25	NO DATA
+10100026: procid=101	addr=0	ch=26	NO DATA
+10100027: procid=101	addr=0	ch=27	NO DATA
+10100028: procid=101	addr=0	ch=28	NO DATA
+10100029: procid=101	addr=0	ch=29	NO DATA
+10100030: procid=101	addr=0	ch=30	NO DATA
+10100031: procid=101	addr=0	ch=31	NO DATA
+10101000: procid=101	addr=1	ch=0	NO DATA
+10101001: procid=101	addr=1	ch=1	NO DATA
+10101002: procid=101	addr=1	ch=2	NO DATA
+10101003: procid=101	addr=1	ch=3	NO DATA
+10101004: procid=101	addr=1	ch=4	NO DATA
+10101005: procid=101	addr=1	ch=5	NO DATA
+10101006: procid=101	addr=1	ch=6	NO DATA
+10101007: procid=101	addr=1	ch=7	NO DATA
+10101008: procid=101	addr=1	ch=8	NO DATA
+10101009: procid=101	addr=1	ch=9	NO DATA
+10101010: procid=101	addr=1	ch=10	NO DATA
+10101011: procid=101	addr=1	ch=11	NO DATA
+10101012: procid=101	addr=1	ch=12	NO DATA
+10101013: procid=101	addr=1	ch=13	NO DATA
+10101014: procid=101	addr=1	ch=14	NO DATA
+10101015: procid=101	addr=1	ch=15	NO DATA
+10101016: procid=101	addr=1	ch=16	NO DATA
+10101017: procid=101	addr=1	ch=17	NO DATA
+10101018: procid=101	addr=1	ch=18	NO DATA
+10101019: procid=101	addr=1	ch=19	NO DATA
+10101020: procid=101	addr=1	ch=20	NO DATA
+10101021: procid=101	addr=1	ch=21	NO DATA
+10101022: procid=101	addr=1	ch=22	NO DATA
+10101023: procid=101	addr=1	ch=23	NO DATA
+10101024: procid=101	addr=1	ch=24	NO DATA
+10101025: procid=101	addr=1	ch=25	NO DATA
+10101026: procid=101	addr=1	ch=26	NO DATA
+10101027: procid=101	addr=1	ch=27	NO DATA
+10101028: procid=101	addr=1	ch=28	NO DATA
+10101029: procid=101	addr=1	ch=29	NO DATA
+10101030: procid=101	addr=1	ch=30	NO DATA
+10101031: procid=101	addr=1	ch=31	NO DATA
+10102000: procid=101	addr=2	ch=0	NO DATA
+10102001: procid=101	addr=2	ch=1	NO DATA
+10102002: procid=101	addr=2	ch=2	NO DATA
+10102003: procid=101	addr=2	ch=3	NO DATA
+10102004: procid=101	addr=2	ch=4	NO DATA
+10102005: procid=101	addr=2	ch=5	NO DATA
+10102006: procid=101	addr=2	ch=6	NO DATA
+10102007: procid=101	addr=2	ch=7	NO DATA
+10102008: procid=101	addr=2	ch=8	NO DATA
+10102009: procid=101	addr=2	ch=9	NO DATA
+10102010: procid=101	addr=2	ch=10	NO DATA
+10102011: procid=101	addr=2	ch=11	NO DATA
+10102012: procid=101	addr=2	ch=12	NO DATA
+10102013: procid=101	addr=2	ch=13	NO DATA
+10102014: procid=101	addr=2	ch=14	NO DATA
+10102015: procid=101	addr=2	ch=15	NO DATA
+10102016: procid=101	addr=2	ch=16	NO DATA
+10102017: procid=101	addr=2	ch=17	NO DATA
+10102018: procid=101	addr=2	ch=18	NO DATA
+10102019: procid=101	addr=2	ch=19	NO DATA
+10102020: procid=101	addr=2	ch=20	NO DATA
+10102021: procid=101	addr=2	ch=21	NO DATA
+10102022: procid=101	addr=2	ch=22	NO DATA
+10102023: procid=101	addr=2	ch=23	NO DATA
+10102024: procid=101	addr=2	ch=24	NO DATA
+10102025: procid=101	addr=2	ch=25	NO DATA
+10102026: procid=101	addr=2	ch=26	NO DATA
+10102027: procid=101	addr=2	ch=27	NO DATA
+10102028: procid=101	addr=2	ch=28	NO DATA
+10102029: procid=101	addr=2	ch=29	NO DATA
+10102030: procid=101	addr=2	ch=30	NO DATA
+10102031: procid=101	addr=2	ch=31	NO DATA
+10103000: procid=101	addr=3	ch=0	NO DATA
+10103001: procid=101	addr=3	ch=1	NO DATA
+10103002: procid=101	addr=3	ch=2	NO DATA
+10103003: procid=101	addr=3	ch=3	NO DATA
+10103004: procid=101	addr=3	ch=4	NO DATA
+10103005: procid=101	addr=3	ch=5	NO DATA
+10103006: procid=101	addr=3	ch=6	NO DATA
+10103007: procid=101	addr=3	ch=7	NO DATA
+10103008: procid=101	addr=3	ch=8	NO DATA
+10103009: procid=101	addr=3	ch=9	NO DATA
+10103010: procid=101	addr=3	ch=10	NO DATA
+10103011: procid=101	addr=3	ch=11	NO DATA
+10103012: procid=101	addr=3	ch=12	NO DATA
+10103013: procid=101	addr=3	ch=13	NO DATA
+10103014: procid=101	addr=3	ch=14	NO DATA
+10103015: procid=101	addr=3	ch=15	NO DATA
+10103016: procid=101	addr=3	ch=16	NO DATA
+10103017: procid=101	addr=3	ch=17	NO DATA
+10103018: procid=101	addr=3	ch=18	NO DATA
+10103019: procid=101	addr=3	ch=19	NO DATA
+10103020: procid=101	addr=3	ch=20	NO DATA
+10103021: procid=101	addr=3	ch=21	NO DATA
+10103022: procid=101	addr=3	ch=22	NO DATA
+10103023: procid=101	addr=3	ch=23	NO DATA
+10103024: procid=101	addr=3	ch=24	NO DATA
+10103025: procid=101	addr=3	ch=25	NO DATA
+10103026: procid=101	addr=3	ch=26	NO DATA
+10103027: procid=101	addr=3	ch=27	NO DATA
+10103028: procid=101	addr=3	ch=28	NO DATA
+10103029: procid=101	addr=3	ch=29	NO DATA
+10103030: procid=101	addr=3	ch=30	NO DATA
+10103031: procid=101	addr=3	ch=31	NO DATA
+20000000: procid=200	addr=0	ch=0	NO DATA
+20000001: procid=200	addr=0	ch=1	NO DATA
+20000002: procid=200	addr=0	ch=2	NO DATA
+20000003: procid=200	addr=0	ch=3	NO DATA
+20000004: procid=200	addr=0	ch=4	NO DATA
+20000005: procid=200	addr=0	ch=5	NO DATA
+20000006: procid=200	addr=0	ch=6	NO DATA
+20000007: procid=200	addr=0	ch=7	NO DATA
+20000008: procid=200	addr=0	ch=8	NO DATA
+20000009: procid=200	addr=0	ch=9	NO DATA
+20000010: procid=200	addr=0	ch=10	NO DATA
+20000011: procid=200	addr=0	ch=11	NO DATA
+20000012: procid=200	addr=0	ch=12	NO DATA
+20000013: procid=200	addr=0	ch=13	NO DATA
+20000014: procid=200	addr=0	ch=14	NO DATA
+20000015: procid=200	addr=0	ch=15	NO DATA
+20000016: procid=200	addr=0	ch=16	NO DATA
+20000017: procid=200	addr=0	ch=17	NO DATA
+20000018: procid=200	addr=0	ch=18	NO DATA
+20000019: procid=200	addr=0	ch=19	NO DATA
+20000020: procid=200	addr=0	ch=20	NO DATA
+20000021: procid=200	addr=0	ch=21	NO DATA
+20000022: procid=200	addr=0	ch=22	NO DATA
+20000023: procid=200	addr=0	ch=23	NO DATA
+20000024: procid=200	addr=0	ch=24	NO DATA
+20000025: procid=200	addr=0	ch=25	NO DATA
+20000026: procid=200	addr=0	ch=26	NO DATA
+20000027: procid=200	addr=0	ch=27	NO DATA
+20000028: procid=200	addr=0	ch=28	NO DATA
+20000029: procid=200	addr=0	ch=29	NO DATA
+20000030: procid=200	addr=0	ch=30	NO DATA
+20000031: procid=200	addr=0	ch=31	NO DATA
+20001000: procid=200	addr=1	ch=0	NO DATA
+20001001: procid=200	addr=1	ch=1	NO DATA
+20001002: procid=200	addr=1	ch=2	NO DATA
+20001003: procid=200	addr=1	ch=3	NO DATA
+20001004: procid=200	addr=1	ch=4	NO DATA
+20001005: procid=200	addr=1	ch=5	NO DATA
+20001006: procid=200	addr=1	ch=6	NO DATA
+20001007: procid=200	addr=1	ch=7	NO DATA
+20001008: procid=200	addr=1	ch=8	NO DATA
+20001009: procid=200	addr=1	ch=9	NO DATA
+20001010: procid=200	addr=1	ch=10	NO DATA
+20001011: procid=200	addr=1	ch=11	NO DATA
+20001012: procid=200	addr=1	ch=12	NO DATA
+20001013: procid=200	addr=1	ch=13	NO DATA
+20001014: procid=200	addr=1	ch=14	NO DATA
+20001015: procid=200	addr=1	ch=15	NO DATA
+20001016: procid=200	addr=1	ch=16	NO DATA
+20001017: procid=200	addr=1	ch=17	NO DATA
+20001018: procid=200	addr=1	ch=18	NO DATA
+20001019: procid=200	addr=1	ch=19	NO DATA
+20001020: procid=200	addr=1	ch=20	NO DATA
+20001021: procid=200	addr=1	ch=21	NO DATA
+20001022: procid=200	addr=1	ch=22	NO DATA
+20001023: procid=200	addr=1	ch=23	NO DATA
+20001024: procid=200	addr=1	ch=24	NO DATA
+20001025: procid=200	addr=1	ch=25	NO DATA
+20001026: procid=200	addr=1	ch=26	NO DATA
+20001027: procid=200	addr=1	ch=27	NO DATA
+20001028: procid=200	addr=1	ch=28	NO DATA
+20001029: procid=200	addr=1	ch=29	NO DATA
+20001030: procid=200	addr=1	ch=30	NO DATA
+20001031: procid=200	addr=1	ch=31	NO DATA
+20002000: procid=200	addr=2	ch=0	NO DATA
+20002001: procid=200	addr=2	ch=1	NO DATA
+20002002: procid=200	addr=2	ch=2	NO DATA
+20002003: procid=200	addr=2	ch=3	NO DATA
+20002004: procid=200	addr=2	ch=4	NO DATA
+20002005: procid=200	addr=2	ch=5	NO DATA
+20002006: procid=200	addr=2	ch=6	NO DATA
+20002007: procid=200	addr=2	ch=7	NO DATA
+20002008: procid=200	addr=2	ch=8	NO DATA
+20002009: procid=200	addr=2	ch=9	NO DATA
+20002010: procid=200	addr=2	ch=10	NO DATA
+20002011: procid=200	addr=2	ch=11	NO DATA
+20002012: procid=200	addr=2	ch=12	NO DATA
+20002013: procid=200	addr=2	ch=13	NO DATA
+20002014: procid=200	addr=2	ch=14	NO DATA
+20002015: procid=200	addr=2	ch=15	NO DATA
+20002016: procid=200	addr=2	ch=16	NO DATA
+20002017: procid=200	addr=2	ch=17	NO DATA
+20002018: procid=200	addr=2	ch=18	NO DATA
+20002019: procid=200	addr=2	ch=19	NO DATA
+20002020: procid=200	addr=2	ch=20	NO DATA
+20002021: procid=200	addr=2	ch=21	NO DATA
+20002022: procid=200	addr=2	ch=22	NO DATA
+20002023: procid=200	addr=2	ch=23	NO DATA
+20002024: procid=200	addr=2	ch=24	NO DATA
+20002025: procid=200	addr=2	ch=25	NO DATA
+20002026: procid=200	addr=2	ch=26	NO DATA
+20002027: procid=200	addr=2	ch=27	NO DATA
+20002028: procid=200	addr=2	ch=28	NO DATA
+20002029: procid=200	addr=2	ch=29	NO DATA
+20002030: procid=200	addr=2	ch=30	NO DATA
+20002031: procid=200	addr=2	ch=31	NO DATA
+The following channels have been detected in the input file(no matter what the mappings are):
+10000000: procid=100	addr=0	ch=0	mapped to scalers[0]	from DAQ_status
+10000001: procid=100	addr=0	ch=1	mapped to scalers[1]	from DAQ_status
+10000002: procid=100	addr=0	ch=2	mapped to scalers[2]	from DAQ_status
+10000003: procid=100	addr=0	ch=3	mapped to scalers[3]	from DAQ_status
+10000004: procid=100	addr=0	ch=4	mapped to scalers[4]	from DAQ_status
+10000005: procid=100	addr=0	ch=5	mapped to scalers[5]	from DAQ_status
+10000006: procid=100	addr=0	ch=6	mapped to scalers[6]	from DAQ_status
+10000007: procid=100	addr=0	ch=7	mapped to scalers[7]	from DAQ_status
+10000008: procid=100	addr=0	ch=8	mapped to scalers[8]	from DAQ_status
+10000009: procid=100	addr=0	ch=9	mapped to scalers[9]	from DAQ_status
+10000010: procid=100	addr=0	ch=10	mapped to scalers[10]	from DAQ_status
+10000011: procid=100	addr=0	ch=11	mapped to scalers[11]	from DAQ_status
+10000012: procid=100	addr=0	ch=12	mapped to scalers[12]	from DAQ_status
+10000013: procid=100	addr=0	ch=13	mapped to scalers[13]	from DAQ_status
+10000014: procid=100	addr=0	ch=14	mapped to scalers[14]	from DAQ_status
+10000015: procid=100	addr=0	ch=15	mapped to scalers[15]	from DAQ_status
+10001000: procid=100	addr=1	ch=0	mapped to tSSD20_L[0]	from Left_telescope
+10001001: procid=100	addr=1	ch=1	mapped to tSSD20_L[1]	from Left_telescope
+10001002: procid=100	addr=1	ch=2	mapped to tSSD20_L[2]	from Left_telescope
+10001003: procid=100	addr=1	ch=3	mapped to tSSD20_L[3]	from Left_telescope
+10001004: procid=100	addr=1	ch=4	mapped to tSSD20_L[4]	from Left_telescope
+10001005: procid=100	addr=1	ch=5	mapped to tSSD20_L[5]	from Left_telescope
+10001006: procid=100	addr=1	ch=6	mapped to tSSD20_L[6]	from Left_telescope
+10001007: procid=100	addr=1	ch=7	mapped to tSSD20_L[7]	from Left_telescope
+10001008: procid=100	addr=1	ch=8	mapped to tSSD20_L[8]	from Left_telescope
+10001009: procid=100	addr=1	ch=9	mapped to tSSD20_L[9]	from Left_telescope
+10001010: procid=100	addr=1	ch=10	mapped to tSSD20_L[10]	from Left_telescope
+10001011: procid=100	addr=1	ch=11	mapped to tSSD20_L[11]	from Left_telescope
+10001012: procid=100	addr=1	ch=12	mapped to tSSD20_L[12]	from Left_telescope
+10001013: procid=100	addr=1	ch=13	mapped to tSSD20_L[13]	from Left_telescope
+10001014: procid=100	addr=1	ch=14	mapped to tSSD20_L[14]	from Left_telescope
+10001015: procid=100	addr=1	ch=15	mapped to tSSD20_L[15]	from Left_telescope
+10001016: procid=100	addr=1	ch=16	mapped to tSSD20_R[0]	from Right_telescope
+10001017: procid=100	addr=1	ch=17	mapped to tSSD20_R[1]	from Right_telescope
+10001018: procid=100	addr=1	ch=18	mapped to tSSD20_R[2]	from Right_telescope
+10001019: procid=100	addr=1	ch=19	mapped to tSSD20_R[3]	from Right_telescope
+10001020: procid=100	addr=1	ch=20	mapped to tSSD20_R[4]	from Right_telescope
+10001021: procid=100	addr=1	ch=21	mapped to tSSD20_R[5]	from Right_telescope
+10001022: procid=100	addr=1	ch=22	mapped to tSSD20_R[6]	from Right_telescope
+10001023: procid=100	addr=1	ch=23	mapped to tSSD20_R[7]	from Right_telescope
+10001024: procid=100	addr=1	ch=24	mapped to tSSD20_R[8]	from Right_telescope
+10001025: procid=100	addr=1	ch=25	mapped to tSSD20_R[9]	from Right_telescope
+10001026: procid=100	addr=1	ch=26	mapped to tSSD20_R[10]	from Right_telescope
+10001027: procid=100	addr=1	ch=27	mapped to tSSD20_R[11]	from Right_telescope
+10001028: procid=100	addr=1	ch=28	mapped to tSSD20_R[12]	from Right_telescope
+10001029: procid=100	addr=1	ch=29	mapped to tSSD20_R[13]	from Right_telescope
+10001030: procid=100	addr=1	ch=30	mapped to tSSD20_R[14]	from Right_telescope
+10001031: procid=100	addr=1	ch=31	mapped to tSSD20_R[15]	from Right_telescope
+10002000: procid=100	addr=2	ch=0	mapped to tDSDX_L[0]	from Left_telescope
+10002001: procid=100	addr=2	ch=1	mapped to tDSDX_L[1]	from Left_telescope
+10002002: procid=100	addr=2	ch=2	mapped to tDSDX_L[2]	from Left_telescope
+10002003: procid=100	addr=2	ch=3	mapped to tDSDX_L[3]	from Left_telescope
+10002004: procid=100	addr=2	ch=4	mapped to tDSDX_L[4]	from Left_telescope
+10002005: procid=100	addr=2	ch=5	mapped to tDSDX_L[5]	from Left_telescope
+10002006: procid=100	addr=2	ch=6	mapped to tDSDX_L[6]	from Left_telescope
+10002007: procid=100	addr=2	ch=7	mapped to tDSDX_L[7]	from Left_telescope
+10002008: procid=100	addr=2	ch=8	mapped to tDSDX_L[8]	from Left_telescope
+10002009: procid=100	addr=2	ch=9	mapped to tDSDX_L[9]	from Left_telescope
+10002010: procid=100	addr=2	ch=10	mapped to tDSDX_L[10]	from Left_telescope
+10002011: procid=100	addr=2	ch=11	mapped to tDSDX_L[11]	from Left_telescope
+10002012: procid=100	addr=2	ch=12	mapped to tDSDX_L[12]	from Left_telescope
+10002013: procid=100	addr=2	ch=13	mapped to tDSDX_L[13]	from Left_telescope
+10002014: procid=100	addr=2	ch=14	mapped to tDSDX_L[14]	from Left_telescope
+10002015: procid=100	addr=2	ch=15	mapped to tDSDX_L[15]	from Left_telescope
+10002016: procid=100	addr=2	ch=16	mapped to tDSDY_L[0]	from Left_telescope
+10002017: procid=100	addr=2	ch=17	mapped to tDSDY_L[1]	from Left_telescope
+10002018: procid=100	addr=2	ch=18	mapped to tDSDY_L[2]	from Left_telescope
+10002019: procid=100	addr=2	ch=19	mapped to tDSDY_L[3]	from Left_telescope
+10002020: procid=100	addr=2	ch=20	mapped to tDSDY_L[4]	from Left_telescope
+10002021: procid=100	addr=2	ch=21	mapped to tDSDY_L[5]	from Left_telescope
+10002022: procid=100	addr=2	ch=22	mapped to tDSDY_L[6]	from Left_telescope
+10002023: procid=100	addr=2	ch=23	mapped to tDSDY_L[7]	from Left_telescope
+10002024: procid=100	addr=2	ch=24	mapped to tDSDY_L[8]	from Left_telescope
+10002025: procid=100	addr=2	ch=25	mapped to tDSDY_L[9]	from Left_telescope
+10002026: procid=100	addr=2	ch=26	mapped to tDSDY_L[10]	from Left_telescope
+10002027: procid=100	addr=2	ch=27	mapped to tDSDY_L[11]	from Left_telescope
+10002028: procid=100	addr=2	ch=28	mapped to tDSDY_L[12]	from Left_telescope
+10002029: procid=100	addr=2	ch=29	mapped to tDSDY_L[13]	from Left_telescope
+10002030: procid=100	addr=2	ch=30	mapped to tDSDY_L[14]	from Left_telescope
+10002031: procid=100	addr=2	ch=31	mapped to tDSDY_L[15]	from Left_telescope
+10003000: procid=100	addr=3	ch=0	mapped to tCsI[0]	from Central_telescope
+10003001: procid=100	addr=3	ch=1	mapped to tCsI[1]	from Central_telescope
+10003002: procid=100	addr=3	ch=2	mapped to tCsI[2]	from Central_telescope
+10003003: procid=100	addr=3	ch=3	mapped to tCsI[3]	from Central_telescope
+10003004: procid=100	addr=3	ch=4	mapped to tCsI[4]	from Central_telescope
+10003005: procid=100	addr=3	ch=5	mapped to tCsI[5]	from Central_telescope
+10003006: procid=100	addr=3	ch=6	mapped to tCsI[6]	from Central_telescope
+10003007: procid=100	addr=3	ch=7	mapped to tCsI[7]	from Central_telescope
+10003008: procid=100	addr=3	ch=8	mapped to tCsI[8]	from Central_telescope
+10003009: procid=100	addr=3	ch=9	mapped to tCsI[9]	from Central_telescope
+10003010: procid=100	addr=3	ch=10	mapped to tCsI[10]	from Central_telescope
+10003011: procid=100	addr=3	ch=11	mapped to tCsI[11]	from Central_telescope
+10003012: procid=100	addr=3	ch=12	mapped to tCsI[12]	from Central_telescope
+10003013: procid=100	addr=3	ch=13	mapped to tCsI[13]	from Central_telescope
+10003014: procid=100	addr=3	ch=14	mapped to tCsI[14]	from Central_telescope
+10003015: procid=100	addr=3	ch=15	mapped to tCsI[15]	from Central_telescope
+10003016: procid=100	addr=3	ch=16	mapped to tSSDY_R[0]	from Right_telescope
+10003017: procid=100	addr=3	ch=17	mapped to tSSDY_R[1]	from Right_telescope
+10003018: procid=100	addr=3	ch=18	mapped to tSSDY_R[2]	from Right_telescope
+10003019: procid=100	addr=3	ch=19	mapped to tSSDY_R[3]	from Right_telescope
+10003020: procid=100	addr=3	ch=20	mapped to tSSDY_R[4]	from Right_telescope
+10003021: procid=100	addr=3	ch=21	mapped to tSSDY_R[5]	from Right_telescope
+10003022: procid=100	addr=3	ch=22	mapped to tSSDY_R[6]	from Right_telescope
+10003023: procid=100	addr=3	ch=23	mapped to tSSDY_R[7]	from Right_telescope
+10003024: procid=100	addr=3	ch=24	mapped to tSSDY_R[8]	from Right_telescope
+10003025: procid=100	addr=3	ch=25	mapped to tSSDY_R[9]	from Right_telescope
+10003026: procid=100	addr=3	ch=26	mapped to tSSDY_R[10]	from Right_telescope
+10003027: procid=100	addr=3	ch=27	mapped to tSSDY_R[11]	from Right_telescope
+10003028: procid=100	addr=3	ch=28	mapped to tSSDY_R[12]	from Right_telescope
+10003029: procid=100	addr=3	ch=29	mapped to tSSDY_R[13]	from Right_telescope
+10003030: procid=100	addr=3	ch=30	mapped to tSSDY_R[14]	from Right_telescope
+10003031: procid=100	addr=3	ch=31	mapped to tSSDY_R[15]	from Right_telescope
+10004000: procid=100	addr=4	ch=0	mapped to tSSD_L[0]	from Left_telescope
+10004001: procid=100	addr=4	ch=1	mapped to tSSD_L[1]	from Left_telescope
+10004002: procid=100	addr=4	ch=2	mapped to tSSD_L[2]	from Left_telescope
+10004003: procid=100	addr=4	ch=3	mapped to tSSD_L[3]	from Left_telescope
+10004004: procid=100	addr=4	ch=4	mapped to tSSD_L[4]	from Left_telescope
+10004005: procid=100	addr=4	ch=5	mapped to tSSD_L[5]	from Left_telescope
+10004006: procid=100	addr=4	ch=6	mapped to tSSD_L[6]	from Left_telescope
+10004007: procid=100	addr=4	ch=7	mapped to tSSD_L[7]	from Left_telescope
+10004008: procid=100	addr=4	ch=8	mapped to tSSD_L[8]	from Left_telescope
+10004009: procid=100	addr=4	ch=9	mapped to tSSD_L[9]	from Left_telescope
+10004010: procid=100	addr=4	ch=10	mapped to tSSD_L[10]	from Left_telescope
+10004011: procid=100	addr=4	ch=11	mapped to tSSD_L[11]	from Left_telescope
+10004012: procid=100	addr=4	ch=12	mapped to tSSD_L[12]	from Left_telescope
+10004013: procid=100	addr=4	ch=13	mapped to tSSD_L[13]	from Left_telescope
+10004014: procid=100	addr=4	ch=14	mapped to tSSD_L[14]	from Left_telescope
+10004015: procid=100	addr=4	ch=15	mapped to tSSD_L[15]	from Left_telescope
+10004016: procid=100	addr=4	ch=16	mapped to tSSD_R[0]	from Right_telescope
+10004017: procid=100	addr=4	ch=17	mapped to tSSD_R[1]	from Right_telescope
+10004018: procid=100	addr=4	ch=18	mapped to tSSD_R[2]	from Right_telescope
+10004019: procid=100	addr=4	ch=19	mapped to tSSD_R[3]	from Right_telescope
+10004020: procid=100	addr=4	ch=20	mapped to tSSD_R[4]	from Right_telescope
+10004021: procid=100	addr=4	ch=21	mapped to tSSD_R[5]	from Right_telescope
+10004022: procid=100	addr=4	ch=22	mapped to tSSD_R[6]	from Right_telescope
+10004023: procid=100	addr=4	ch=23	mapped to tSSD_R[7]	from Right_telescope
+10004024: procid=100	addr=4	ch=24	mapped to tSSD_R[8]	from Right_telescope
+10004025: procid=100	addr=4	ch=25	mapped to tSSD_R[9]	from Right_telescope
+10004026: procid=100	addr=4	ch=26	mapped to tSSD_R[10]	from Right_telescope
+10004027: procid=100	addr=4	ch=27	mapped to tSSD_R[11]	from Right_telescope
+10004028: procid=100	addr=4	ch=28	mapped to tSSD_R[12]	from Right_telescope
+10004029: procid=100	addr=4	ch=29	mapped to tSSD_R[13]	from Right_telescope
+10004030: procid=100	addr=4	ch=30	mapped to tSSD_R[14]	from Right_telescope
+10004031: procid=100	addr=4	ch=31	mapped to tSSD_R[15]	from Right_telescope
+10005000: procid=100	addr=5	ch=0	mapped to SSD20_L[0]	from Left_telescope
+10005001: procid=100	addr=5	ch=1	mapped to SSD20_L[1]	from Left_telescope
+10005002: procid=100	addr=5	ch=2	mapped to SSD20_L[2]	from Left_telescope
+10005003: procid=100	addr=5	ch=3	mapped to SSD20_L[3]	from Left_telescope
+10005004: procid=100	addr=5	ch=4	mapped to SSD20_L[4]	from Left_telescope
+10005005: procid=100	addr=5	ch=5	mapped to SSD20_L[5]	from Left_telescope
+10005006: procid=100	addr=5	ch=6	mapped to SSD20_L[6]	from Left_telescope
+10005007: procid=100	addr=5	ch=7	mapped to SSD20_L[7]	from Left_telescope
+10005008: procid=100	addr=5	ch=8	mapped to SSD20_L[8]	from Left_telescope
+10005009: procid=100	addr=5	ch=9	mapped to SSD20_L[9]	from Left_telescope
+10005010: procid=100	addr=5	ch=10	mapped to SSD20_L[10]	from Left_telescope
+10005011: procid=100	addr=5	ch=11	mapped to SSD20_L[11]	from Left_telescope
+10005012: procid=100	addr=5	ch=12	mapped to SSD20_L[12]	from Left_telescope
+10005013: procid=100	addr=5	ch=13	mapped to SSD20_L[13]	from Left_telescope
+10005014: procid=100	addr=5	ch=14	mapped to SSD20_L[14]	from Left_telescope
+10005015: procid=100	addr=5	ch=15	mapped to SSD20_L[15]	from Left_telescope
+10005016: procid=100	addr=5	ch=16	mapped to SSD20_R[0]	from Right_telescope
+10005017: procid=100	addr=5	ch=17	mapped to SSD20_R[1]	from Right_telescope
+10005018: procid=100	addr=5	ch=18	mapped to SSD20_R[2]	from Right_telescope
+10005019: procid=100	addr=5	ch=19	mapped to SSD20_R[3]	from Right_telescope
+10005020: procid=100	addr=5	ch=20	mapped to SSD20_R[4]	from Right_telescope
+10005021: procid=100	addr=5	ch=21	mapped to SSD20_R[5]	from Right_telescope
+10005022: procid=100	addr=5	ch=22	mapped to SSD20_R[6]	from Right_telescope
+10005023: procid=100	addr=5	ch=23	mapped to SSD20_R[7]	from Right_telescope
+10005024: procid=100	addr=5	ch=24	mapped to SSD20_R[8]	from Right_telescope
+10005025: procid=100	addr=5	ch=25	mapped to SSD20_R[9]	from Right_telescope
+10005026: procid=100	addr=5	ch=26	mapped to SSD20_R[10]	from Right_telescope
+10005027: procid=100	addr=5	ch=27	mapped to SSD20_R[11]	from Right_telescope
+10005028: procid=100	addr=5	ch=28	mapped to SSD20_R[12]	from Right_telescope
+10005029: procid=100	addr=5	ch=29	mapped to SSD20_R[13]	from Right_telescope
+10005030: procid=100	addr=5	ch=30	mapped to SSD20_R[14]	from Right_telescope
+10005031: procid=100	addr=5	ch=31	mapped to SSD20_R[15]	from Right_telescope
+10006000: procid=100	addr=6	ch=0	mapped to DSDX_L[0]	from Left_telescope
+10006001: procid=100	addr=6	ch=1	mapped to DSDX_L[1]	from Left_telescope
+10006002: procid=100	addr=6	ch=2	mapped to DSDX_L[2]	from Left_telescope
+10006003: procid=100	addr=6	ch=3	mapped to DSDX_L[3]	from Left_telescope
+10006004: procid=100	addr=6	ch=4	mapped to DSDX_L[4]	from Left_telescope
+10006005: procid=100	addr=6	ch=5	mapped to DSDX_L[5]	from Left_telescope
+10006006: procid=100	addr=6	ch=6	mapped to DSDX_L[6]	from Left_telescope
+10006007: procid=100	addr=6	ch=7	mapped to DSDX_L[7]	from Left_telescope
+10006008: procid=100	addr=6	ch=8	mapped to DSDX_L[8]	from Left_telescope
+10006009: procid=100	addr=6	ch=9	mapped to DSDX_L[9]	from Left_telescope
+10006010: procid=100	addr=6	ch=10	mapped to DSDX_L[10]	from Left_telescope
+10006011: procid=100	addr=6	ch=11	mapped to DSDX_L[11]	from Left_telescope
+10006012: procid=100	addr=6	ch=12	mapped to DSDX_L[12]	from Left_telescope
+10006013: procid=100	addr=6	ch=13	mapped to DSDX_L[13]	from Left_telescope
+10006014: procid=100	addr=6	ch=14	mapped to DSDX_L[14]	from Left_telescope
+10006015: procid=100	addr=6	ch=15	mapped to DSDX_L[15]	from Left_telescope
+10006016: procid=100	addr=6	ch=16	mapped to DSDY_L[0]	from Left_telescope
+10006017: procid=100	addr=6	ch=17	mapped to DSDY_L[1]	from Left_telescope
+10006018: procid=100	addr=6	ch=18	mapped to DSDY_L[2]	from Left_telescope
+10006019: procid=100	addr=6	ch=19	mapped to DSDY_L[3]	from Left_telescope
+10006020: procid=100	addr=6	ch=20	mapped to DSDY_L[4]	from Left_telescope
+10006021: procid=100	addr=6	ch=21	mapped to DSDY_L[5]	from Left_telescope
+10006022: procid=100	addr=6	ch=22	mapped to DSDY_L[6]	from Left_telescope
+10006023: procid=100	addr=6	ch=23	mapped to DSDY_L[7]	from Left_telescope
+10006024: procid=100	addr=6	ch=24	mapped to DSDY_L[8]	from Left_telescope
+10006025: procid=100	addr=6	ch=25	mapped to DSDY_L[9]	from Left_telescope
+10006026: procid=100	addr=6	ch=26	mapped to DSDY_L[10]	from Left_telescope
+10006027: procid=100	addr=6	ch=27	mapped to DSDY_L[11]	from Left_telescope
+10006028: procid=100	addr=6	ch=28	mapped to DSDY_L[12]	from Left_telescope
+10006029: procid=100	addr=6	ch=29	mapped to DSDY_L[13]	from Left_telescope
+10006030: procid=100	addr=6	ch=30	mapped to DSDY_L[14]	from Left_telescope
+10006031: procid=100	addr=6	ch=31	mapped to DSDY_L[15]	from Left_telescope
+10007000: procid=100	addr=7	ch=0	mapped to CsI[0]	from Central_telescope
+10007001: procid=100	addr=7	ch=1	mapped to CsI[1]	from Central_telescope
+10007002: procid=100	addr=7	ch=2	mapped to CsI[2]	from Central_telescope
+10007003: procid=100	addr=7	ch=3	mapped to CsI[3]	from Central_telescope
+10007004: procid=100	addr=7	ch=4	mapped to CsI[4]	from Central_telescope
+10007005: procid=100	addr=7	ch=5	mapped to CsI[5]	from Central_telescope
+10007006: procid=100	addr=7	ch=6	mapped to CsI[6]	from Central_telescope
+10007007: procid=100	addr=7	ch=7	mapped to CsI[7]	from Central_telescope
+10007008: procid=100	addr=7	ch=8	mapped to CsI[8]	from Central_telescope
+10007009: procid=100	addr=7	ch=9	mapped to CsI[9]	from Central_telescope
+10007010: procid=100	addr=7	ch=10	mapped to CsI[10]	from Central_telescope
+10007011: procid=100	addr=7	ch=11	mapped to CsI[11]	from Central_telescope
+10007012: procid=100	addr=7	ch=12	mapped to CsI[12]	from Central_telescope
+10007013: procid=100	addr=7	ch=13	mapped to CsI[13]	from Central_telescope
+10007014: procid=100	addr=7	ch=14	mapped to CsI[14]	from Central_telescope
+10007015: procid=100	addr=7	ch=15	mapped to CsI[15]	from Central_telescope
+10007016: procid=100	addr=7	ch=16	mapped to SSDY_R[0]	from Right_telescope
+10007017: procid=100	addr=7	ch=17	mapped to SSDY_R[1]	from Right_telescope
+10007018: procid=100	addr=7	ch=18	mapped to SSDY_R[2]	from Right_telescope
+10007019: procid=100	addr=7	ch=19	mapped to SSDY_R[3]	from Right_telescope
+10007020: procid=100	addr=7	ch=20	mapped to SSDY_R[4]	from Right_telescope
+10007021: procid=100	addr=7	ch=21	mapped to SSDY_R[5]	from Right_telescope
+10007022: procid=100	addr=7	ch=22	mapped to SSDY_R[6]	from Right_telescope
+10007023: procid=100	addr=7	ch=23	mapped to SSDY_R[7]	from Right_telescope
+10007024: procid=100	addr=7	ch=24	mapped to SSDY_R[8]	from Right_telescope
+10007025: procid=100	addr=7	ch=25	mapped to SSDY_R[9]	from Right_telescope
+10007026: procid=100	addr=7	ch=26	mapped to SSDY_R[10]	from Right_telescope
+10007027: procid=100	addr=7	ch=27	mapped to SSDY_R[11]	from Right_telescope
+10007028: procid=100	addr=7	ch=28	mapped to SSDY_R[12]	from Right_telescope
+10007029: procid=100	addr=7	ch=29	mapped to SSDY_R[13]	from Right_telescope
+10007030: procid=100	addr=7	ch=30	mapped to SSDY_R[14]	from Right_telescope
+10007031: procid=100	addr=7	ch=31	mapped to SSDY_R[15]	from Right_telescope
+10008000: procid=100	addr=8	ch=0	mapped to SSD_L[0]	from Left_telescope
+10008001: procid=100	addr=8	ch=1	mapped to SSD_L[1]	from Left_telescope
+10008002: procid=100	addr=8	ch=2	mapped to SSD_L[2]	from Left_telescope
+10008003: procid=100	addr=8	ch=3	mapped to SSD_L[3]	from Left_telescope
+10008004: procid=100	addr=8	ch=4	mapped to SSD_L[4]	from Left_telescope
+10008005: procid=100	addr=8	ch=5	mapped to SSD_L[5]	from Left_telescope
+10008006: procid=100	addr=8	ch=6	mapped to SSD_L[6]	from Left_telescope
+10008007: procid=100	addr=8	ch=7	mapped to SSD_L[7]	from Left_telescope
+10008008: procid=100	addr=8	ch=8	mapped to SSD_L[8]	from Left_telescope
+10008009: procid=100	addr=8	ch=9	mapped to SSD_L[9]	from Left_telescope
+10008010: procid=100	addr=8	ch=10	mapped to SSD_L[10]	from Left_telescope
+10008011: procid=100	addr=8	ch=11	mapped to SSD_L[11]	from Left_telescope
+10008012: procid=100	addr=8	ch=12	mapped to SSD_L[12]	from Left_telescope
+10008013: procid=100	addr=8	ch=13	mapped to SSD_L[13]	from Left_telescope
+10008014: procid=100	addr=8	ch=14	mapped to SSD_L[14]	from Left_telescope
+10008015: procid=100	addr=8	ch=15	mapped to SSD_L[15]	from Left_telescope
+10008016: procid=100	addr=8	ch=16	mapped to SSD_R[0]	from Right_telescope
+10008017: procid=100	addr=8	ch=17	mapped to SSD_R[1]	from Right_telescope
+10008018: procid=100	addr=8	ch=18	mapped to SSD_R[2]	from Right_telescope
+10008019: procid=100	addr=8	ch=19	mapped to SSD_R[3]	from Right_telescope
+10008020: procid=100	addr=8	ch=20	mapped to SSD_R[4]	from Right_telescope
+10008021: procid=100	addr=8	ch=21	mapped to SSD_R[5]	from Right_telescope
+10008022: procid=100	addr=8	ch=22	mapped to SSD_R[6]	from Right_telescope
+10008023: procid=100	addr=8	ch=23	mapped to SSD_R[7]	from Right_telescope
+10008024: procid=100	addr=8	ch=24	mapped to SSD_R[8]	from Right_telescope
+10008025: procid=100	addr=8	ch=25	mapped to SSD_R[9]	from Right_telescope
+10008026: procid=100	addr=8	ch=26	mapped to SSD_R[10]	from Right_telescope
+10008027: procid=100	addr=8	ch=27	mapped to SSD_R[11]	from Right_telescope
+10008028: procid=100	addr=8	ch=28	mapped to SSD_R[12]	from Right_telescope
+10008029: procid=100	addr=8	ch=29	mapped to SSD_R[13]	from Right_telescope
+10008030: procid=100	addr=8	ch=30	mapped to SSD_R[14]	from Right_telescope
+10008031: procid=100	addr=8	ch=31	mapped to SSD_R[15]	from Right_telescope
+10009000: procid=100	addr=9	ch=0	mapped to DSDX_C[0]	from Central_telescope
+10009001: procid=100	addr=9	ch=1	mapped to DSDX_C[1]	from Central_telescope
+10009002: procid=100	addr=9	ch=2	mapped to DSDX_C[2]	from Central_telescope
+10009003: procid=100	addr=9	ch=3	mapped to DSDX_C[3]	from Central_telescope
+10009004: procid=100	addr=9	ch=4	mapped to DSDX_C[4]	from Central_telescope
+10009005: procid=100	addr=9	ch=5	mapped to DSDX_C[5]	from Central_telescope
+10009006: procid=100	addr=9	ch=6	mapped to DSDX_C[6]	from Central_telescope
+10009007: procid=100	addr=9	ch=7	mapped to DSDX_C[7]	from Central_telescope
+10009008: procid=100	addr=9	ch=8	mapped to DSDX_C[8]	from Central_telescope
+10009009: procid=100	addr=9	ch=9	mapped to DSDX_C[9]	from Central_telescope
+10009010: procid=100	addr=9	ch=10	mapped to DSDX_C[10]	from Central_telescope
+10009011: procid=100	addr=9	ch=11	mapped to DSDX_C[11]	from Central_telescope
+10009012: procid=100	addr=9	ch=12	mapped to DSDX_C[12]	from Central_telescope
+10009013: procid=100	addr=9	ch=13	mapped to DSDX_C[13]	from Central_telescope
+10009014: procid=100	addr=9	ch=14	mapped to DSDX_C[14]	from Central_telescope
+10009015: procid=100	addr=9	ch=15	mapped to DSDX_C[15]	from Central_telescope
+10009016: procid=100	addr=9	ch=16	mapped to Ignore[0]	from Ignore
+10009017: procid=100	addr=9	ch=17	mapped to Ignore[1]	from Ignore
+10009018: procid=100	addr=9	ch=18	mapped to Ignore[2]	from Ignore
+10009019: procid=100	addr=9	ch=19	mapped to Ignore[3]	from Ignore
+10009020: procid=100	addr=9	ch=20	mapped to Ignore[4]	from Ignore
+10009021: procid=100	addr=9	ch=21	mapped to Ignore[5]	from Ignore
+10009022: procid=100	addr=9	ch=22	mapped to Ignore[6]	from Ignore
+10009023: procid=100	addr=9	ch=23	mapped to Ignore[7]	from Ignore
+10009024: procid=100	addr=9	ch=24	mapped to Ignore[8]	from Ignore
+10009025: procid=100	addr=9	ch=25	mapped to Ignore[9]	from Ignore
+10009026: procid=100	addr=9	ch=26	mapped to Ignore[10]	from Ignore
+10009027: procid=100	addr=9	ch=27	mapped to Ignore[11]	from Ignore
+10009028: procid=100	addr=9	ch=28	mapped to Ignore[12]	from Ignore
+10009029: procid=100	addr=9	ch=29	mapped to Ignore[13]	from Ignore
+10009030: procid=100	addr=9	ch=30	mapped to Ignore[14]	from Ignore
+10009031: procid=100	addr=9	ch=31	mapped to Ignore[15]	from Ignore
+10010000: procid=100	addr=10	ch=0	mapped to DSDY_C[0]	from Central_telescope
+10010001: procid=100	addr=10	ch=1	mapped to DSDY_C[1]	from Central_telescope
+10010002: procid=100	addr=10	ch=2	mapped to DSDY_C[2]	from Central_telescope
+10010003: procid=100	addr=10	ch=3	mapped to DSDY_C[3]	from Central_telescope
+10010004: procid=100	addr=10	ch=4	mapped to DSDY_C[4]	from Central_telescope
+10010005: procid=100	addr=10	ch=5	mapped to DSDY_C[5]	from Central_telescope
+10010006: procid=100	addr=10	ch=6	mapped to DSDY_C[6]	from Central_telescope
+10010007: procid=100	addr=10	ch=7	mapped to DSDY_C[7]	from Central_telescope
+10010008: procid=100	addr=10	ch=8	mapped to DSDY_C[8]	from Central_telescope
+10010009: procid=100	addr=10	ch=9	mapped to DSDY_C[9]	from Central_telescope
+10010010: procid=100	addr=10	ch=10	mapped to DSDY_C[10]	from Central_telescope
+10010011: procid=100	addr=10	ch=11	mapped to DSDY_C[11]	from Central_telescope
+10010012: procid=100	addr=10	ch=12	mapped to DSDY_C[12]	from Central_telescope
+10010013: procid=100	addr=10	ch=13	mapped to DSDY_C[13]	from Central_telescope
+10010014: procid=100	addr=10	ch=14	mapped to DSDY_C[14]	from Central_telescope
+10010015: procid=100	addr=10	ch=15	mapped to DSDY_C[15]	from Central_telescope
+10010016: procid=100	addr=10	ch=16	mapped to Ignore[0]	from Ignore
+10010017: procid=100	addr=10	ch=17	mapped to Ignore[1]	from Ignore
+10010018: procid=100	addr=10	ch=18	mapped to Ignore[2]	from Ignore
+10010019: procid=100	addr=10	ch=19	mapped to Ignore[3]	from Ignore
+10010020: procid=100	addr=10	ch=20	mapped to Ignore[4]	from Ignore
+10010021: procid=100	addr=10	ch=21	mapped to Ignore[5]	from Ignore
+10010022: procid=100	addr=10	ch=22	mapped to Ignore[6]	from Ignore
+10010023: procid=100	addr=10	ch=23	mapped to Ignore[7]	from Ignore
+10010024: procid=100	addr=10	ch=24	mapped to Ignore[8]	from Ignore
+10010025: procid=100	addr=10	ch=25	mapped to Ignore[9]	from Ignore
+10010026: procid=100	addr=10	ch=26	mapped to Ignore[10]	from Ignore
+10010027: procid=100	addr=10	ch=27	mapped to Ignore[11]	from Ignore
+10010028: procid=100	addr=10	ch=28	mapped to Ignore[12]	from Ignore
+10010029: procid=100	addr=10	ch=29	mapped to Ignore[13]	from Ignore
+10010030: procid=100	addr=10	ch=30	mapped to Ignore[14]	from Ignore
+10010031: procid=100	addr=10	ch=31	mapped to Ignore[15]	from Ignore
+10011000: procid=100	addr=11	ch=0	mapped to F3[0]	from Beam_detector
+10011001: procid=100	addr=11	ch=1	mapped to F3[1]	from Beam_detector
+10011002: procid=100	addr=11	ch=2	mapped to F3[2]	from Beam_detector
+10011003: procid=100	addr=11	ch=3	mapped to F3[3]	from Beam_detector
+10011004: procid=100	addr=11	ch=4	mapped to F5[0]	from Beam_detector
+10011005: procid=100	addr=11	ch=5	mapped to F5[1]	from Beam_detector
+10011006: procid=100	addr=11	ch=6	mapped to F5[2]	from Beam_detector
+10011007: procid=100	addr=11	ch=7	mapped to F5[3]	from Beam_detector
+10011012: procid=100	addr=11	ch=12	mapped to Ignore[0]	from Ignore
+10011013: procid=100	addr=11	ch=13	mapped to Ignore[1]	from Ignore
+10011014: procid=100	addr=11	ch=14	mapped to Ignore[2]	from Ignore
+10011015: procid=100	addr=11	ch=15	mapped to Ignore[3]	from Ignore
+10011016: procid=100	addr=11	ch=16	mapped to Ignore[4]	from Ignore
+10011017: procid=100	addr=11	ch=17	mapped to Ignore[5]	from Ignore
+10011018: procid=100	addr=11	ch=18	mapped to Ignore[6]	from Ignore
+10011019: procid=100	addr=11	ch=19	mapped to Ignore[7]	from Ignore
+10011020: procid=100	addr=11	ch=20	mapped to Ignore[8]	from Ignore
+10011021: procid=100	addr=11	ch=21	mapped to Ignore[9]	from Ignore
+10011022: procid=100	addr=11	ch=22	mapped to Ignore[10]	from Ignore
+10011023: procid=100	addr=11	ch=23	mapped to Ignore[11]	from Ignore
+======================================================================
+10011024: procid=100	addr=11	ch=24	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011025: procid=100	addr=11	ch=25	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011026: procid=100	addr=11	ch=26	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011027: procid=100	addr=11	ch=27	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011028: procid=100	addr=11	ch=28	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011029: procid=100	addr=11	ch=29	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011030: procid=100	addr=11	ch=30	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011031: procid=100	addr=11	ch=31	IS NOT MAPPED!
+======================================================================
+10012000: procid=100	addr=12	ch=0	mapped to tF3[0]	from Beam_detector
+10012001: procid=100	addr=12	ch=1	mapped to tF3[1]	from Beam_detector
+10012002: procid=100	addr=12	ch=2	mapped to tF3[2]	from Beam_detector
+10012003: procid=100	addr=12	ch=3	mapped to tF3[3]	from Beam_detector
+10012004: procid=100	addr=12	ch=4	mapped to tF5[0]	from Beam_detector
+10012005: procid=100	addr=12	ch=5	mapped to tF5[1]	from Beam_detector
+10012006: procid=100	addr=12	ch=6	mapped to tF5[2]	from Beam_detector
+10012007: procid=100	addr=12	ch=7	mapped to tF5[3]	from Beam_detector
+10012012: procid=100	addr=12	ch=12	mapped to tMWPC[0]	from Beam_detector
+10012013: procid=100	addr=12	ch=13	mapped to tMWPC[1]	from Beam_detector
+10012014: procid=100	addr=12	ch=14	mapped to tMWPC[2]	from Beam_detector
+10012015: procid=100	addr=12	ch=15	mapped to tMWPC[3]	from Beam_detector
+10013000: procid=100	addr=13	ch=0	mapped to tDSDX_C[0]	from Central_telescope
+10013001: procid=100	addr=13	ch=1	mapped to tDSDX_C[1]	from Central_telescope
+10013002: procid=100	addr=13	ch=2	mapped to tDSDX_C[2]	from Central_telescope
+10013003: procid=100	addr=13	ch=3	mapped to tDSDX_C[3]	from Central_telescope
+10013004: procid=100	addr=13	ch=4	mapped to tDSDX_C[4]	from Central_telescope
+10013005: procid=100	addr=13	ch=5	mapped to tDSDX_C[5]	from Central_telescope
+10013006: procid=100	addr=13	ch=6	mapped to tDSDX_C[6]	from Central_telescope
+10013007: procid=100	addr=13	ch=7	mapped to tDSDX_C[7]	from Central_telescope
+10013008: procid=100	addr=13	ch=8	mapped to tDSDX_C[8]	from Central_telescope
+10013009: procid=100	addr=13	ch=9	mapped to tDSDX_C[9]	from Central_telescope
+10013010: procid=100	addr=13	ch=10	mapped to tDSDX_C[10]	from Central_telescope
+10013011: procid=100	addr=13	ch=11	mapped to tDSDX_C[11]	from Central_telescope
+10013012: procid=100	addr=13	ch=12	mapped to tDSDX_C[12]	from Central_telescope
+10013013: procid=100	addr=13	ch=13	mapped to tDSDX_C[13]	from Central_telescope
+10013014: procid=100	addr=13	ch=14	mapped to tDSDX_C[14]	from Central_telescope
+10013015: procid=100	addr=13	ch=15	mapped to tDSDX_C[15]	from Central_telescope
+======================================================================
+10013016: procid=100	addr=13	ch=16	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013017: procid=100	addr=13	ch=17	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013018: procid=100	addr=13	ch=18	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013019: procid=100	addr=13	ch=19	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013020: procid=100	addr=13	ch=20	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013021: procid=100	addr=13	ch=21	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013022: procid=100	addr=13	ch=22	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013023: procid=100	addr=13	ch=23	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013024: procid=100	addr=13	ch=24	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013025: procid=100	addr=13	ch=25	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013026: procid=100	addr=13	ch=26	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013027: procid=100	addr=13	ch=27	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013028: procid=100	addr=13	ch=28	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013029: procid=100	addr=13	ch=29	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013030: procid=100	addr=13	ch=30	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013031: procid=100	addr=13	ch=31	IS NOT MAPPED!
+======================================================================
+10014000: procid=100	addr=14	ch=0	mapped to tDSDY_C[0]	from Central_telescope
+10014001: procid=100	addr=14	ch=1	mapped to tDSDY_C[1]	from Central_telescope
+10014002: procid=100	addr=14	ch=2	mapped to tDSDY_C[2]	from Central_telescope
+10014003: procid=100	addr=14	ch=3	mapped to tDSDY_C[3]	from Central_telescope
+10014004: procid=100	addr=14	ch=4	mapped to tDSDY_C[4]	from Central_telescope
+10014005: procid=100	addr=14	ch=5	mapped to tDSDY_C[5]	from Central_telescope
+10014006: procid=100	addr=14	ch=6	mapped to tDSDY_C[6]	from Central_telescope
+10014007: procid=100	addr=14	ch=7	mapped to tDSDY_C[7]	from Central_telescope
+10014008: procid=100	addr=14	ch=8	mapped to tDSDY_C[8]	from Central_telescope
+10014009: procid=100	addr=14	ch=9	mapped to tDSDY_C[9]	from Central_telescope
+10014010: procid=100	addr=14	ch=10	mapped to tDSDY_C[10]	from Central_telescope
+10014011: procid=100	addr=14	ch=11	mapped to tDSDY_C[11]	from Central_telescope
+10014012: procid=100	addr=14	ch=12	mapped to tDSDY_C[12]	from Central_telescope
+10014013: procid=100	addr=14	ch=13	mapped to tDSDY_C[13]	from Central_telescope
+10014014: procid=100	addr=14	ch=14	mapped to tDSDY_C[14]	from Central_telescope
+10014015: procid=100	addr=14	ch=15	mapped to tDSDY_C[15]	from Central_telescope
+======================================================================
+10014016: procid=100	addr=14	ch=16	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014017: procid=100	addr=14	ch=17	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014018: procid=100	addr=14	ch=18	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014019: procid=100	addr=14	ch=19	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014020: procid=100	addr=14	ch=20	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014021: procid=100	addr=14	ch=21	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014022: procid=100	addr=14	ch=22	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014023: procid=100	addr=14	ch=23	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014024: procid=100	addr=14	ch=24	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014025: procid=100	addr=14	ch=25	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014026: procid=100	addr=14	ch=26	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014027: procid=100	addr=14	ch=27	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014028: procid=100	addr=14	ch=28	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014029: procid=100	addr=14	ch=29	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014030: procid=100	addr=14	ch=30	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014031: procid=100	addr=14	ch=31	IS NOT MAPPED!
+======================================================================
+10030000: procid=100	addr=30	ch=0	mapped to rio3[0]	from DAQ_status
+======================================================================
+10030001: procid=100	addr=30	ch=1	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030002: procid=100	addr=30	ch=2	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030003: procid=100	addr=30	ch=3	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030004: procid=100	addr=30	ch=4	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030005: procid=100	addr=30	ch=5	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030006: procid=100	addr=30	ch=6	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030007: procid=100	addr=30	ch=7	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030008: procid=100	addr=30	ch=8	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030009: procid=100	addr=30	ch=9	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030010: procid=100	addr=30	ch=10	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030011: procid=100	addr=30	ch=11	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030012: procid=100	addr=30	ch=12	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030013: procid=100	addr=30	ch=13	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030014: procid=100	addr=30	ch=14	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030015: procid=100	addr=30	ch=15	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030016: procid=100	addr=30	ch=16	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030017: procid=100	addr=30	ch=17	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030018: procid=100	addr=30	ch=18	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030019: procid=100	addr=30	ch=19	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030020: procid=100	addr=30	ch=20	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030021: procid=100	addr=30	ch=21	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030022: procid=100	addr=30	ch=22	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030023: procid=100	addr=30	ch=23	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030024: procid=100	addr=30	ch=24	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030025: procid=100	addr=30	ch=25	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030026: procid=100	addr=30	ch=26	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030027: procid=100	addr=30	ch=27	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030028: procid=100	addr=30	ch=28	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030029: procid=100	addr=30	ch=29	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030030: procid=100	addr=30	ch=30	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030031: procid=100	addr=30	ch=31	IS NOT MAPPED!
+======================================================================
+======================================================================
+=============================== SUMMARY ==============================
+The following channels are mapped:
+10000000: procid=100	addr=0	ch=0	ok
+10000001: procid=100	addr=0	ch=1	ok
+10000002: procid=100	addr=0	ch=2	ok
+10000003: procid=100	addr=0	ch=3	ok
+10000004: procid=100	addr=0	ch=4	ok
+10000005: procid=100	addr=0	ch=5	ok
+10000006: procid=100	addr=0	ch=6	ok
+10000007: procid=100	addr=0	ch=7	ok
+10000008: procid=100	addr=0	ch=8	ok
+10000009: procid=100	addr=0	ch=9	ok
+10000010: procid=100	addr=0	ch=10	ok
+10000011: procid=100	addr=0	ch=11	ok
+10000012: procid=100	addr=0	ch=12	ok
+10000013: procid=100	addr=0	ch=13	ok
+10000014: procid=100	addr=0	ch=14	ok
+10000015: procid=100	addr=0	ch=15	ok
+10001000: procid=100	addr=1	ch=0	ok
+10001001: procid=100	addr=1	ch=1	ok
+10001002: procid=100	addr=1	ch=2	ok
+10001003: procid=100	addr=1	ch=3	ok
+10001004: procid=100	addr=1	ch=4	ok
+10001005: procid=100	addr=1	ch=5	ok
+10001006: procid=100	addr=1	ch=6	ok
+10001007: procid=100	addr=1	ch=7	ok
+10001008: procid=100	addr=1	ch=8	ok
+10001009: procid=100	addr=1	ch=9	ok
+10001010: procid=100	addr=1	ch=10	ok
+10001011: procid=100	addr=1	ch=11	ok
+10001012: procid=100	addr=1	ch=12	ok
+10001013: procid=100	addr=1	ch=13	ok
+10001014: procid=100	addr=1	ch=14	ok
+10001015: procid=100	addr=1	ch=15	ok
+10001016: procid=100	addr=1	ch=16	ok
+10001017: procid=100	addr=1	ch=17	ok
+10001018: procid=100	addr=1	ch=18	ok
+10001019: procid=100	addr=1	ch=19	ok
+10001020: procid=100	addr=1	ch=20	ok
+10001021: procid=100	addr=1	ch=21	ok
+10001022: procid=100	addr=1	ch=22	ok
+10001023: procid=100	addr=1	ch=23	ok
+10001024: procid=100	addr=1	ch=24	ok
+10001025: procid=100	addr=1	ch=25	ok
+10001026: procid=100	addr=1	ch=26	ok
+10001027: procid=100	addr=1	ch=27	ok
+10001028: procid=100	addr=1	ch=28	ok
+10001029: procid=100	addr=1	ch=29	ok
+10001030: procid=100	addr=1	ch=30	ok
+10001031: procid=100	addr=1	ch=31	ok
+10002000: procid=100	addr=2	ch=0	ok
+10002001: procid=100	addr=2	ch=1	ok
+10002002: procid=100	addr=2	ch=2	ok
+10002003: procid=100	addr=2	ch=3	ok
+10002004: procid=100	addr=2	ch=4	ok
+10002005: procid=100	addr=2	ch=5	ok
+10002006: procid=100	addr=2	ch=6	ok
+10002007: procid=100	addr=2	ch=7	ok
+10002008: procid=100	addr=2	ch=8	ok
+10002009: procid=100	addr=2	ch=9	ok
+10002010: procid=100	addr=2	ch=10	ok
+10002011: procid=100	addr=2	ch=11	ok
+10002012: procid=100	addr=2	ch=12	ok
+10002013: procid=100	addr=2	ch=13	ok
+10002014: procid=100	addr=2	ch=14	ok
+10002015: procid=100	addr=2	ch=15	ok
+10002016: procid=100	addr=2	ch=16	ok
+10002017: procid=100	addr=2	ch=17	ok
+10002018: procid=100	addr=2	ch=18	ok
+10002019: procid=100	addr=2	ch=19	ok
+10002020: procid=100	addr=2	ch=20	ok
+10002021: procid=100	addr=2	ch=21	ok
+10002022: procid=100	addr=2	ch=22	ok
+10002023: procid=100	addr=2	ch=23	ok
+10002024: procid=100	addr=2	ch=24	ok
+10002025: procid=100	addr=2	ch=25	ok
+10002026: procid=100	addr=2	ch=26	ok
+10002027: procid=100	addr=2	ch=27	ok
+10002028: procid=100	addr=2	ch=28	ok
+10002029: procid=100	addr=2	ch=29	ok
+10002030: procid=100	addr=2	ch=30	ok
+10002031: procid=100	addr=2	ch=31	ok
+10003000: procid=100	addr=3	ch=0	ok
+10003001: procid=100	addr=3	ch=1	ok
+10003002: procid=100	addr=3	ch=2	ok
+10003003: procid=100	addr=3	ch=3	ok
+10003004: procid=100	addr=3	ch=4	ok
+10003005: procid=100	addr=3	ch=5	ok
+10003006: procid=100	addr=3	ch=6	ok
+10003007: procid=100	addr=3	ch=7	ok
+10003008: procid=100	addr=3	ch=8	ok
+10003009: procid=100	addr=3	ch=9	ok
+10003010: procid=100	addr=3	ch=10	ok
+10003011: procid=100	addr=3	ch=11	ok
+10003012: procid=100	addr=3	ch=12	ok
+10003013: procid=100	addr=3	ch=13	ok
+10003014: procid=100	addr=3	ch=14	ok
+10003015: procid=100	addr=3	ch=15	ok
+10003016: procid=100	addr=3	ch=16	ok
+10003017: procid=100	addr=3	ch=17	ok
+10003018: procid=100	addr=3	ch=18	ok
+10003019: procid=100	addr=3	ch=19	ok
+10003020: procid=100	addr=3	ch=20	ok
+10003021: procid=100	addr=3	ch=21	ok
+10003022: procid=100	addr=3	ch=22	ok
+10003023: procid=100	addr=3	ch=23	ok
+10003024: procid=100	addr=3	ch=24	ok
+10003025: procid=100	addr=3	ch=25	ok
+10003026: procid=100	addr=3	ch=26	ok
+10003027: procid=100	addr=3	ch=27	ok
+10003028: procid=100	addr=3	ch=28	ok
+10003029: procid=100	addr=3	ch=29	ok
+10003030: procid=100	addr=3	ch=30	ok
+10003031: procid=100	addr=3	ch=31	ok
+10004000: procid=100	addr=4	ch=0	ok
+10004001: procid=100	addr=4	ch=1	ok
+10004002: procid=100	addr=4	ch=2	ok
+10004003: procid=100	addr=4	ch=3	ok
+10004004: procid=100	addr=4	ch=4	ok
+10004005: procid=100	addr=4	ch=5	ok
+10004006: procid=100	addr=4	ch=6	ok
+10004007: procid=100	addr=4	ch=7	ok
+10004008: procid=100	addr=4	ch=8	ok
+10004009: procid=100	addr=4	ch=9	ok
+10004010: procid=100	addr=4	ch=10	ok
+10004011: procid=100	addr=4	ch=11	ok
+10004012: procid=100	addr=4	ch=12	ok
+10004013: procid=100	addr=4	ch=13	ok
+10004014: procid=100	addr=4	ch=14	ok
+10004015: procid=100	addr=4	ch=15	ok
+10004016: procid=100	addr=4	ch=16	ok
+10004017: procid=100	addr=4	ch=17	ok
+10004018: procid=100	addr=4	ch=18	ok
+10004019: procid=100	addr=4	ch=19	ok
+10004020: procid=100	addr=4	ch=20	ok
+10004021: procid=100	addr=4	ch=21	ok
+10004022: procid=100	addr=4	ch=22	ok
+10004023: procid=100	addr=4	ch=23	ok
+10004024: procid=100	addr=4	ch=24	ok
+10004025: procid=100	addr=4	ch=25	ok
+10004026: procid=100	addr=4	ch=26	ok
+10004027: procid=100	addr=4	ch=27	ok
+10004028: procid=100	addr=4	ch=28	ok
+10004029: procid=100	addr=4	ch=29	ok
+10004030: procid=100	addr=4	ch=30	ok
+10004031: procid=100	addr=4	ch=31	ok
+10005000: procid=100	addr=5	ch=0	ok
+10005001: procid=100	addr=5	ch=1	ok
+10005002: procid=100	addr=5	ch=2	ok
+10005003: procid=100	addr=5	ch=3	ok
+10005004: procid=100	addr=5	ch=4	ok
+10005005: procid=100	addr=5	ch=5	ok
+10005006: procid=100	addr=5	ch=6	ok
+10005007: procid=100	addr=5	ch=7	ok
+10005008: procid=100	addr=5	ch=8	ok
+10005009: procid=100	addr=5	ch=9	ok
+10005010: procid=100	addr=5	ch=10	ok
+10005011: procid=100	addr=5	ch=11	ok
+10005012: procid=100	addr=5	ch=12	ok
+10005013: procid=100	addr=5	ch=13	ok
+10005014: procid=100	addr=5	ch=14	ok
+10005015: procid=100	addr=5	ch=15	ok
+10005016: procid=100	addr=5	ch=16	ok
+10005017: procid=100	addr=5	ch=17	ok
+10005018: procid=100	addr=5	ch=18	ok
+10005019: procid=100	addr=5	ch=19	ok
+10005020: procid=100	addr=5	ch=20	ok
+10005021: procid=100	addr=5	ch=21	ok
+10005022: procid=100	addr=5	ch=22	ok
+10005023: procid=100	addr=5	ch=23	ok
+10005024: procid=100	addr=5	ch=24	ok
+10005025: procid=100	addr=5	ch=25	ok
+10005026: procid=100	addr=5	ch=26	ok
+10005027: procid=100	addr=5	ch=27	ok
+10005028: procid=100	addr=5	ch=28	ok
+10005029: procid=100	addr=5	ch=29	ok
+10005030: procid=100	addr=5	ch=30	ok
+10005031: procid=100	addr=5	ch=31	ok
+10006000: procid=100	addr=6	ch=0	ok
+10006001: procid=100	addr=6	ch=1	ok
+10006002: procid=100	addr=6	ch=2	ok
+10006003: procid=100	addr=6	ch=3	ok
+10006004: procid=100	addr=6	ch=4	ok
+10006005: procid=100	addr=6	ch=5	ok
+10006006: procid=100	addr=6	ch=6	ok
+10006007: procid=100	addr=6	ch=7	ok
+10006008: procid=100	addr=6	ch=8	ok
+10006009: procid=100	addr=6	ch=9	ok
+10006010: procid=100	addr=6	ch=10	ok
+10006011: procid=100	addr=6	ch=11	ok
+10006012: procid=100	addr=6	ch=12	ok
+10006013: procid=100	addr=6	ch=13	ok
+10006014: procid=100	addr=6	ch=14	ok
+10006015: procid=100	addr=6	ch=15	ok
+10006016: procid=100	addr=6	ch=16	ok
+10006017: procid=100	addr=6	ch=17	ok
+10006018: procid=100	addr=6	ch=18	ok
+10006019: procid=100	addr=6	ch=19	ok
+10006020: procid=100	addr=6	ch=20	ok
+10006021: procid=100	addr=6	ch=21	ok
+10006022: procid=100	addr=6	ch=22	ok
+10006023: procid=100	addr=6	ch=23	ok
+10006024: procid=100	addr=6	ch=24	ok
+10006025: procid=100	addr=6	ch=25	ok
+10006026: procid=100	addr=6	ch=26	ok
+10006027: procid=100	addr=6	ch=27	ok
+10006028: procid=100	addr=6	ch=28	ok
+10006029: procid=100	addr=6	ch=29	ok
+10006030: procid=100	addr=6	ch=30	ok
+10006031: procid=100	addr=6	ch=31	ok
+10007000: procid=100	addr=7	ch=0	ok
+10007001: procid=100	addr=7	ch=1	ok
+10007002: procid=100	addr=7	ch=2	ok
+10007003: procid=100	addr=7	ch=3	ok
+10007004: procid=100	addr=7	ch=4	ok
+10007005: procid=100	addr=7	ch=5	ok
+10007006: procid=100	addr=7	ch=6	ok
+10007007: procid=100	addr=7	ch=7	ok
+10007008: procid=100	addr=7	ch=8	ok
+10007009: procid=100	addr=7	ch=9	ok
+10007010: procid=100	addr=7	ch=10	ok
+10007011: procid=100	addr=7	ch=11	ok
+10007012: procid=100	addr=7	ch=12	ok
+10007013: procid=100	addr=7	ch=13	ok
+10007014: procid=100	addr=7	ch=14	ok
+10007015: procid=100	addr=7	ch=15	ok
+10007016: procid=100	addr=7	ch=16	ok
+10007017: procid=100	addr=7	ch=17	ok
+10007018: procid=100	addr=7	ch=18	ok
+10007019: procid=100	addr=7	ch=19	ok
+10007020: procid=100	addr=7	ch=20	ok
+10007021: procid=100	addr=7	ch=21	ok
+10007022: procid=100	addr=7	ch=22	ok
+10007023: procid=100	addr=7	ch=23	ok
+10007024: procid=100	addr=7	ch=24	ok
+10007025: procid=100	addr=7	ch=25	ok
+10007026: procid=100	addr=7	ch=26	ok
+10007027: procid=100	addr=7	ch=27	ok
+10007028: procid=100	addr=7	ch=28	ok
+10007029: procid=100	addr=7	ch=29	ok
+10007030: procid=100	addr=7	ch=30	ok
+10007031: procid=100	addr=7	ch=31	ok
+10008000: procid=100	addr=8	ch=0	ok
+10008001: procid=100	addr=8	ch=1	ok
+10008002: procid=100	addr=8	ch=2	ok
+10008003: procid=100	addr=8	ch=3	ok
+10008004: procid=100	addr=8	ch=4	ok
+10008005: procid=100	addr=8	ch=5	ok
+10008006: procid=100	addr=8	ch=6	ok
+10008007: procid=100	addr=8	ch=7	ok
+10008008: procid=100	addr=8	ch=8	ok
+10008009: procid=100	addr=8	ch=9	ok
+10008010: procid=100	addr=8	ch=10	ok
+10008011: procid=100	addr=8	ch=11	ok
+10008012: procid=100	addr=8	ch=12	ok
+10008013: procid=100	addr=8	ch=13	ok
+10008014: procid=100	addr=8	ch=14	ok
+10008015: procid=100	addr=8	ch=15	ok
+10008016: procid=100	addr=8	ch=16	ok
+10008017: procid=100	addr=8	ch=17	ok
+10008018: procid=100	addr=8	ch=18	ok
+10008019: procid=100	addr=8	ch=19	ok
+10008020: procid=100	addr=8	ch=20	ok
+10008021: procid=100	addr=8	ch=21	ok
+10008022: procid=100	addr=8	ch=22	ok
+10008023: procid=100	addr=8	ch=23	ok
+10008024: procid=100	addr=8	ch=24	ok
+10008025: procid=100	addr=8	ch=25	ok
+10008026: procid=100	addr=8	ch=26	ok
+10008027: procid=100	addr=8	ch=27	ok
+10008028: procid=100	addr=8	ch=28	ok
+10008029: procid=100	addr=8	ch=29	ok
+10008030: procid=100	addr=8	ch=30	ok
+10008031: procid=100	addr=8	ch=31	ok
+10009000: procid=100	addr=9	ch=0	ok
+10009001: procid=100	addr=9	ch=1	ok
+10009002: procid=100	addr=9	ch=2	ok
+10009003: procid=100	addr=9	ch=3	ok
+10009004: procid=100	addr=9	ch=4	ok
+10009005: procid=100	addr=9	ch=5	ok
+10009006: procid=100	addr=9	ch=6	ok
+10009007: procid=100	addr=9	ch=7	ok
+10009008: procid=100	addr=9	ch=8	ok
+10009009: procid=100	addr=9	ch=9	ok
+10009010: procid=100	addr=9	ch=10	ok
+10009011: procid=100	addr=9	ch=11	ok
+10009012: procid=100	addr=9	ch=12	ok
+10009013: procid=100	addr=9	ch=13	ok
+10009014: procid=100	addr=9	ch=14	ok
+10009015: procid=100	addr=9	ch=15	ok
+10009016: procid=100	addr=9	ch=16	ok
+10009017: procid=100	addr=9	ch=17	ok
+10009018: procid=100	addr=9	ch=18	ok
+10009019: procid=100	addr=9	ch=19	ok
+10009020: procid=100	addr=9	ch=20	ok
+10009021: procid=100	addr=9	ch=21	ok
+10009022: procid=100	addr=9	ch=22	ok
+10009023: procid=100	addr=9	ch=23	ok
+10009024: procid=100	addr=9	ch=24	ok
+10009025: procid=100	addr=9	ch=25	ok
+10009026: procid=100	addr=9	ch=26	ok
+10009027: procid=100	addr=9	ch=27	ok
+10009028: procid=100	addr=9	ch=28	ok
+10009029: procid=100	addr=9	ch=29	ok
+10009030: procid=100	addr=9	ch=30	ok
+10009031: procid=100	addr=9	ch=31	ok
+10009032: procid=100	addr=9	ch=32	NO DATA
+10009033: procid=100	addr=9	ch=33	NO DATA
+10009034: procid=100	addr=9	ch=34	NO DATA
+10009035: procid=100	addr=9	ch=35	NO DATA
+10009036: procid=100	addr=9	ch=36	NO DATA
+10009037: procid=100	addr=9	ch=37	NO DATA
+10009038: procid=100	addr=9	ch=38	NO DATA
+10009039: procid=100	addr=9	ch=39	NO DATA
+10009040: procid=100	addr=9	ch=40	NO DATA
+10009041: procid=100	addr=9	ch=41	NO DATA
+10009042: procid=100	addr=9	ch=42	NO DATA
+10009043: procid=100	addr=9	ch=43	NO DATA
+10009044: procid=100	addr=9	ch=44	NO DATA
+10009045: procid=100	addr=9	ch=45	NO DATA
+10009046: procid=100	addr=9	ch=46	NO DATA
+10009047: procid=100	addr=9	ch=47	NO DATA
+10010000: procid=100	addr=10	ch=0	ok
+10010001: procid=100	addr=10	ch=1	ok
+10010002: procid=100	addr=10	ch=2	ok
+10010003: procid=100	addr=10	ch=3	ok
+10010004: procid=100	addr=10	ch=4	ok
+10010005: procid=100	addr=10	ch=5	ok
+10010006: procid=100	addr=10	ch=6	ok
+10010007: procid=100	addr=10	ch=7	ok
+10010008: procid=100	addr=10	ch=8	ok
+10010009: procid=100	addr=10	ch=9	ok
+10010010: procid=100	addr=10	ch=10	ok
+10010011: procid=100	addr=10	ch=11	ok
+10010012: procid=100	addr=10	ch=12	ok
+10010013: procid=100	addr=10	ch=13	ok
+10010014: procid=100	addr=10	ch=14	ok
+10010015: procid=100	addr=10	ch=15	ok
+10010016: procid=100	addr=10	ch=16	ok
+10010017: procid=100	addr=10	ch=17	ok
+10010018: procid=100	addr=10	ch=18	ok
+10010019: procid=100	addr=10	ch=19	ok
+10010020: procid=100	addr=10	ch=20	ok
+10010021: procid=100	addr=10	ch=21	ok
+10010022: procid=100	addr=10	ch=22	ok
+10010023: procid=100	addr=10	ch=23	ok
+10010024: procid=100	addr=10	ch=24	ok
+10010025: procid=100	addr=10	ch=25	ok
+10010026: procid=100	addr=10	ch=26	ok
+10010027: procid=100	addr=10	ch=27	ok
+10010028: procid=100	addr=10	ch=28	ok
+10010029: procid=100	addr=10	ch=29	ok
+10010030: procid=100	addr=10	ch=30	ok
+10010031: procid=100	addr=10	ch=31	ok
+10010032: procid=100	addr=10	ch=32	NO DATA
+10010033: procid=100	addr=10	ch=33	NO DATA
+10010034: procid=100	addr=10	ch=34	NO DATA
+10010035: procid=100	addr=10	ch=35	NO DATA
+10010036: procid=100	addr=10	ch=36	NO DATA
+10010037: procid=100	addr=10	ch=37	NO DATA
+10010038: procid=100	addr=10	ch=38	NO DATA
+10010039: procid=100	addr=10	ch=39	NO DATA
+10010040: procid=100	addr=10	ch=40	NO DATA
+10010041: procid=100	addr=10	ch=41	NO DATA
+10010042: procid=100	addr=10	ch=42	NO DATA
+10010043: procid=100	addr=10	ch=43	NO DATA
+10010044: procid=100	addr=10	ch=44	NO DATA
+10010045: procid=100	addr=10	ch=45	NO DATA
+10010046: procid=100	addr=10	ch=46	NO DATA
+10010047: procid=100	addr=10	ch=47	NO DATA
+10011000: procid=100	addr=11	ch=0	ok
+10011001: procid=100	addr=11	ch=1	ok
+10011002: procid=100	addr=11	ch=2	ok
+10011003: procid=100	addr=11	ch=3	ok
+10011004: procid=100	addr=11	ch=4	ok
+10011005: procid=100	addr=11	ch=5	ok
+10011006: procid=100	addr=11	ch=6	ok
+10011007: procid=100	addr=11	ch=7	ok
+10011008: procid=100	addr=11	ch=8	NO DATA
+10011009: procid=100	addr=11	ch=9	NO DATA
+10011010: procid=100	addr=11	ch=10	NO DATA
+10011011: procid=100	addr=11	ch=11	NO DATA
+10011012: procid=100	addr=11	ch=12	ok
+10011013: procid=100	addr=11	ch=13	ok
+10011014: procid=100	addr=11	ch=14	ok
+10011015: procid=100	addr=11	ch=15	ok
+10011016: procid=100	addr=11	ch=16	ok
+10011017: procid=100	addr=11	ch=17	ok
+10011018: procid=100	addr=11	ch=18	ok
+10011019: procid=100	addr=11	ch=19	ok
+10011020: procid=100	addr=11	ch=20	ok
+10011021: procid=100	addr=11	ch=21	ok
+10011022: procid=100	addr=11	ch=22	ok
+10011023: procid=100	addr=11	ch=23	ok
+10012000: procid=100	addr=12	ch=0	ok
+10012001: procid=100	addr=12	ch=1	ok
+10012002: procid=100	addr=12	ch=2	ok
+10012003: procid=100	addr=12	ch=3	ok
+10012004: procid=100	addr=12	ch=4	ok
+10012005: procid=100	addr=12	ch=5	ok
+10012006: procid=100	addr=12	ch=6	ok
+10012007: procid=100	addr=12	ch=7	ok
+10012008: procid=100	addr=12	ch=8	NO DATA
+10012009: procid=100	addr=12	ch=9	NO DATA
+10012010: procid=100	addr=12	ch=10	NO DATA
+10012011: procid=100	addr=12	ch=11	NO DATA
+10012012: procid=100	addr=12	ch=12	ok
+10012013: procid=100	addr=12	ch=13	ok
+10012014: procid=100	addr=12	ch=14	ok
+10012015: procid=100	addr=12	ch=15	ok
+10013000: procid=100	addr=13	ch=0	ok
+10013001: procid=100	addr=13	ch=1	ok
+10013002: procid=100	addr=13	ch=2	ok
+10013003: procid=100	addr=13	ch=3	ok
+10013004: procid=100	addr=13	ch=4	ok
+10013005: procid=100	addr=13	ch=5	ok
+10013006: procid=100	addr=13	ch=6	ok
+10013007: procid=100	addr=13	ch=7	ok
+10013008: procid=100	addr=13	ch=8	ok
+10013009: procid=100	addr=13	ch=9	ok
+10013010: procid=100	addr=13	ch=10	ok
+10013011: procid=100	addr=13	ch=11	ok
+10013012: procid=100	addr=13	ch=12	ok
+10013013: procid=100	addr=13	ch=13	ok
+10013014: procid=100	addr=13	ch=14	ok
+10013015: procid=100	addr=13	ch=15	ok
+10014000: procid=100	addr=14	ch=0	ok
+10014001: procid=100	addr=14	ch=1	ok
+10014002: procid=100	addr=14	ch=2	ok
+10014003: procid=100	addr=14	ch=3	ok
+10014004: procid=100	addr=14	ch=4	ok
+10014005: procid=100	addr=14	ch=5	ok
+10014006: procid=100	addr=14	ch=6	ok
+10014007: procid=100	addr=14	ch=7	ok
+10014008: procid=100	addr=14	ch=8	ok
+10014009: procid=100	addr=14	ch=9	ok
+10014010: procid=100	addr=14	ch=10	ok
+10014011: procid=100	addr=14	ch=11	ok
+10014012: procid=100	addr=14	ch=12	ok
+10014013: procid=100	addr=14	ch=13	ok
+10014014: procid=100	addr=14	ch=14	ok
+10014015: procid=100	addr=14	ch=15	ok
+10030000: procid=100	addr=30	ch=0	ok
+10100000: procid=101	addr=0	ch=0	NO DATA
+10100001: procid=101	addr=0	ch=1	NO DATA
+10100002: procid=101	addr=0	ch=2	NO DATA
+10100003: procid=101	addr=0	ch=3	NO DATA
+10100004: procid=101	addr=0	ch=4	NO DATA
+10100005: procid=101	addr=0	ch=5	NO DATA
+10100006: procid=101	addr=0	ch=6	NO DATA
+10100007: procid=101	addr=0	ch=7	NO DATA
+10100008: procid=101	addr=0	ch=8	NO DATA
+10100009: procid=101	addr=0	ch=9	NO DATA
+10100010: procid=101	addr=0	ch=10	NO DATA
+10100011: procid=101	addr=0	ch=11	NO DATA
+10100012: procid=101	addr=0	ch=12	NO DATA
+10100013: procid=101	addr=0	ch=13	NO DATA
+10100014: procid=101	addr=0	ch=14	NO DATA
+10100015: procid=101	addr=0	ch=15	NO DATA
+10100016: procid=101	addr=0	ch=16	NO DATA
+10100017: procid=101	addr=0	ch=17	NO DATA
+10100018: procid=101	addr=0	ch=18	NO DATA
+10100019: procid=101	addr=0	ch=19	NO DATA
+10100020: procid=101	addr=0	ch=20	NO DATA
+10100021: procid=101	addr=0	ch=21	NO DATA
+10100022: procid=101	addr=0	ch=22	NO DATA
+10100023: procid=101	addr=0	ch=23	NO DATA
+10100024: procid=101	addr=0	ch=24	NO DATA
+10100025: procid=101	addr=0	ch=25	NO DATA
+10100026: procid=101	addr=0	ch=26	NO DATA
+10100027: procid=101	addr=0	ch=27	NO DATA
+10100028: procid=101	addr=0	ch=28	NO DATA
+10100029: procid=101	addr=0	ch=29	NO DATA
+10100030: procid=101	addr=0	ch=30	NO DATA
+10100031: procid=101	addr=0	ch=31	NO DATA
+10101000: procid=101	addr=1	ch=0	NO DATA
+10101001: procid=101	addr=1	ch=1	NO DATA
+10101002: procid=101	addr=1	ch=2	NO DATA
+10101003: procid=101	addr=1	ch=3	NO DATA
+10101004: procid=101	addr=1	ch=4	NO DATA
+10101005: procid=101	addr=1	ch=5	NO DATA
+10101006: procid=101	addr=1	ch=6	NO DATA
+10101007: procid=101	addr=1	ch=7	NO DATA
+10101008: procid=101	addr=1	ch=8	NO DATA
+10101009: procid=101	addr=1	ch=9	NO DATA
+10101010: procid=101	addr=1	ch=10	NO DATA
+10101011: procid=101	addr=1	ch=11	NO DATA
+10101012: procid=101	addr=1	ch=12	NO DATA
+10101013: procid=101	addr=1	ch=13	NO DATA
+10101014: procid=101	addr=1	ch=14	NO DATA
+10101015: procid=101	addr=1	ch=15	NO DATA
+10101016: procid=101	addr=1	ch=16	NO DATA
+10101017: procid=101	addr=1	ch=17	NO DATA
+10101018: procid=101	addr=1	ch=18	NO DATA
+10101019: procid=101	addr=1	ch=19	NO DATA
+10101020: procid=101	addr=1	ch=20	NO DATA
+10101021: procid=101	addr=1	ch=21	NO DATA
+10101022: procid=101	addr=1	ch=22	NO DATA
+10101023: procid=101	addr=1	ch=23	NO DATA
+10101024: procid=101	addr=1	ch=24	NO DATA
+10101025: procid=101	addr=1	ch=25	NO DATA
+10101026: procid=101	addr=1	ch=26	NO DATA
+10101027: procid=101	addr=1	ch=27	NO DATA
+10101028: procid=101	addr=1	ch=28	NO DATA
+10101029: procid=101	addr=1	ch=29	NO DATA
+10101030: procid=101	addr=1	ch=30	NO DATA
+10101031: procid=101	addr=1	ch=31	NO DATA
+10102000: procid=101	addr=2	ch=0	NO DATA
+10102001: procid=101	addr=2	ch=1	NO DATA
+10102002: procid=101	addr=2	ch=2	NO DATA
+10102003: procid=101	addr=2	ch=3	NO DATA
+10102004: procid=101	addr=2	ch=4	NO DATA
+10102005: procid=101	addr=2	ch=5	NO DATA
+10102006: procid=101	addr=2	ch=6	NO DATA
+10102007: procid=101	addr=2	ch=7	NO DATA
+10102008: procid=101	addr=2	ch=8	NO DATA
+10102009: procid=101	addr=2	ch=9	NO DATA
+10102010: procid=101	addr=2	ch=10	NO DATA
+10102011: procid=101	addr=2	ch=11	NO DATA
+10102012: procid=101	addr=2	ch=12	NO DATA
+10102013: procid=101	addr=2	ch=13	NO DATA
+10102014: procid=101	addr=2	ch=14	NO DATA
+10102015: procid=101	addr=2	ch=15	NO DATA
+10102016: procid=101	addr=2	ch=16	NO DATA
+10102017: procid=101	addr=2	ch=17	NO DATA
+10102018: procid=101	addr=2	ch=18	NO DATA
+10102019: procid=101	addr=2	ch=19	NO DATA
+10102020: procid=101	addr=2	ch=20	NO DATA
+10102021: procid=101	addr=2	ch=21	NO DATA
+10102022: procid=101	addr=2	ch=22	NO DATA
+10102023: procid=101	addr=2	ch=23	NO DATA
+10102024: procid=101	addr=2	ch=24	NO DATA
+10102025: procid=101	addr=2	ch=25	NO DATA
+10102026: procid=101	addr=2	ch=26	NO DATA
+10102027: procid=101	addr=2	ch=27	NO DATA
+10102028: procid=101	addr=2	ch=28	NO DATA
+10102029: procid=101	addr=2	ch=29	NO DATA
+10102030: procid=101	addr=2	ch=30	NO DATA
+10102031: procid=101	addr=2	ch=31	NO DATA
+10103000: procid=101	addr=3	ch=0	NO DATA
+10103001: procid=101	addr=3	ch=1	NO DATA
+10103002: procid=101	addr=3	ch=2	NO DATA
+10103003: procid=101	addr=3	ch=3	NO DATA
+10103004: procid=101	addr=3	ch=4	NO DATA
+10103005: procid=101	addr=3	ch=5	NO DATA
+10103006: procid=101	addr=3	ch=6	NO DATA
+10103007: procid=101	addr=3	ch=7	NO DATA
+10103008: procid=101	addr=3	ch=8	NO DATA
+10103009: procid=101	addr=3	ch=9	NO DATA
+10103010: procid=101	addr=3	ch=10	NO DATA
+10103011: procid=101	addr=3	ch=11	NO DATA
+10103012: procid=101	addr=3	ch=12	NO DATA
+10103013: procid=101	addr=3	ch=13	NO DATA
+10103014: procid=101	addr=3	ch=14	NO DATA
+10103015: procid=101	addr=3	ch=15	NO DATA
+10103016: procid=101	addr=3	ch=16	NO DATA
+10103017: procid=101	addr=3	ch=17	NO DATA
+10103018: procid=101	addr=3	ch=18	NO DATA
+10103019: procid=101	addr=3	ch=19	NO DATA
+10103020: procid=101	addr=3	ch=20	NO DATA
+10103021: procid=101	addr=3	ch=21	NO DATA
+10103022: procid=101	addr=3	ch=22	NO DATA
+10103023: procid=101	addr=3	ch=23	NO DATA
+10103024: procid=101	addr=3	ch=24	NO DATA
+10103025: procid=101	addr=3	ch=25	NO DATA
+10103026: procid=101	addr=3	ch=26	NO DATA
+10103027: procid=101	addr=3	ch=27	NO DATA
+10103028: procid=101	addr=3	ch=28	NO DATA
+10103029: procid=101	addr=3	ch=29	NO DATA
+10103030: procid=101	addr=3	ch=30	NO DATA
+10103031: procid=101	addr=3	ch=31	NO DATA
+20000000: procid=200	addr=0	ch=0	NO DATA
+20000001: procid=200	addr=0	ch=1	NO DATA
+20000002: procid=200	addr=0	ch=2	NO DATA
+20000003: procid=200	addr=0	ch=3	NO DATA
+20000004: procid=200	addr=0	ch=4	NO DATA
+20000005: procid=200	addr=0	ch=5	NO DATA
+20000006: procid=200	addr=0	ch=6	NO DATA
+20000007: procid=200	addr=0	ch=7	NO DATA
+20000008: procid=200	addr=0	ch=8	NO DATA
+20000009: procid=200	addr=0	ch=9	NO DATA
+20000010: procid=200	addr=0	ch=10	NO DATA
+20000011: procid=200	addr=0	ch=11	NO DATA
+20000012: procid=200	addr=0	ch=12	NO DATA
+20000013: procid=200	addr=0	ch=13	NO DATA
+20000014: procid=200	addr=0	ch=14	NO DATA
+20000015: procid=200	addr=0	ch=15	NO DATA
+20000016: procid=200	addr=0	ch=16	NO DATA
+20000017: procid=200	addr=0	ch=17	NO DATA
+20000018: procid=200	addr=0	ch=18	NO DATA
+20000019: procid=200	addr=0	ch=19	NO DATA
+20000020: procid=200	addr=0	ch=20	NO DATA
+20000021: procid=200	addr=0	ch=21	NO DATA
+20000022: procid=200	addr=0	ch=22	NO DATA
+20000023: procid=200	addr=0	ch=23	NO DATA
+20000024: procid=200	addr=0	ch=24	NO DATA
+20000025: procid=200	addr=0	ch=25	NO DATA
+20000026: procid=200	addr=0	ch=26	NO DATA
+20000027: procid=200	addr=0	ch=27	NO DATA
+20000028: procid=200	addr=0	ch=28	NO DATA
+20000029: procid=200	addr=0	ch=29	NO DATA
+20000030: procid=200	addr=0	ch=30	NO DATA
+20000031: procid=200	addr=0	ch=31	NO DATA
+20001000: procid=200	addr=1	ch=0	NO DATA
+20001001: procid=200	addr=1	ch=1	NO DATA
+20001002: procid=200	addr=1	ch=2	NO DATA
+20001003: procid=200	addr=1	ch=3	NO DATA
+20001004: procid=200	addr=1	ch=4	NO DATA
+20001005: procid=200	addr=1	ch=5	NO DATA
+20001006: procid=200	addr=1	ch=6	NO DATA
+20001007: procid=200	addr=1	ch=7	NO DATA
+20001008: procid=200	addr=1	ch=8	NO DATA
+20001009: procid=200	addr=1	ch=9	NO DATA
+20001010: procid=200	addr=1	ch=10	NO DATA
+20001011: procid=200	addr=1	ch=11	NO DATA
+20001012: procid=200	addr=1	ch=12	NO DATA
+20001013: procid=200	addr=1	ch=13	NO DATA
+20001014: procid=200	addr=1	ch=14	NO DATA
+20001015: procid=200	addr=1	ch=15	NO DATA
+20001016: procid=200	addr=1	ch=16	NO DATA
+20001017: procid=200	addr=1	ch=17	NO DATA
+20001018: procid=200	addr=1	ch=18	NO DATA
+20001019: procid=200	addr=1	ch=19	NO DATA
+20001020: procid=200	addr=1	ch=20	NO DATA
+20001021: procid=200	addr=1	ch=21	NO DATA
+20001022: procid=200	addr=1	ch=22	NO DATA
+20001023: procid=200	addr=1	ch=23	NO DATA
+20001024: procid=200	addr=1	ch=24	NO DATA
+20001025: procid=200	addr=1	ch=25	NO DATA
+20001026: procid=200	addr=1	ch=26	NO DATA
+20001027: procid=200	addr=1	ch=27	NO DATA
+20001028: procid=200	addr=1	ch=28	NO DATA
+20001029: procid=200	addr=1	ch=29	NO DATA
+20001030: procid=200	addr=1	ch=30	NO DATA
+20001031: procid=200	addr=1	ch=31	NO DATA
+20002000: procid=200	addr=2	ch=0	NO DATA
+20002001: procid=200	addr=2	ch=1	NO DATA
+20002002: procid=200	addr=2	ch=2	NO DATA
+20002003: procid=200	addr=2	ch=3	NO DATA
+20002004: procid=200	addr=2	ch=4	NO DATA
+20002005: procid=200	addr=2	ch=5	NO DATA
+20002006: procid=200	addr=2	ch=6	NO DATA
+20002007: procid=200	addr=2	ch=7	NO DATA
+20002008: procid=200	addr=2	ch=8	NO DATA
+20002009: procid=200	addr=2	ch=9	NO DATA
+20002010: procid=200	addr=2	ch=10	NO DATA
+20002011: procid=200	addr=2	ch=11	NO DATA
+20002012: procid=200	addr=2	ch=12	NO DATA
+20002013: procid=200	addr=2	ch=13	NO DATA
+20002014: procid=200	addr=2	ch=14	NO DATA
+20002015: procid=200	addr=2	ch=15	NO DATA
+20002016: procid=200	addr=2	ch=16	NO DATA
+20002017: procid=200	addr=2	ch=17	NO DATA
+20002018: procid=200	addr=2	ch=18	NO DATA
+20002019: procid=200	addr=2	ch=19	NO DATA
+20002020: procid=200	addr=2	ch=20	NO DATA
+20002021: procid=200	addr=2	ch=21	NO DATA
+20002022: procid=200	addr=2	ch=22	NO DATA
+20002023: procid=200	addr=2	ch=23	NO DATA
+20002024: procid=200	addr=2	ch=24	NO DATA
+20002025: procid=200	addr=2	ch=25	NO DATA
+20002026: procid=200	addr=2	ch=26	NO DATA
+20002027: procid=200	addr=2	ch=27	NO DATA
+20002028: procid=200	addr=2	ch=28	NO DATA
+20002029: procid=200	addr=2	ch=29	NO DATA
+20002030: procid=200	addr=2	ch=30	NO DATA
+20002031: procid=200	addr=2	ch=31	NO DATA
+The following channels have been detected in the input file(no matter what the mappings are):
+10000000: procid=100	addr=0	ch=0	mapped to scalers[0]	from DAQ_status
+10000001: procid=100	addr=0	ch=1	mapped to scalers[1]	from DAQ_status
+10000002: procid=100	addr=0	ch=2	mapped to scalers[2]	from DAQ_status
+10000003: procid=100	addr=0	ch=3	mapped to scalers[3]	from DAQ_status
+10000004: procid=100	addr=0	ch=4	mapped to scalers[4]	from DAQ_status
+10000005: procid=100	addr=0	ch=5	mapped to scalers[5]	from DAQ_status
+10000006: procid=100	addr=0	ch=6	mapped to scalers[6]	from DAQ_status
+10000007: procid=100	addr=0	ch=7	mapped to scalers[7]	from DAQ_status
+10000008: procid=100	addr=0	ch=8	mapped to scalers[8]	from DAQ_status
+10000009: procid=100	addr=0	ch=9	mapped to scalers[9]	from DAQ_status
+10000010: procid=100	addr=0	ch=10	mapped to scalers[10]	from DAQ_status
+10000011: procid=100	addr=0	ch=11	mapped to scalers[11]	from DAQ_status
+10000012: procid=100	addr=0	ch=12	mapped to scalers[12]	from DAQ_status
+10000013: procid=100	addr=0	ch=13	mapped to scalers[13]	from DAQ_status
+10000014: procid=100	addr=0	ch=14	mapped to scalers[14]	from DAQ_status
+10000015: procid=100	addr=0	ch=15	mapped to scalers[15]	from DAQ_status
+10001000: procid=100	addr=1	ch=0	mapped to tSSD20_L[0]	from Left_telescope
+10001001: procid=100	addr=1	ch=1	mapped to tSSD20_L[1]	from Left_telescope
+10001002: procid=100	addr=1	ch=2	mapped to tSSD20_L[2]	from Left_telescope
+10001003: procid=100	addr=1	ch=3	mapped to tSSD20_L[3]	from Left_telescope
+10001004: procid=100	addr=1	ch=4	mapped to tSSD20_L[4]	from Left_telescope
+10001005: procid=100	addr=1	ch=5	mapped to tSSD20_L[5]	from Left_telescope
+10001006: procid=100	addr=1	ch=6	mapped to tSSD20_L[6]	from Left_telescope
+10001007: procid=100	addr=1	ch=7	mapped to tSSD20_L[7]	from Left_telescope
+10001008: procid=100	addr=1	ch=8	mapped to tSSD20_L[8]	from Left_telescope
+10001009: procid=100	addr=1	ch=9	mapped to tSSD20_L[9]	from Left_telescope
+10001010: procid=100	addr=1	ch=10	mapped to tSSD20_L[10]	from Left_telescope
+10001011: procid=100	addr=1	ch=11	mapped to tSSD20_L[11]	from Left_telescope
+10001012: procid=100	addr=1	ch=12	mapped to tSSD20_L[12]	from Left_telescope
+10001013: procid=100	addr=1	ch=13	mapped to tSSD20_L[13]	from Left_telescope
+10001014: procid=100	addr=1	ch=14	mapped to tSSD20_L[14]	from Left_telescope
+10001015: procid=100	addr=1	ch=15	mapped to tSSD20_L[15]	from Left_telescope
+10001016: procid=100	addr=1	ch=16	mapped to tSSD20_R[0]	from Right_telescope
+10001017: procid=100	addr=1	ch=17	mapped to tSSD20_R[1]	from Right_telescope
+10001018: procid=100	addr=1	ch=18	mapped to tSSD20_R[2]	from Right_telescope
+10001019: procid=100	addr=1	ch=19	mapped to tSSD20_R[3]	from Right_telescope
+10001020: procid=100	addr=1	ch=20	mapped to tSSD20_R[4]	from Right_telescope
+10001021: procid=100	addr=1	ch=21	mapped to tSSD20_R[5]	from Right_telescope
+10001022: procid=100	addr=1	ch=22	mapped to tSSD20_R[6]	from Right_telescope
+10001023: procid=100	addr=1	ch=23	mapped to tSSD20_R[7]	from Right_telescope
+10001024: procid=100	addr=1	ch=24	mapped to tSSD20_R[8]	from Right_telescope
+10001025: procid=100	addr=1	ch=25	mapped to tSSD20_R[9]	from Right_telescope
+10001026: procid=100	addr=1	ch=26	mapped to tSSD20_R[10]	from Right_telescope
+10001027: procid=100	addr=1	ch=27	mapped to tSSD20_R[11]	from Right_telescope
+10001028: procid=100	addr=1	ch=28	mapped to tSSD20_R[12]	from Right_telescope
+10001029: procid=100	addr=1	ch=29	mapped to tSSD20_R[13]	from Right_telescope
+10001030: procid=100	addr=1	ch=30	mapped to tSSD20_R[14]	from Right_telescope
+10001031: procid=100	addr=1	ch=31	mapped to tSSD20_R[15]	from Right_telescope
+10002000: procid=100	addr=2	ch=0	mapped to tDSDX_L[0]	from Left_telescope
+10002001: procid=100	addr=2	ch=1	mapped to tDSDX_L[1]	from Left_telescope
+10002002: procid=100	addr=2	ch=2	mapped to tDSDX_L[2]	from Left_telescope
+10002003: procid=100	addr=2	ch=3	mapped to tDSDX_L[3]	from Left_telescope
+10002004: procid=100	addr=2	ch=4	mapped to tDSDX_L[4]	from Left_telescope
+10002005: procid=100	addr=2	ch=5	mapped to tDSDX_L[5]	from Left_telescope
+10002006: procid=100	addr=2	ch=6	mapped to tDSDX_L[6]	from Left_telescope
+10002007: procid=100	addr=2	ch=7	mapped to tDSDX_L[7]	from Left_telescope
+10002008: procid=100	addr=2	ch=8	mapped to tDSDX_L[8]	from Left_telescope
+10002009: procid=100	addr=2	ch=9	mapped to tDSDX_L[9]	from Left_telescope
+10002010: procid=100	addr=2	ch=10	mapped to tDSDX_L[10]	from Left_telescope
+10002011: procid=100	addr=2	ch=11	mapped to tDSDX_L[11]	from Left_telescope
+10002012: procid=100	addr=2	ch=12	mapped to tDSDX_L[12]	from Left_telescope
+10002013: procid=100	addr=2	ch=13	mapped to tDSDX_L[13]	from Left_telescope
+10002014: procid=100	addr=2	ch=14	mapped to tDSDX_L[14]	from Left_telescope
+10002015: procid=100	addr=2	ch=15	mapped to tDSDX_L[15]	from Left_telescope
+10002016: procid=100	addr=2	ch=16	mapped to tDSDY_L[0]	from Left_telescope
+10002017: procid=100	addr=2	ch=17	mapped to tDSDY_L[1]	from Left_telescope
+10002018: procid=100	addr=2	ch=18	mapped to tDSDY_L[2]	from Left_telescope
+10002019: procid=100	addr=2	ch=19	mapped to tDSDY_L[3]	from Left_telescope
+10002020: procid=100	addr=2	ch=20	mapped to tDSDY_L[4]	from Left_telescope
+10002021: procid=100	addr=2	ch=21	mapped to tDSDY_L[5]	from Left_telescope
+10002022: procid=100	addr=2	ch=22	mapped to tDSDY_L[6]	from Left_telescope
+10002023: procid=100	addr=2	ch=23	mapped to tDSDY_L[7]	from Left_telescope
+10002024: procid=100	addr=2	ch=24	mapped to tDSDY_L[8]	from Left_telescope
+10002025: procid=100	addr=2	ch=25	mapped to tDSDY_L[9]	from Left_telescope
+10002026: procid=100	addr=2	ch=26	mapped to tDSDY_L[10]	from Left_telescope
+10002027: procid=100	addr=2	ch=27	mapped to tDSDY_L[11]	from Left_telescope
+10002028: procid=100	addr=2	ch=28	mapped to tDSDY_L[12]	from Left_telescope
+10002029: procid=100	addr=2	ch=29	mapped to tDSDY_L[13]	from Left_telescope
+10002030: procid=100	addr=2	ch=30	mapped to tDSDY_L[14]	from Left_telescope
+10002031: procid=100	addr=2	ch=31	mapped to tDSDY_L[15]	from Left_telescope
+10003000: procid=100	addr=3	ch=0	mapped to tCsI[0]	from Central_telescope
+10003001: procid=100	addr=3	ch=1	mapped to tCsI[1]	from Central_telescope
+10003002: procid=100	addr=3	ch=2	mapped to tCsI[2]	from Central_telescope
+10003003: procid=100	addr=3	ch=3	mapped to tCsI[3]	from Central_telescope
+10003004: procid=100	addr=3	ch=4	mapped to tCsI[4]	from Central_telescope
+10003005: procid=100	addr=3	ch=5	mapped to tCsI[5]	from Central_telescope
+10003006: procid=100	addr=3	ch=6	mapped to tCsI[6]	from Central_telescope
+10003007: procid=100	addr=3	ch=7	mapped to tCsI[7]	from Central_telescope
+10003008: procid=100	addr=3	ch=8	mapped to tCsI[8]	from Central_telescope
+10003009: procid=100	addr=3	ch=9	mapped to tCsI[9]	from Central_telescope
+10003010: procid=100	addr=3	ch=10	mapped to tCsI[10]	from Central_telescope
+10003011: procid=100	addr=3	ch=11	mapped to tCsI[11]	from Central_telescope
+10003012: procid=100	addr=3	ch=12	mapped to tCsI[12]	from Central_telescope
+10003013: procid=100	addr=3	ch=13	mapped to tCsI[13]	from Central_telescope
+10003014: procid=100	addr=3	ch=14	mapped to tCsI[14]	from Central_telescope
+10003015: procid=100	addr=3	ch=15	mapped to tCsI[15]	from Central_telescope
+10003016: procid=100	addr=3	ch=16	mapped to tSSDY_R[0]	from Right_telescope
+10003017: procid=100	addr=3	ch=17	mapped to tSSDY_R[1]	from Right_telescope
+10003018: procid=100	addr=3	ch=18	mapped to tSSDY_R[2]	from Right_telescope
+10003019: procid=100	addr=3	ch=19	mapped to tSSDY_R[3]	from Right_telescope
+10003020: procid=100	addr=3	ch=20	mapped to tSSDY_R[4]	from Right_telescope
+10003021: procid=100	addr=3	ch=21	mapped to tSSDY_R[5]	from Right_telescope
+10003022: procid=100	addr=3	ch=22	mapped to tSSDY_R[6]	from Right_telescope
+10003023: procid=100	addr=3	ch=23	mapped to tSSDY_R[7]	from Right_telescope
+10003024: procid=100	addr=3	ch=24	mapped to tSSDY_R[8]	from Right_telescope
+10003025: procid=100	addr=3	ch=25	mapped to tSSDY_R[9]	from Right_telescope
+10003026: procid=100	addr=3	ch=26	mapped to tSSDY_R[10]	from Right_telescope
+10003027: procid=100	addr=3	ch=27	mapped to tSSDY_R[11]	from Right_telescope
+10003028: procid=100	addr=3	ch=28	mapped to tSSDY_R[12]	from Right_telescope
+10003029: procid=100	addr=3	ch=29	mapped to tSSDY_R[13]	from Right_telescope
+10003030: procid=100	addr=3	ch=30	mapped to tSSDY_R[14]	from Right_telescope
+10003031: procid=100	addr=3	ch=31	mapped to tSSDY_R[15]	from Right_telescope
+10004000: procid=100	addr=4	ch=0	mapped to tSSD_L[0]	from Left_telescope
+10004001: procid=100	addr=4	ch=1	mapped to tSSD_L[1]	from Left_telescope
+10004002: procid=100	addr=4	ch=2	mapped to tSSD_L[2]	from Left_telescope
+10004003: procid=100	addr=4	ch=3	mapped to tSSD_L[3]	from Left_telescope
+10004004: procid=100	addr=4	ch=4	mapped to tSSD_L[4]	from Left_telescope
+10004005: procid=100	addr=4	ch=5	mapped to tSSD_L[5]	from Left_telescope
+10004006: procid=100	addr=4	ch=6	mapped to tSSD_L[6]	from Left_telescope
+10004007: procid=100	addr=4	ch=7	mapped to tSSD_L[7]	from Left_telescope
+10004008: procid=100	addr=4	ch=8	mapped to tSSD_L[8]	from Left_telescope
+10004009: procid=100	addr=4	ch=9	mapped to tSSD_L[9]	from Left_telescope
+10004010: procid=100	addr=4	ch=10	mapped to tSSD_L[10]	from Left_telescope
+10004011: procid=100	addr=4	ch=11	mapped to tSSD_L[11]	from Left_telescope
+10004012: procid=100	addr=4	ch=12	mapped to tSSD_L[12]	from Left_telescope
+10004013: procid=100	addr=4	ch=13	mapped to tSSD_L[13]	from Left_telescope
+10004014: procid=100	addr=4	ch=14	mapped to tSSD_L[14]	from Left_telescope
+10004015: procid=100	addr=4	ch=15	mapped to tSSD_L[15]	from Left_telescope
+10004016: procid=100	addr=4	ch=16	mapped to tSSD_R[0]	from Right_telescope
+10004017: procid=100	addr=4	ch=17	mapped to tSSD_R[1]	from Right_telescope
+10004018: procid=100	addr=4	ch=18	mapped to tSSD_R[2]	from Right_telescope
+10004019: procid=100	addr=4	ch=19	mapped to tSSD_R[3]	from Right_telescope
+10004020: procid=100	addr=4	ch=20	mapped to tSSD_R[4]	from Right_telescope
+10004021: procid=100	addr=4	ch=21	mapped to tSSD_R[5]	from Right_telescope
+10004022: procid=100	addr=4	ch=22	mapped to tSSD_R[6]	from Right_telescope
+10004023: procid=100	addr=4	ch=23	mapped to tSSD_R[7]	from Right_telescope
+10004024: procid=100	addr=4	ch=24	mapped to tSSD_R[8]	from Right_telescope
+10004025: procid=100	addr=4	ch=25	mapped to tSSD_R[9]	from Right_telescope
+10004026: procid=100	addr=4	ch=26	mapped to tSSD_R[10]	from Right_telescope
+10004027: procid=100	addr=4	ch=27	mapped to tSSD_R[11]	from Right_telescope
+10004028: procid=100	addr=4	ch=28	mapped to tSSD_R[12]	from Right_telescope
+10004029: procid=100	addr=4	ch=29	mapped to tSSD_R[13]	from Right_telescope
+10004030: procid=100	addr=4	ch=30	mapped to tSSD_R[14]	from Right_telescope
+10004031: procid=100	addr=4	ch=31	mapped to tSSD_R[15]	from Right_telescope
+10005000: procid=100	addr=5	ch=0	mapped to SSD20_L[0]	from Left_telescope
+10005001: procid=100	addr=5	ch=1	mapped to SSD20_L[1]	from Left_telescope
+10005002: procid=100	addr=5	ch=2	mapped to SSD20_L[2]	from Left_telescope
+10005003: procid=100	addr=5	ch=3	mapped to SSD20_L[3]	from Left_telescope
+10005004: procid=100	addr=5	ch=4	mapped to SSD20_L[4]	from Left_telescope
+10005005: procid=100	addr=5	ch=5	mapped to SSD20_L[5]	from Left_telescope
+10005006: procid=100	addr=5	ch=6	mapped to SSD20_L[6]	from Left_telescope
+10005007: procid=100	addr=5	ch=7	mapped to SSD20_L[7]	from Left_telescope
+10005008: procid=100	addr=5	ch=8	mapped to SSD20_L[8]	from Left_telescope
+10005009: procid=100	addr=5	ch=9	mapped to SSD20_L[9]	from Left_telescope
+10005010: procid=100	addr=5	ch=10	mapped to SSD20_L[10]	from Left_telescope
+10005011: procid=100	addr=5	ch=11	mapped to SSD20_L[11]	from Left_telescope
+10005012: procid=100	addr=5	ch=12	mapped to SSD20_L[12]	from Left_telescope
+10005013: procid=100	addr=5	ch=13	mapped to SSD20_L[13]	from Left_telescope
+10005014: procid=100	addr=5	ch=14	mapped to SSD20_L[14]	from Left_telescope
+10005015: procid=100	addr=5	ch=15	mapped to SSD20_L[15]	from Left_telescope
+10005016: procid=100	addr=5	ch=16	mapped to SSD20_R[0]	from Right_telescope
+10005017: procid=100	addr=5	ch=17	mapped to SSD20_R[1]	from Right_telescope
+10005018: procid=100	addr=5	ch=18	mapped to SSD20_R[2]	from Right_telescope
+10005019: procid=100	addr=5	ch=19	mapped to SSD20_R[3]	from Right_telescope
+10005020: procid=100	addr=5	ch=20	mapped to SSD20_R[4]	from Right_telescope
+10005021: procid=100	addr=5	ch=21	mapped to SSD20_R[5]	from Right_telescope
+10005022: procid=100	addr=5	ch=22	mapped to SSD20_R[6]	from Right_telescope
+10005023: procid=100	addr=5	ch=23	mapped to SSD20_R[7]	from Right_telescope
+10005024: procid=100	addr=5	ch=24	mapped to SSD20_R[8]	from Right_telescope
+10005025: procid=100	addr=5	ch=25	mapped to SSD20_R[9]	from Right_telescope
+10005026: procid=100	addr=5	ch=26	mapped to SSD20_R[10]	from Right_telescope
+10005027: procid=100	addr=5	ch=27	mapped to SSD20_R[11]	from Right_telescope
+10005028: procid=100	addr=5	ch=28	mapped to SSD20_R[12]	from Right_telescope
+10005029: procid=100	addr=5	ch=29	mapped to SSD20_R[13]	from Right_telescope
+10005030: procid=100	addr=5	ch=30	mapped to SSD20_R[14]	from Right_telescope
+10005031: procid=100	addr=5	ch=31	mapped to SSD20_R[15]	from Right_telescope
+10006000: procid=100	addr=6	ch=0	mapped to DSDX_L[0]	from Left_telescope
+10006001: procid=100	addr=6	ch=1	mapped to DSDX_L[1]	from Left_telescope
+10006002: procid=100	addr=6	ch=2	mapped to DSDX_L[2]	from Left_telescope
+10006003: procid=100	addr=6	ch=3	mapped to DSDX_L[3]	from Left_telescope
+10006004: procid=100	addr=6	ch=4	mapped to DSDX_L[4]	from Left_telescope
+10006005: procid=100	addr=6	ch=5	mapped to DSDX_L[5]	from Left_telescope
+10006006: procid=100	addr=6	ch=6	mapped to DSDX_L[6]	from Left_telescope
+10006007: procid=100	addr=6	ch=7	mapped to DSDX_L[7]	from Left_telescope
+10006008: procid=100	addr=6	ch=8	mapped to DSDX_L[8]	from Left_telescope
+10006009: procid=100	addr=6	ch=9	mapped to DSDX_L[9]	from Left_telescope
+10006010: procid=100	addr=6	ch=10	mapped to DSDX_L[10]	from Left_telescope
+10006011: procid=100	addr=6	ch=11	mapped to DSDX_L[11]	from Left_telescope
+10006012: procid=100	addr=6	ch=12	mapped to DSDX_L[12]	from Left_telescope
+10006013: procid=100	addr=6	ch=13	mapped to DSDX_L[13]	from Left_telescope
+10006014: procid=100	addr=6	ch=14	mapped to DSDX_L[14]	from Left_telescope
+10006015: procid=100	addr=6	ch=15	mapped to DSDX_L[15]	from Left_telescope
+10006016: procid=100	addr=6	ch=16	mapped to DSDY_L[0]	from Left_telescope
+10006017: procid=100	addr=6	ch=17	mapped to DSDY_L[1]	from Left_telescope
+10006018: procid=100	addr=6	ch=18	mapped to DSDY_L[2]	from Left_telescope
+10006019: procid=100	addr=6	ch=19	mapped to DSDY_L[3]	from Left_telescope
+10006020: procid=100	addr=6	ch=20	mapped to DSDY_L[4]	from Left_telescope
+10006021: procid=100	addr=6	ch=21	mapped to DSDY_L[5]	from Left_telescope
+10006022: procid=100	addr=6	ch=22	mapped to DSDY_L[6]	from Left_telescope
+10006023: procid=100	addr=6	ch=23	mapped to DSDY_L[7]	from Left_telescope
+10006024: procid=100	addr=6	ch=24	mapped to DSDY_L[8]	from Left_telescope
+10006025: procid=100	addr=6	ch=25	mapped to DSDY_L[9]	from Left_telescope
+10006026: procid=100	addr=6	ch=26	mapped to DSDY_L[10]	from Left_telescope
+10006027: procid=100	addr=6	ch=27	mapped to DSDY_L[11]	from Left_telescope
+10006028: procid=100	addr=6	ch=28	mapped to DSDY_L[12]	from Left_telescope
+10006029: procid=100	addr=6	ch=29	mapped to DSDY_L[13]	from Left_telescope
+10006030: procid=100	addr=6	ch=30	mapped to DSDY_L[14]	from Left_telescope
+10006031: procid=100	addr=6	ch=31	mapped to DSDY_L[15]	from Left_telescope
+10007000: procid=100	addr=7	ch=0	mapped to CsI[0]	from Central_telescope
+10007001: procid=100	addr=7	ch=1	mapped to CsI[1]	from Central_telescope
+10007002: procid=100	addr=7	ch=2	mapped to CsI[2]	from Central_telescope
+10007003: procid=100	addr=7	ch=3	mapped to CsI[3]	from Central_telescope
+10007004: procid=100	addr=7	ch=4	mapped to CsI[4]	from Central_telescope
+10007005: procid=100	addr=7	ch=5	mapped to CsI[5]	from Central_telescope
+10007006: procid=100	addr=7	ch=6	mapped to CsI[6]	from Central_telescope
+10007007: procid=100	addr=7	ch=7	mapped to CsI[7]	from Central_telescope
+10007008: procid=100	addr=7	ch=8	mapped to CsI[8]	from Central_telescope
+10007009: procid=100	addr=7	ch=9	mapped to CsI[9]	from Central_telescope
+10007010: procid=100	addr=7	ch=10	mapped to CsI[10]	from Central_telescope
+10007011: procid=100	addr=7	ch=11	mapped to CsI[11]	from Central_telescope
+10007012: procid=100	addr=7	ch=12	mapped to CsI[12]	from Central_telescope
+10007013: procid=100	addr=7	ch=13	mapped to CsI[13]	from Central_telescope
+10007014: procid=100	addr=7	ch=14	mapped to CsI[14]	from Central_telescope
+10007015: procid=100	addr=7	ch=15	mapped to CsI[15]	from Central_telescope
+10007016: procid=100	addr=7	ch=16	mapped to SSDY_R[0]	from Right_telescope
+10007017: procid=100	addr=7	ch=17	mapped to SSDY_R[1]	from Right_telescope
+10007018: procid=100	addr=7	ch=18	mapped to SSDY_R[2]	from Right_telescope
+10007019: procid=100	addr=7	ch=19	mapped to SSDY_R[3]	from Right_telescope
+10007020: procid=100	addr=7	ch=20	mapped to SSDY_R[4]	from Right_telescope
+10007021: procid=100	addr=7	ch=21	mapped to SSDY_R[5]	from Right_telescope
+10007022: procid=100	addr=7	ch=22	mapped to SSDY_R[6]	from Right_telescope
+10007023: procid=100	addr=7	ch=23	mapped to SSDY_R[7]	from Right_telescope
+10007024: procid=100	addr=7	ch=24	mapped to SSDY_R[8]	from Right_telescope
+10007025: procid=100	addr=7	ch=25	mapped to SSDY_R[9]	from Right_telescope
+10007026: procid=100	addr=7	ch=26	mapped to SSDY_R[10]	from Right_telescope
+10007027: procid=100	addr=7	ch=27	mapped to SSDY_R[11]	from Right_telescope
+10007028: procid=100	addr=7	ch=28	mapped to SSDY_R[12]	from Right_telescope
+10007029: procid=100	addr=7	ch=29	mapped to SSDY_R[13]	from Right_telescope
+10007030: procid=100	addr=7	ch=30	mapped to SSDY_R[14]	from Right_telescope
+10007031: procid=100	addr=7	ch=31	mapped to SSDY_R[15]	from Right_telescope
+10008000: procid=100	addr=8	ch=0	mapped to SSD_L[0]	from Left_telescope
+10008001: procid=100	addr=8	ch=1	mapped to SSD_L[1]	from Left_telescope
+10008002: procid=100	addr=8	ch=2	mapped to SSD_L[2]	from Left_telescope
+10008003: procid=100	addr=8	ch=3	mapped to SSD_L[3]	from Left_telescope
+10008004: procid=100	addr=8	ch=4	mapped to SSD_L[4]	from Left_telescope
+10008005: procid=100	addr=8	ch=5	mapped to SSD_L[5]	from Left_telescope
+10008006: procid=100	addr=8	ch=6	mapped to SSD_L[6]	from Left_telescope
+10008007: procid=100	addr=8	ch=7	mapped to SSD_L[7]	from Left_telescope
+10008008: procid=100	addr=8	ch=8	mapped to SSD_L[8]	from Left_telescope
+10008009: procid=100	addr=8	ch=9	mapped to SSD_L[9]	from Left_telescope
+10008010: procid=100	addr=8	ch=10	mapped to SSD_L[10]	from Left_telescope
+10008011: procid=100	addr=8	ch=11	mapped to SSD_L[11]	from Left_telescope
+10008012: procid=100	addr=8	ch=12	mapped to SSD_L[12]	from Left_telescope
+10008013: procid=100	addr=8	ch=13	mapped to SSD_L[13]	from Left_telescope
+10008014: procid=100	addr=8	ch=14	mapped to SSD_L[14]	from Left_telescope
+10008015: procid=100	addr=8	ch=15	mapped to SSD_L[15]	from Left_telescope
+10008016: procid=100	addr=8	ch=16	mapped to SSD_R[0]	from Right_telescope
+10008017: procid=100	addr=8	ch=17	mapped to SSD_R[1]	from Right_telescope
+10008018: procid=100	addr=8	ch=18	mapped to SSD_R[2]	from Right_telescope
+10008019: procid=100	addr=8	ch=19	mapped to SSD_R[3]	from Right_telescope
+10008020: procid=100	addr=8	ch=20	mapped to SSD_R[4]	from Right_telescope
+10008021: procid=100	addr=8	ch=21	mapped to SSD_R[5]	from Right_telescope
+10008022: procid=100	addr=8	ch=22	mapped to SSD_R[6]	from Right_telescope
+10008023: procid=100	addr=8	ch=23	mapped to SSD_R[7]	from Right_telescope
+10008024: procid=100	addr=8	ch=24	mapped to SSD_R[8]	from Right_telescope
+10008025: procid=100	addr=8	ch=25	mapped to SSD_R[9]	from Right_telescope
+10008026: procid=100	addr=8	ch=26	mapped to SSD_R[10]	from Right_telescope
+10008027: procid=100	addr=8	ch=27	mapped to SSD_R[11]	from Right_telescope
+10008028: procid=100	addr=8	ch=28	mapped to SSD_R[12]	from Right_telescope
+10008029: procid=100	addr=8	ch=29	mapped to SSD_R[13]	from Right_telescope
+10008030: procid=100	addr=8	ch=30	mapped to SSD_R[14]	from Right_telescope
+10008031: procid=100	addr=8	ch=31	mapped to SSD_R[15]	from Right_telescope
+10009000: procid=100	addr=9	ch=0	mapped to DSDX_C[0]	from Central_telescope
+10009001: procid=100	addr=9	ch=1	mapped to DSDX_C[1]	from Central_telescope
+10009002: procid=100	addr=9	ch=2	mapped to DSDX_C[2]	from Central_telescope
+10009003: procid=100	addr=9	ch=3	mapped to DSDX_C[3]	from Central_telescope
+10009004: procid=100	addr=9	ch=4	mapped to DSDX_C[4]	from Central_telescope
+10009005: procid=100	addr=9	ch=5	mapped to DSDX_C[5]	from Central_telescope
+10009006: procid=100	addr=9	ch=6	mapped to DSDX_C[6]	from Central_telescope
+10009007: procid=100	addr=9	ch=7	mapped to DSDX_C[7]	from Central_telescope
+10009008: procid=100	addr=9	ch=8	mapped to DSDX_C[8]	from Central_telescope
+10009009: procid=100	addr=9	ch=9	mapped to DSDX_C[9]	from Central_telescope
+10009010: procid=100	addr=9	ch=10	mapped to DSDX_C[10]	from Central_telescope
+10009011: procid=100	addr=9	ch=11	mapped to DSDX_C[11]	from Central_telescope
+10009012: procid=100	addr=9	ch=12	mapped to DSDX_C[12]	from Central_telescope
+10009013: procid=100	addr=9	ch=13	mapped to DSDX_C[13]	from Central_telescope
+10009014: procid=100	addr=9	ch=14	mapped to DSDX_C[14]	from Central_telescope
+10009015: procid=100	addr=9	ch=15	mapped to DSDX_C[15]	from Central_telescope
+10009016: procid=100	addr=9	ch=16	mapped to Ignore[0]	from Ignore
+10009017: procid=100	addr=9	ch=17	mapped to Ignore[1]	from Ignore
+10009018: procid=100	addr=9	ch=18	mapped to Ignore[2]	from Ignore
+10009019: procid=100	addr=9	ch=19	mapped to Ignore[3]	from Ignore
+10009020: procid=100	addr=9	ch=20	mapped to Ignore[4]	from Ignore
+10009021: procid=100	addr=9	ch=21	mapped to Ignore[5]	from Ignore
+10009022: procid=100	addr=9	ch=22	mapped to Ignore[6]	from Ignore
+10009023: procid=100	addr=9	ch=23	mapped to Ignore[7]	from Ignore
+10009024: procid=100	addr=9	ch=24	mapped to Ignore[8]	from Ignore
+10009025: procid=100	addr=9	ch=25	mapped to Ignore[9]	from Ignore
+10009026: procid=100	addr=9	ch=26	mapped to Ignore[10]	from Ignore
+10009027: procid=100	addr=9	ch=27	mapped to Ignore[11]	from Ignore
+10009028: procid=100	addr=9	ch=28	mapped to Ignore[12]	from Ignore
+10009029: procid=100	addr=9	ch=29	mapped to Ignore[13]	from Ignore
+10009030: procid=100	addr=9	ch=30	mapped to Ignore[14]	from Ignore
+10009031: procid=100	addr=9	ch=31	mapped to Ignore[15]	from Ignore
+10010000: procid=100	addr=10	ch=0	mapped to DSDY_C[0]	from Central_telescope
+10010001: procid=100	addr=10	ch=1	mapped to DSDY_C[1]	from Central_telescope
+10010002: procid=100	addr=10	ch=2	mapped to DSDY_C[2]	from Central_telescope
+10010003: procid=100	addr=10	ch=3	mapped to DSDY_C[3]	from Central_telescope
+10010004: procid=100	addr=10	ch=4	mapped to DSDY_C[4]	from Central_telescope
+10010005: procid=100	addr=10	ch=5	mapped to DSDY_C[5]	from Central_telescope
+10010006: procid=100	addr=10	ch=6	mapped to DSDY_C[6]	from Central_telescope
+10010007: procid=100	addr=10	ch=7	mapped to DSDY_C[7]	from Central_telescope
+10010008: procid=100	addr=10	ch=8	mapped to DSDY_C[8]	from Central_telescope
+10010009: procid=100	addr=10	ch=9	mapped to DSDY_C[9]	from Central_telescope
+10010010: procid=100	addr=10	ch=10	mapped to DSDY_C[10]	from Central_telescope
+10010011: procid=100	addr=10	ch=11	mapped to DSDY_C[11]	from Central_telescope
+10010012: procid=100	addr=10	ch=12	mapped to DSDY_C[12]	from Central_telescope
+10010013: procid=100	addr=10	ch=13	mapped to DSDY_C[13]	from Central_telescope
+10010014: procid=100	addr=10	ch=14	mapped to DSDY_C[14]	from Central_telescope
+10010015: procid=100	addr=10	ch=15	mapped to DSDY_C[15]	from Central_telescope
+10010016: procid=100	addr=10	ch=16	mapped to Ignore[0]	from Ignore
+10010017: procid=100	addr=10	ch=17	mapped to Ignore[1]	from Ignore
+10010018: procid=100	addr=10	ch=18	mapped to Ignore[2]	from Ignore
+10010019: procid=100	addr=10	ch=19	mapped to Ignore[3]	from Ignore
+10010020: procid=100	addr=10	ch=20	mapped to Ignore[4]	from Ignore
+10010021: procid=100	addr=10	ch=21	mapped to Ignore[5]	from Ignore
+10010022: procid=100	addr=10	ch=22	mapped to Ignore[6]	from Ignore
+10010023: procid=100	addr=10	ch=23	mapped to Ignore[7]	from Ignore
+10010024: procid=100	addr=10	ch=24	mapped to Ignore[8]	from Ignore
+10010025: procid=100	addr=10	ch=25	mapped to Ignore[9]	from Ignore
+10010026: procid=100	addr=10	ch=26	mapped to Ignore[10]	from Ignore
+10010027: procid=100	addr=10	ch=27	mapped to Ignore[11]	from Ignore
+10010028: procid=100	addr=10	ch=28	mapped to Ignore[12]	from Ignore
+10010029: procid=100	addr=10	ch=29	mapped to Ignore[13]	from Ignore
+10010030: procid=100	addr=10	ch=30	mapped to Ignore[14]	from Ignore
+10010031: procid=100	addr=10	ch=31	mapped to Ignore[15]	from Ignore
+10011000: procid=100	addr=11	ch=0	mapped to F3[0]	from Beam_detector
+10011001: procid=100	addr=11	ch=1	mapped to F3[1]	from Beam_detector
+10011002: procid=100	addr=11	ch=2	mapped to F3[2]	from Beam_detector
+10011003: procid=100	addr=11	ch=3	mapped to F3[3]	from Beam_detector
+10011004: procid=100	addr=11	ch=4	mapped to F5[0]	from Beam_detector
+10011005: procid=100	addr=11	ch=5	mapped to F5[1]	from Beam_detector
+10011006: procid=100	addr=11	ch=6	mapped to F5[2]	from Beam_detector
+10011007: procid=100	addr=11	ch=7	mapped to F5[3]	from Beam_detector
+10011012: procid=100	addr=11	ch=12	mapped to Ignore[0]	from Ignore
+10011013: procid=100	addr=11	ch=13	mapped to Ignore[1]	from Ignore
+10011014: procid=100	addr=11	ch=14	mapped to Ignore[2]	from Ignore
+10011015: procid=100	addr=11	ch=15	mapped to Ignore[3]	from Ignore
+10011016: procid=100	addr=11	ch=16	mapped to Ignore[4]	from Ignore
+10011017: procid=100	addr=11	ch=17	mapped to Ignore[5]	from Ignore
+10011018: procid=100	addr=11	ch=18	mapped to Ignore[6]	from Ignore
+10011019: procid=100	addr=11	ch=19	mapped to Ignore[7]	from Ignore
+10011020: procid=100	addr=11	ch=20	mapped to Ignore[8]	from Ignore
+10011021: procid=100	addr=11	ch=21	mapped to Ignore[9]	from Ignore
+10011022: procid=100	addr=11	ch=22	mapped to Ignore[10]	from Ignore
+10011023: procid=100	addr=11	ch=23	mapped to Ignore[11]	from Ignore
+======================================================================
+10011024: procid=100	addr=11	ch=24	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011025: procid=100	addr=11	ch=25	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011026: procid=100	addr=11	ch=26	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011027: procid=100	addr=11	ch=27	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011028: procid=100	addr=11	ch=28	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011029: procid=100	addr=11	ch=29	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011030: procid=100	addr=11	ch=30	IS NOT MAPPED!
+======================================================================
+======================================================================
+10011031: procid=100	addr=11	ch=31	IS NOT MAPPED!
+======================================================================
+10012000: procid=100	addr=12	ch=0	mapped to tF3[0]	from Beam_detector
+10012001: procid=100	addr=12	ch=1	mapped to tF3[1]	from Beam_detector
+10012002: procid=100	addr=12	ch=2	mapped to tF3[2]	from Beam_detector
+10012003: procid=100	addr=12	ch=3	mapped to tF3[3]	from Beam_detector
+10012004: procid=100	addr=12	ch=4	mapped to tF5[0]	from Beam_detector
+10012005: procid=100	addr=12	ch=5	mapped to tF5[1]	from Beam_detector
+10012006: procid=100	addr=12	ch=6	mapped to tF5[2]	from Beam_detector
+10012007: procid=100	addr=12	ch=7	mapped to tF5[3]	from Beam_detector
+10012012: procid=100	addr=12	ch=12	mapped to tMWPC[0]	from Beam_detector
+10012013: procid=100	addr=12	ch=13	mapped to tMWPC[1]	from Beam_detector
+10012014: procid=100	addr=12	ch=14	mapped to tMWPC[2]	from Beam_detector
+10012015: procid=100	addr=12	ch=15	mapped to tMWPC[3]	from Beam_detector
+10013000: procid=100	addr=13	ch=0	mapped to tDSDX_C[0]	from Central_telescope
+10013001: procid=100	addr=13	ch=1	mapped to tDSDX_C[1]	from Central_telescope
+10013002: procid=100	addr=13	ch=2	mapped to tDSDX_C[2]	from Central_telescope
+10013003: procid=100	addr=13	ch=3	mapped to tDSDX_C[3]	from Central_telescope
+10013004: procid=100	addr=13	ch=4	mapped to tDSDX_C[4]	from Central_telescope
+10013005: procid=100	addr=13	ch=5	mapped to tDSDX_C[5]	from Central_telescope
+10013006: procid=100	addr=13	ch=6	mapped to tDSDX_C[6]	from Central_telescope
+10013007: procid=100	addr=13	ch=7	mapped to tDSDX_C[7]	from Central_telescope
+10013008: procid=100	addr=13	ch=8	mapped to tDSDX_C[8]	from Central_telescope
+10013009: procid=100	addr=13	ch=9	mapped to tDSDX_C[9]	from Central_telescope
+10013010: procid=100	addr=13	ch=10	mapped to tDSDX_C[10]	from Central_telescope
+10013011: procid=100	addr=13	ch=11	mapped to tDSDX_C[11]	from Central_telescope
+10013012: procid=100	addr=13	ch=12	mapped to tDSDX_C[12]	from Central_telescope
+10013013: procid=100	addr=13	ch=13	mapped to tDSDX_C[13]	from Central_telescope
+10013014: procid=100	addr=13	ch=14	mapped to tDSDX_C[14]	from Central_telescope
+10013015: procid=100	addr=13	ch=15	mapped to tDSDX_C[15]	from Central_telescope
+======================================================================
+10013016: procid=100	addr=13	ch=16	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013017: procid=100	addr=13	ch=17	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013018: procid=100	addr=13	ch=18	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013019: procid=100	addr=13	ch=19	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013020: procid=100	addr=13	ch=20	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013021: procid=100	addr=13	ch=21	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013022: procid=100	addr=13	ch=22	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013023: procid=100	addr=13	ch=23	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013024: procid=100	addr=13	ch=24	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013025: procid=100	addr=13	ch=25	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013026: procid=100	addr=13	ch=26	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013027: procid=100	addr=13	ch=27	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013028: procid=100	addr=13	ch=28	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013029: procid=100	addr=13	ch=29	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013030: procid=100	addr=13	ch=30	IS NOT MAPPED!
+======================================================================
+======================================================================
+10013031: procid=100	addr=13	ch=31	IS NOT MAPPED!
+======================================================================
+10014000: procid=100	addr=14	ch=0	mapped to tDSDY_C[0]	from Central_telescope
+10014001: procid=100	addr=14	ch=1	mapped to tDSDY_C[1]	from Central_telescope
+10014002: procid=100	addr=14	ch=2	mapped to tDSDY_C[2]	from Central_telescope
+10014003: procid=100	addr=14	ch=3	mapped to tDSDY_C[3]	from Central_telescope
+10014004: procid=100	addr=14	ch=4	mapped to tDSDY_C[4]	from Central_telescope
+10014005: procid=100	addr=14	ch=5	mapped to tDSDY_C[5]	from Central_telescope
+10014006: procid=100	addr=14	ch=6	mapped to tDSDY_C[6]	from Central_telescope
+10014007: procid=100	addr=14	ch=7	mapped to tDSDY_C[7]	from Central_telescope
+10014008: procid=100	addr=14	ch=8	mapped to tDSDY_C[8]	from Central_telescope
+10014009: procid=100	addr=14	ch=9	mapped to tDSDY_C[9]	from Central_telescope
+10014010: procid=100	addr=14	ch=10	mapped to tDSDY_C[10]	from Central_telescope
+10014011: procid=100	addr=14	ch=11	mapped to tDSDY_C[11]	from Central_telescope
+10014012: procid=100	addr=14	ch=12	mapped to tDSDY_C[12]	from Central_telescope
+10014013: procid=100	addr=14	ch=13	mapped to tDSDY_C[13]	from Central_telescope
+10014014: procid=100	addr=14	ch=14	mapped to tDSDY_C[14]	from Central_telescope
+10014015: procid=100	addr=14	ch=15	mapped to tDSDY_C[15]	from Central_telescope
+======================================================================
+10014016: procid=100	addr=14	ch=16	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014017: procid=100	addr=14	ch=17	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014018: procid=100	addr=14	ch=18	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014019: procid=100	addr=14	ch=19	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014020: procid=100	addr=14	ch=20	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014021: procid=100	addr=14	ch=21	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014022: procid=100	addr=14	ch=22	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014023: procid=100	addr=14	ch=23	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014024: procid=100	addr=14	ch=24	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014025: procid=100	addr=14	ch=25	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014026: procid=100	addr=14	ch=26	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014027: procid=100	addr=14	ch=27	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014028: procid=100	addr=14	ch=28	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014029: procid=100	addr=14	ch=29	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014030: procid=100	addr=14	ch=30	IS NOT MAPPED!
+======================================================================
+======================================================================
+10014031: procid=100	addr=14	ch=31	IS NOT MAPPED!
+======================================================================
+10030000: procid=100	addr=30	ch=0	mapped to rio3[0]	from DAQ_status
+======================================================================
+10030001: procid=100	addr=30	ch=1	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030002: procid=100	addr=30	ch=2	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030003: procid=100	addr=30	ch=3	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030004: procid=100	addr=30	ch=4	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030005: procid=100	addr=30	ch=5	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030006: procid=100	addr=30	ch=6	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030007: procid=100	addr=30	ch=7	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030008: procid=100	addr=30	ch=8	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030009: procid=100	addr=30	ch=9	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030010: procid=100	addr=30	ch=10	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030011: procid=100	addr=30	ch=11	IS NOT MAPPED!
+======================================================================
+======================================================================
+10030012: procid=100	addr=30	ch=12	IS NOT MAPPED!
+====================================================================

@@ -13,18 +13,20 @@ void setup()
 	TGo4AnalysisStep* stepRawMonitoring = go4->GetAnalysisStep("stepRawMonitoring");
 	TGo4AnalysisStep* stepAdvMonitoring = go4->GetAnalysisStep("stepAdvMonitoring");
 	TGo4AnalysisStep* stepBeamDetMonitoring = go4->GetAnalysisStep("stepBeamDetMonitoring");
+	TGo4AnalysisStep* stepBeamDetMonitoring2 = go4->GetAnalysisStep("stepBeamDetMonitoring2");
 
 	//TODO enable/disable certain steps
 	stepUnpacking->SetProcessEnabled(kTRUE);
 	stepRepacking->SetProcessEnabled(kTRUE);
-	stepLearn->SetProcessEnabled(kFALSE);
+	stepLearn->SetProcessEnabled(kTRUE);
 	stepRawMonitoring->SetProcessEnabled(kFALSE);
-	stepAdvMonitoring->SetProcessEnabled(kFALSE);
+	stepAdvMonitoring->SetProcessEnabled(kTRUE);
 	stepBeamDetMonitoring->SetProcessEnabled(kFALSE);
+	stepBeamDetMonitoring2->SetProcessEnabled(kTRUE);
 
 	//TODO enable/disable autosave
 	//go4->SetAutoSaveFile("asf.root");
-	go4->SetAutoSave(kTRUE);
+	go4->SetAutoSave(kFALSE);
 
 	cout << "Macro 'setup.C' finished." << endl;
 }

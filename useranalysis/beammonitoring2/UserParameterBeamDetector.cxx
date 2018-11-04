@@ -17,14 +17,23 @@ UserParameterBeamDetector::UserParameterBeamDetector(const char* name) :
 	TGo4Parameter(name)
 //   fArr()
 {
-	fBeamDetName = "Beam_detector";		//beam detector name
+	fBeamDetName = "Beam_detector_MWPC";		//beam detector name
 	fMWPCx1Name = "MWPC1";				//x1 plane name
 	fMWPCy1Name = "MWPC2";				//y1 plane name
 	fMWPCx2Name = "MWPC3";				//x2 plane name
 	fMWPCy2Name = "MWPC4";				//y2 plane name
+	fF3aName = "F3";
+	fF5aName = "F5";
+	fF3tName = "tF3";
+	fF5tName = "tF5";
 
 	fMWPCtimeName = "tMWPC";
 	fTriggerCondition = 1;
+
+	fNoPMTf3 = 4;
+	fNoPMTf5 = 4;
+	fTimeCal = 0.125;
+	fTOFconst = 89.165;
 
 	fMWPCwireStepX1 = -1.25;
 	fMWPCwireStepY1 = 1.25;		//step between two wires
