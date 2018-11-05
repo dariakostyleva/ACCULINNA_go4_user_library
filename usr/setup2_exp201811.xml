@@ -40,7 +40,7 @@
 <crate name="VME0" procid="100">
 
 	<mapping addr="30"	elblock="RIO3"	startelectrch="0"	nelectrch="1"	station="rio3"	startstatch="0"	detector="DAQ_status"/>
-	<mapping addr="0"	elblock="V560"	startelectrch="0"	nelectrch="16"	station="scalers"	startstatch="0"	detector="DAQ_status"/>
+	<mapping addr="0"	elblock="V560N"	startelectrch="0"	nelectrch="16"	station="scalers"	startstatch="0"	detector="DAQ_status"/>
 
 	<mapping addr="1"	elblock="V775"	startelectrch="0"	nelectrch="16"	station="tSSD20_L"	startstatch="0"	detector="Left_telescope"	digicomp="time"/>
 	<mapping addr="1"	elblock="V775"	startelectrch="16"	nelectrch="16"	station="tSSD20_R"	startstatch="0"	detector="Right_telescope"	digicomp="time"/>
@@ -62,8 +62,8 @@
 	<mapping addr="8"	elblock="mADC"	startelectrch="0"	nelectrch="16"	station="SSD_L"	startstatch="0"	detector="Left_telescope"	digicomp="amp"/>
 	<mapping addr="8"	elblock="mADC"	startelectrch="16"	nelectrch="16"	station="SSD_R"	startstatch="0"	detector="Right_telescope"	digicomp="amp"/>
 
-	<mapping addr="9"	elblock="mADC"	startelectrch="0"	nelectrch="16"	station="DSDX_C"	startstatch="0"	detector="Central_telescope"	digicomp="amp"/>
-	<mapping addr="10"	elblock="mADC"	startelectrch="0"	nelectrch="16"	station="DSDY_C"	startstatch="0"	detector="Central_telescope"	digicomp="amp"/>
+	<mapping addr="9"	elblock="mADC"	startelectrch="0"	nelectrch="32"	station="DSDX_C"	startstatch="0"	detector="Central_telescope"	digicomp="amp"/>
+	<mapping addr="10"	elblock="mADC"	startelectrch="0"	nelectrch="32"	station="DSDY_C"	startstatch="0"	detector="Central_telescope"	digicomp="amp"/>
 
 	<mapping addr="11"	elblock="mQDC"	startelectrch="0"	nelectrch="4"	station="F3"	startstatch="0"	detector="Beam_detector"	digicomp="amp"/>
 	<mapping addr="11"	elblock="mQDC"	startelectrch="4"	nelectrch="4"	station="F5"	startstatch="0"	detector="Beam_detector"	digicomp="amp"/>
@@ -74,21 +74,22 @@
 	<mapping addr="12"	elblock="mTDC"	startelectrch="8"	nelectrch="4"	station="tF6"	startstatch="0"	detector="Beam_detector"	digicomp="time"/>
 	<mapping addr="12"	elblock="mTDC"	startelectrch="12"	nelectrch="4"	station="tMWPC"	startstatch="0"	detector="Beam_detector"	digicomp="time"/>
 
-	<mapping addr="13"	elblock="mTDC"	startelectrch="0"	nelectrch="16"	station="tDSDX_C"	startstatch="0"	detector="Central_telescope"	digicomp="amp"/>
-	<mapping addr="14"	elblock="mTDC"	startelectrch="0"	nelectrch="16"	station="tDSDY_C"	startstatch="0"	detector="Central_telescope"	digicomp="amp"/>
+	<mapping addr="13"	elblock="mTDC"	startelectrch="0"	nelectrch="32"	station="tDSDX_C"	startstatch="0"	detector="Central_telescope"	digicomp="amp"/>
+	<mapping addr="14"	elblock="mTDC"	startelectrch="0"	nelectrch="32"	station="tDSDY_C"	startstatch="0"	detector="Central_telescope"	digicomp="amp"/>
 
 <!-- below goes what is ignored (data is present, but not included into online analysis) for this crate	
+-->
+	<mapping addr="11"	elblock="mQDC"	startelectrch="12"	nelectrch="20"	station="Ignore"	startstatch="0"	detector="Ignore"/>
+<!--
 	<mapping addr="1"	elblock="TDC"	startelectrch="0"	nelectrch="32"	station="Ignore"	startstatch="0"	detector="Ignore"/>
 	<mapping addr="2"	elblock="TDC"	startelectrch="0"	nelectrch="32"	station="Ignore"	startstatch="0"	detector="Ignore"/>
 	<mapping addr="3"	elblock="TDC"	startelectrch="0"	nelectrch="32"	station="Ignore"	startstatch="0"	detector="Ignore"/>
 	<mapping addr="4"	elblock="TDC"	startelectrch="0"	nelectrch="32"	station="Ignore"	startstatch="0"	detector="Ignore"/>
 	<mapping addr="10"	elblock="mADC"	startelectrch="0"	nelectrch="32"	station="Ignore"	startstatch="0"	detector="Ignore"/>
--->
-
 	<mapping addr="11"	elblock="mQDC"	startelectrch="12"	nelectrch="12"	station="Ignore"	startstatch="0"	detector="Ignore"/>
 	<mapping addr="9"	elblock="mADC"	startelectrch="16"	nelectrch="32"	station="Ignore"	startstatch="0"	detector="Ignore"/>
 	<mapping addr="10"	elblock="mADC"	startelectrch="16"	nelectrch="32"	station="Ignore"	startstatch="0"	detector="Ignore"/>
-
+-->
 	</crate>
 
 <crate name="VME1" procid="200">

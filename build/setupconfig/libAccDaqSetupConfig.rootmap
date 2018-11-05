@@ -1,8 +1,0 @@
-[ libAccDaqSetupConfig.so ]
-# List of selected classes
-class stc_elblock
-class stc_electr_chars
-class stc_mapping
-class stc_setup_config
-header structs_electr.h
-header structs.h

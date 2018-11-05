@@ -32,10 +32,10 @@ SETUPFILE=./usr/setup2_exp201811.xml
 
 # Please specify input file name
 #INPUTFILENAME=he8_02_0001.lmd this one was used to configure xml file
-INPUTFILENAME=he8_05_0002.lmd
+INPUTFILENAME=he8_07_0001.lmd
 
 # Please specify number of events to process
-NEVENTS=10000 # Specify 0 to process the full file
+NEVENTS=100 # Specify 0 to process the full file
 
 TEXTERRFILE=textoutput/err.txt  # Default: textoutput/err.txt
 #TEXTERRFILE=/dev/null    # suppress error stream. Saves a little bit of hdd space

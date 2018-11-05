@@ -42,6 +42,12 @@
 #pragma link C++ class UserHistosBeamMonitoring2+;
 #pragma link C++ class UserParameterBeamDetector+;
 
+// Central telescope
+#pragma link C++ class UserEventCentralTelescope+;
+#pragma link C++ class UserProcCentralTelescope+;
+#pragma link C++ class UserHistosCentralTelescope+;
+#pragma link C++ class UserParameterCentralTelescope+;
+
 // Learn step
 #pragma link C++ class UserEventLearn+;
 #pragma link C++ class UserProcLearn+;

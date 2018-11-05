@@ -72,9 +72,8 @@ Bool_t UserProcBeamMonitoring2::BuildEvent(TGo4EventElement* p_dest)
 
 	Bool_t v_isValid = kFALSE;
 
-//	DetEventFull* v_input = (DetEventFull*)GetInputEvent("stepRepackedToBM2Provider");
 	v_input = (DetEventFull*)GetInputEvent("stepRepackedProvider3");
-//	v_input = (DetEventFull*)GetInputEvent("stepRepackedToBM2Provider");
+
 	if (v_input == NULL)
 	{
 		cerr << "[WARN  ] " << "UserProcBeamMonitoring2::BuildEvent(): no input event!" << endl;

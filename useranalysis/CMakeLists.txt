@@ -33,6 +33,10 @@ set(ROOTCLING_HEADERS UserAnalysis.h
                       beammonitoring2/UserEventBeamMonitoring2.h
                       beammonitoring2/UserProcBeamMonitoring2.h
                       beammonitoring2/UserHistosBeamMonitoring2.h
+                      centraltelescope/UserEventCentralTelescope.h
+                      centraltelescope/UserProcCentralTelescope.h
+                      centraltelescope/UserHistosCentralTelescope.h
+                      centraltelescope/UserParameterCentralTelescope.h
                       learn/UserEventLearn.h
                       learn/UserProcLearn.h
                       digibuilding/UserEventDigiBuilding.h
@@ -69,6 +73,10 @@ set(SOURCE_LIB G__${COMPNAME}.cxx
                beammonitoring2/UserEventBeamMonitoring2.cxx
                beammonitoring2/UserProcBeamMonitoring2.cxx
                beammonitoring2/UserHistosBeamMonitoring2.cxx
+               centraltelescope/UserEventCentralTelescope.cxx
+               centraltelescope/UserProcCentralTelescope.cxx
+               centraltelescope/UserHistosCentralTelescope.cxx
+               centraltelescope/UserParameterCentralTelescope.cxx
                learn/UserEventLearn.cxx
                learn/UserProcLearn.cxx
                digibuilding/UserEventDigiBuilding.cxx

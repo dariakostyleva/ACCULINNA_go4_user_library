@@ -1,6 +1,0 @@
-[ libAccDaqSetupConfigCppWrapper.so ]
-# List of selected classes
-class ElectronicsChars
-class SetupConfiguration
-header ElectronicsChars.h
-header SetupConfiguration.h

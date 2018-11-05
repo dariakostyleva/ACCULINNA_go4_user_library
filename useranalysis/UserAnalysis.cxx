@@ -299,28 +299,68 @@ void UserAnalysis::Construct(TString p_outfilename, TString p_setupfilename)
 	stepBeamDetMonitoring2->SetStoreEnabled(kFALSE);
 
 	AddAnalysisStep(stepBeamDetMonitoring2);
-//*/
 
-	// STEP3.3 - digibuilding =====================================================================
+
+	// STEP3.1 - provider - advanced monitoring ===============================================================
+//TODO remove two leading slashes in the following line to disable this step
+///*
+	TGo4StepFactory* factoryRepackedProvider6 = new TGo4StepFactory("factoryRepackedProvider6");
+	factoryRepackedProvider6->DefInputEvent("DetEventFull1", "DetEventFull"); // read full raw event without partial io
+	factoryRepackedProvider6->DefEventProcessor("DetEventFull1_1","MeshProviderProc"); // processorname must match name of input event + "_"
+	factoryRepackedProvider6->DefOutputEvent("Dummy", "MeshDummyEvent");
+	TGo4AnalysisStep* stepRepackedProvider6 = new TGo4AnalysisStep("stepRepackedProvider6", factoryRepackedProvider6);
+	stepRepackedProvider6->SetSourceEnabled(kFALSE);
+	stepRepackedProvider6->SetStoreEnabled(kFALSE);
+	stepRepackedProvider6->SetProcessEnabled(kTRUE);
+	AddAnalysisStep(stepRepackedProvider6);
+
+	// STEP3.1 - processor - advanced monitoring =============================================================
+
+	TGo4StepFactory* factoryCentralTelescope = new TGo4StepFactory("factoryCentralTelescope");
+	//factoryAdvMonitoring->DefInputEvent("DetEventFull1", "DetEventFull"); // object name, class name
+	factoryCentralTelescope->DefEventProcessor("UserProcCentralTelescope1", "UserProcCentralTelescope"); // object name, class name
+	factoryCentralTelescope->DefOutputEvent("UserEventCentralTelescope1", "UserEventCentralTelescope"); // object name, class name
+
+	TGo4AnalysisStep* stepCentralTelescope = new TGo4AnalysisStep("stepCentralTelescope", factoryCentralTelescope);
+
+	stepCentralTelescope->SetSourceEnabled(kFALSE);
+	stepCentralTelescope->SetProcessEnabled(kTRUE);
+	stepCentralTelescope->SetErrorStopEnabled(kFALSE);
+
+	//TGo4FileStoreParameter* storeAdvMonitoring = new TGo4FileStoreParameter("advmonitoring.root"); //TODO
+	//stepAdvMonitoring->SetEventStore(storeAdvMonitoring);
+	//stepAdvMonitoring->SetStoreEnabled(kTRUE);
+	stepCentralTelescope->SetStoreEnabled(kFALSE);
+
+	AddAnalysisStep(stepCentralTelescope);
+
+
 /*
-	TGo4StepFactory* factoryDigiBuilding = new TGo4StepFactory("factoryDigiBuilding");
-	factoryDigiBuilding->DefInputEvent("DetEventFull1", "DetEventFull"); // object name, class name
-	factoryDigiBuilding->DefEventProcessor("UserProcDigiBuilding1", "UserProcDigiBuilding"); // object name, class name
-	factoryDigiBuilding->DefOutputEvent("UserEventDigiBuilding1", "UserEventDigiBuilding"); // object name, class name
+// STEP 4.1 - provider - central telescope ======================================================================
+	TGo4StepFactory* factoryRepackedProvider4 = new TGo4StepFactory("factoryRepackedProvider4");
+	factoryRepackedProvider4->DefInputEvent("DetEventFull1", "DetEventFull"); // read full raw event without partial io
+	factoryRepackedProvider4->DefEventProcessor("DetEventFull1_2","MeshProviderProc"); // processorname must match name of input event + "_"
+	factoryRepackedProvider4->DefOutputEvent("Dummy", "MeshDummyEvent");
+	TGo4AnalysisStep* stepRepackedProvider4 = new TGo4AnalysisStep("stepRepackedProvider4", factoryRepackedProvider4);
+	stepRepackedProvider4->SetSourceEnabled(kFALSE);
+	stepRepackedProvider4->SetStoreEnabled(kFALSE);
+	stepRepackedProvider4->SetProcessEnabled(kTRUE);
+	AddAnalysisStep(stepRepackedProvider4);
 
-	TGo4AnalysisStep* stepDigiBuilding = new TGo4AnalysisStep("stepDigiBuilding", factoryDigiBuilding);
+// STEP 4.1 - processor - central telescope =====================================================================
+	TGo4StepFactory* factoryCentrTelescope = new TGo4StepFactory("factoryCentrTelescope");
+	//factoryBeamDetMonitoring->DefInputEvent("DetEventFull1", "DetEventFull"); // object name, class name
+	factoryCentrTelescope->DefEventProcessor("UserProcCentrTelescope1", "UserProcCentrTelescope"); // object name, class name
+	factoryCentrTelescope->DefOutputEvent("UserEventCentrTelescope1", "UserEventCentrTelescope"); // object name, class name
 
-	stepDigiBuilding->SetSourceEnabled(kFALSE);
-	stepDigiBuilding->SetProcessEnabled(kTRUE);
-	stepDigiBuilding->SetErrorStopEnabled(kTRUE);
+	TGo4AnalysisStep* stepCentrTelescope = new TGo4AnalysisStep("stepCentrTelescope", factoryBeamDetMonitoring2);
 
-	TGo4FileStoreParameter* storeDigiBuilding = new TGo4FileStoreParameter("outputDigiBuilding.root");
-	stepDigiBuilding->SetEventStore(storeDigiBuilding);
-	stepDigiBuilding->SetStoreEnabled(kTRUE); //TODO enable/disable
+	stepCentrTelescope->SetSourceEnabled(kFALSE);
+	stepCentrTelescope->SetProcessEnabled(kTRUE);
+	stepCentrTelescope->SetErrorStopEnabled(kFALSE);
+	stepCentrTelescope->SetStoreEnabled(kFALSE);
 
-	AddAnalysisStep(stepDigiBuilding);
-*/
-	// ============================================================================================
+	AddAnalysisStep(stepCentrTelescope);*/
 }
 
 Int_t UserAnalysis::UserPreLoop(void)

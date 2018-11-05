@@ -11,48 +11,19 @@
 // in Go4License.txt file which is part of the distribution.
 //-----------------------------------------------------------------------
 
-#include "UserParameterBeamDetector.h"
+#include "UserParameterCentralTelescope.h"
 
-UserParameterBeamDetector::UserParameterBeamDetector(const char* name) :
+UserParameterCentralTelescope::UserParameterCentralTelescope(const char* name) :
 	TGo4Parameter(name)
 //   fArr()
 {
-	fBeamDetName = "Beam_detector_MWPC";		//beam detector name
-	fMWPCx1Name = "MWPC1";				//x1 plane name
-	fMWPCy1Name = "MWPC2";				//y1 plane name
-	fMWPCx2Name = "MWPC3";				//x2 plane name
-	fMWPCy2Name = "MWPC4";				//y2 plane name
-	fF3aName = "F3";
-	fF5aName = "F5";
-	fF3tName = "tF3";
-	fF5tName = "tF5";
-
-	fMWPCtimeName = "tMWPC";
+	//fCDetName = "Central_telescope";
+	fDSDXCname = "Central_telescope_DSDX_C";
+	fDSDYCname = "Central_telescope_DSDY_C";
 	fTriggerCondition = 1;
 
-	fNoPMTf3 = 4;
-	fNoPMTf5 = 4;
-	fTimeCal = 0.0625;
-	fTOFconst = 68.55;
-
-	fMWPCwireStepX1 = -1.25;
-	fMWPCwireStepY1 = 1.25;		//step between two wires
-	fMWPCwireStepX2 = -1.25;		//step between two wires
-	fMWPCwireStepY2 = 1.25;		//step between two wires
-
-	fMWPC1_X_offset = -1.19;
-	fMWPC1_Y_offset = -2.12;
-	fMWPC2_X_offset = 0.2;
-	fMWPC2_Y_offset = -1.02;
-
-	// middle of the target is at zero
-	fMWPCz1 = -815.;	//z coordinate of the center of MWPC1
-	fMWPCz2 = -270.;	//z coordinate of the center of MWPC2
-
-	//tracking using MWPCs to see projection at any plane (like if target is moving)
-	fDistFromTarget = 20.;//for tracking using MWPCs. Positive value - shift in the same direction with z (beam axis), negative value - shift in the opposite direction to z
 }
-
+/*
 const Float_t UserParameterBeamDetector::GetWireStep(Int_t plane) {
 	if (plane==0) return fMWPCwireStepX1;
 	else if (plane==1) return fMWPCwireStepY1;
@@ -68,3 +39,4 @@ const Float_t UserParameterBeamDetector::GetMWPCoffset(Int_t plane) {
 	else if (plane==3) return fMWPC2_Y_offset;
 	else return 0;
 }
+*/
