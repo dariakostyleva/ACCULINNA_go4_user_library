@@ -32,6 +32,9 @@ public:
  	TH1* fMultY;
  	TH1* fProfY;
  	TH2* fProjXY;
+ 	TH1* fDSDX_Cmm;
+ 	TH1* fDSDY_Cmm;
+ 	TH2* fDSDXY_Cmm;
 
 
 	ClassDef(UserHistosCentralTelescope, 1);

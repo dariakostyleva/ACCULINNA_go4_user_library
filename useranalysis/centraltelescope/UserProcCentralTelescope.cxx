@@ -10,6 +10,7 @@ using std::cout;
 #include <TClonesArray.h>
 #include <TH1D.h>
 #include <TH2D.h>
+#include <TRandom3.h>
 
 // Project
 #include "base/Support.h"
@@ -166,8 +167,10 @@ void UserProcCentralTelescope::FillHistograms(Int_t curTrigger) {
 	Int_t stripx_val[32];
 	Int_t stripy[32];
 	Int_t stripy_val[32];
-	Int_t num_stripx;
-	Int_t num_stripy;
+	Int_t num_stripx; //number of strips on x if mult == 1
+	Int_t num_stripy; //number of strips on y if mult == 1
+	Int_t num_stripx_mm; //position if mult == 1 
+	Int_t num_stripy_mm; //position if mult == 1 
 	TClonesArray* dsd[2] = { NULL };
 
 	if(st_DSDX_C && st_DSDY_C && curTrigger==fParBD->fTriggerCondition) {
@@ -203,6 +206,15 @@ void UserProcCentralTelescope::FillHistograms(Int_t curTrigger) {
 			num_stripx = ((DetMessage*)dsd[0]->At(0))->GetStChannel();
 			num_stripy = ((DetMessage*)dsd[1]->At(0))->GetStChannel();
 			fHistoMan->fProjXY->Fill(num_stripx,num_stripy);
+
+			//num_stripx_mm = (num_stripx + /*gRandom->Uniform(-0.5,0.5)*/ + 0.9375 - 16);
+			//num_stripx_mm = (num_stripx + gRandom->Uniform(-0.9375,0.9375) + 0.9375 - 16)*1.875;
+			//num_stripy_mm = (num_stripy + gRandom->Uniform(-0.9375,0.9375) + 0.9375 - 16)*1.875;
+			num_stripx_mm = (num_stripx -16)*2;
+			num_stripy_mm = (num_stripy -16)*2;
+			fHistoMan->fDSDX_Cmm->Fill(num_stripx_mm);
+			fHistoMan->fDSDY_Cmm->Fill(num_stripy_mm);
+			fHistoMan->fDSDXY_Cmm->Fill(-num_stripx_mm,-num_stripy_mm); // y goes down, and we look at the beam (left-side coord)
 		}
 
 	}

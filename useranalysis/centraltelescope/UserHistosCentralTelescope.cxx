@@ -44,7 +44,9 @@ void UserHistosCentralTelescope::InitHistograms()
 	fMultY = a->MakeTH1('I', "Central_telescope/MultY", "Multiplicity on Y side of Si", 32, 0, 32);
 	fProfY = a->MakeTH1('I', "Central_telescope/ProfY", "Profile on Y side of Si", 32, 0, 32);
 	fProjXY = a->MakeTH2('I', "Central_telescope/ProjXY", "X vs Y in Si, mult == 1 ", 32, 0, 32, 32, 0, 32,"Strips on X","Strips on Y");
-
+	fDSDX_Cmm = a->MakeTH1('I', "Central_telescope/DSDX_Cmm", "Profile on X side of Si in mm", 32, -32, 32);
+	fDSDY_Cmm = a->MakeTH1('I', "Central_telescope/DSDY_Cmm", "Profile on Y side of Si in mm", 32, -32, 32);
+	fDSDXY_Cmm = a->MakeTH2('I', "Central_telescope/DSDXY_Cmm", "X vs Y in Si, mult == 1", 32, -32, 32, 32, -32, 32, "X, mm", "Y, mm");
 	for (Int_t i = 0; i < 32; i++) {
 		xhistname.Form("Central_telescope/DSDX_C/DSDX_C[%d]",i);
 		xhisttitle.Form("fDSDX_C[%d]",i);
