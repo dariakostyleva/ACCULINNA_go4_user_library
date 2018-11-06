@@ -151,64 +151,60 @@ void UserProcCentralTelescope::FillHistograms(Int_t curTrigger) {
 	cout << "curTrigger " << curTrigger << endl;
 	fHistoMan->fTrigger->Fill(curTrigger);
 
-	TClonesArray* dsdx = NULL;
+/*	TClonesArray* dsdx = NULL;
 	TClonesArray* dsdy = NULL;
-	Int_t nentries;
+/	Int_t nentries;
 	Int_t nentries_x;
 	Int_t nentries_y;
 	Float_t chan_x[4];
 	Float_t val_x[4];
 	Float_t chan_y[4];
 	Float_t val_y[4];
-
-	if( st_DSDX_C && st_DSDY_C && curTrigger==fParBD->fTriggerCondition){
-		dsdx = st_DSDX_C->GetDetMessages();
-		nentries_x = dsdx->GetEntriesFast();
-		fHistoMan->fMultX->Fill(nentries_x);
-		cout << "dsdx->GetEntriesFast() " << dsdx->GetEntriesFast() << endl;
-		for(Int_t i = 0; i < nentries_x; i++) {
-			//if(curTrigger==fParBD->fTriggerCondition){
-			chan_x[i] = ((DetMessage*)dsdx->At(i))->GetStChannel();
-			val_x[i] = ((DetMessage*)dsdx->At(i))->GetValue();
-			cout << "chan_x[i] " << chan_x[i] << endl;
-			cout << "val_x[i] " << val_x[i] << endl;
-			fHistoMan->fDSDX_C[(Int_t)chan_x[i]]->Fill(val_x[i]); 
-			fHistoMan->fProfX->Fill(chan_x[i]);
-		}
-
-		dsdy = st_DSDY_C->GetDetMessages();
-		nentries_y = dsdy->GetEntriesFast();
-		fHistoMan->fMultY->Fill(nentries_y);
-		cout << "dsdy->GetEntriesFast() " << dsdy->GetEntriesFast() << endl;
-		for(Int_t i = 0; i < nentries_y; i++) {
-			chan_y[i] = ((DetMessage*)dsdy->At(i))->GetStChannel();
-			val_y[i] = ((DetMessage*)dsdy->At(i))->GetValue();
-			cout << "chan_y[i] " << chan_y[i] << endl;
-			cout << "val_y[i] " << val_y[i] << endl;
-			fHistoMan->fDSDY_C[(Int_t)chan_y[i]]->Fill(val_y[i]); 
-			fHistoMan->fProfY->Fill(chan_y[i]);
-		}
-
-		if(nentries_y == nentries_x) {
-			nentries = nentries_y;
-			for(Int_t i = 0; i < nentries; i++) {
-				chan_x[i] = ((DetMessage*)dsdx->At(i))->GetStChannel();
-				chan_y[i] = ((DetMessage*)dsdy->At(i))->GetStChannel();
-				fHistoMan->fProjXY->Fill(chan_x[i],chan_y[i]);
-			}
-		}
-	}
-
-/*	if(nentries_y == nentries_x) {
-		nentries = nentries_y;
-		for(Int_t i = 0; i < nentries_y; i++) {
-			val_y[i] = ((DetMessage*)dsdy->At(i))->GetValue();
-
-
-		}
-		fHistoMan->fProjXY->Fill(chan_x,chan_y);
-	}
 */
-	
+	Int_t strip_mult[2];
+	Int_t stripx[32];
+	Int_t stripx_val[32];
+	Int_t stripy[32];
+	Int_t stripy_val[32];
+	Int_t num_stripx;
+	Int_t num_stripy;
+	TClonesArray* dsd[2] = { NULL };
+
+	if(st_DSDX_C && st_DSDY_C && curTrigger==fParBD->fTriggerCondition) {
+
+		dsd[0] = st_DSDX_C->GetDetMessages();
+		strip_mult[0] = dsd[0]->GetEntriesFast();
+		fHistoMan->fMultX->Fill(strip_mult[0]);
+		cout << "dsd[0]->GetEntriesFast() " << dsd[0]->GetEntriesFast() << endl;
+		for(Int_t i = 0; i < strip_mult[0]; i++) {
+			stripx[i] = ((DetMessage*)dsd[0]->At(i))->GetStChannel();
+			stripx_val[i] = ((DetMessage*)dsd[0]->At(i))->GetValue();
+			cout << "stripx[i] " << stripx[i]<< endl;
+			cout << "stripx_val[i] " << stripx_val[i] << endl;
+			fHistoMan->fDSDX_C[(Int_t)stripx[i]]->Fill(stripx_val[i]); 
+			fHistoMan->fProfX->Fill(stripx[i]);
+		}
+
+		dsd[1] = st_DSDY_C->GetDetMessages();
+		strip_mult[1] = dsd[1]->GetEntriesFast();
+		fHistoMan->fMultY->Fill(strip_mult[1]);
+		cout << "dsd[1]->GetEntriesFast() " << dsd[1]->GetEntriesFast() << endl;
+		for(Int_t i = 0; i < strip_mult[1]; i++) {
+			stripy[i] = ((DetMessage*)dsd[1]->At(i))->GetStChannel();
+			stripy_val[i] = ((DetMessage*)dsd[1]->At(i))->GetValue();
+			cout << "stripy[i] " << stripy[i]<< endl;
+			cout << "stripy_val[i] " << stripy_val[i] << endl;
+			fHistoMan->fDSDY_C[(Int_t)stripy[i]]->Fill(stripy_val[i]); 
+			fHistoMan->fProfY->Fill(stripy[i]);
+			cout << "fHistoMan->fProfY->Fill(stripy[i])"<< fHistoMan->fProfY->Fill(stripy[i]) << endl;
+		}
+
+		if(strip_mult[1]==1 && strip_mult[0]==1) {
+			num_stripx = ((DetMessage*)dsd[0]->At(0))->GetStChannel();
+			num_stripy = ((DetMessage*)dsd[1]->At(0))->GetStChannel();
+			fHistoMan->fProjXY->Fill(num_stripx,num_stripy);
+		}
+
+	}
 
 }
