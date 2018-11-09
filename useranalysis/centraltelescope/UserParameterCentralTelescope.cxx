@@ -17,9 +17,10 @@ UserParameterCentralTelescope::UserParameterCentralTelescope(const char* name) :
 	TGo4Parameter(name)
 //   fArr()
 {
-	//fCDetName = "Central_telescope";
-	fDSDXCname = "Central_telescope_DSDX_C";
-	fDSDYCname = "Central_telescope_DSDY_C";
+	fCDetName = "Central_telescope";
+	fDSDXCname = "DSDX_C";
+	fDSDYCname = "DSDY_C";
+	fCsIname = "CsI";
 	fTriggerCondition = 1;
 
 }

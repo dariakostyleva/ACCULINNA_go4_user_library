@@ -28,7 +28,7 @@
 <elblock name="V560N"	nchannels="16"	rangelow="0"	rangehigh="4096"	nbins="1024"	type="scalers"	vendor="CAEN"/>
 
 <!-- Dummy -->
-<elblock name="RIO3"	nchannels="1"	rangelow="0"	rangehigh="1"	nbins="1"	type="daqstatus"	vendor="RIO"/>
+<elblock name="RIO3"	nchannels="32"	rangelow="0"	rangehigh="1"	nbins="1"	type="daqstatus"	vendor="RIO"/>
 
 <!-- Dummy -->
 <elblock name="other"	nchannels="1"	rangelow="0"	rangehigh="1"	nbins="1"	type="other"	vendor="NOVENDOR"/>

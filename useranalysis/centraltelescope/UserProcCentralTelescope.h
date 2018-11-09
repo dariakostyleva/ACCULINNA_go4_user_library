@@ -19,6 +19,7 @@ class DetEventFull;
 class DetEventStation;
 class UserParameterCentralTelescope;
 class TClonesArray;
+class SiCalibPars;
 
 
 class UserProcCentralTelescope : public TGo4EventProcessor
@@ -36,16 +37,21 @@ public: // methods
 	/** Method called when analysis is stopping */
 	virtual void UserPostLoop();
 
+	SiCalibPars** fParSi;
+	std::pair <TString,Int_t>* fstPair;
+	const Int_t fnPars = 9;
+
 private: // methods
 	void ProcessMessage(DetMessage* p_message);
-	void FillHistograms(Int_t curTrigger);
-
+	void FillCT(Int_t curTrigger); //fill central telescope
+	Int_t FilldEE(DetEventStation* st_DSDX_C,DetEventStation* st_DSDY_C, DetEventStation* st_CsI);
 	/**
 	 * Counter or processed events
 	 */
 	unsigned long int fEventCounter;
-
-
+	void InitPars();
+	SiCalibPars* getSiPar(TString st_Name);
+	Int_t GetClusterMult(TClonesArray *data);
 	/**
 	 * Put all your output histograms inside this object.
 	 * See UserHistosCentralTelescope class.

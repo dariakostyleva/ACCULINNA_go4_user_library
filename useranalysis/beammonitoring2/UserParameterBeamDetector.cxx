@@ -17,7 +17,7 @@ UserParameterBeamDetector::UserParameterBeamDetector(const char* name) :
 	TGo4Parameter(name)
 //   fArr()
 {
-	fBeamDetName = "Beam_detector_MWPC";		//beam detector name
+	fBeamDetName = "Beam_detector";		//beam detector name
 	fMWPCx1Name = "MWPC1";				//x1 plane name
 	fMWPCy1Name = "MWPC2";				//y1 plane name
 	fMWPCx2Name = "MWPC3";				//x2 plane name
@@ -50,7 +50,7 @@ UserParameterBeamDetector::UserParameterBeamDetector(const char* name) :
 	fMWPCz2 = -270.;	//z coordinate of the center of MWPC2
 
 	//tracking using MWPCs to see projection at any plane (like if target is moving)
-	fDistFromTarget = 20.;//for tracking using MWPCs. Positive value - shift in the same direction with z (beam axis), negative value - shift in the opposite direction to z
+	fDistFromTarget = 280.;//for tracking using MWPCs. Positive value - shift in the same direction with z (beam axis), negative value - shift in the opposite direction to z
 }
 
 const Float_t UserParameterBeamDetector::GetWireStep(Int_t plane) {

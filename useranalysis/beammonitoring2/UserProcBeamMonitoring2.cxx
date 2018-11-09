@@ -228,16 +228,16 @@ void UserProcBeamMonitoring2::MWPCtime(DetEventStation* mwpc_time, Int_t curTrig
 	Int_t nentries;
 	Float_t temp[4];
 	Float_t temp2[4];
-	cout << "curTrigger " << curTrigger << endl;
+	//cout << "curTrigger " << curTrigger << endl;
 	if(mwpc_time && curTrigger==fParBD->fTriggerCondition){
 		tmwpc = mwpc_time->GetDetMessages();
 		nentries = tmwpc->GetEntriesFast();
-		cout << "tmwpc->GetEntriesFast() " << tmwpc->GetEntriesFast() << endl;
+		//cout << "tmwpc->GetEntriesFast() " << tmwpc->GetEntriesFast() << endl;
 		for(Int_t i = 0; i < nentries; i++) {
 			//if(curTrigger==fParBD->fTriggerCondition){
 			temp[i] = ((DetMessage*)tmwpc->At(i))->GetStChannel();
 			temp2[i] = ((DetMessage*)tmwpc->At(i))->GetValue();
-			cout << "temp[i] " << temp[i] << endl;
+			//cout << "temp[i] " << temp[i] << endl;
 			//cout << "temp2[i] " << temp2[i] << endl;
 			fHistoMan->fMWPCtime[(Int_t)temp[i]]->Fill(temp2[i]); 
 			//}

@@ -27,19 +27,23 @@ public:
 
 	TString fDSDXCname; 			//name of CentralTelescope
 	TString fDSDYCname; 
+	TString fCsIname;
 	Int_t fTriggerCondition;
 
 	ClassDef(UserParameterCentralTelescope,1)
 
 	TString GetDSDXCname() {
-		//return fCDetName + "_" + fDSDXCname;
-		return fDSDXCname;
+		return fCDetName + "_" + fDSDXCname;
+		//return fDSDXCname;
 	}
 
 	TString GetDSDYCname() {
-		return fDSDYCname;
+		return fCDetName + "_" + fDSDYCname;
 	}
 
+	TString GetCsIname(){
+		return fCDetName + "_" + fCsIname;
+	}
 //const Float_t GetWireStep(Int_t plane);
 //	const Float_t GetMWPCoffset(Int_t plane);
 };

@@ -41,6 +41,7 @@ set(ROOTCLING_HEADERS UserAnalysis.h
                       learn/UserProcLearn.h
                       digibuilding/UserEventDigiBuilding.h
                       digibuilding/UserProcDigiBuilding.h
+                      calibration/SiCalibPars.h
                       )
 
 ROOT_GENERATE_DICTIONARY(G__${COMPNAME} ${ROOTCLING_HEADERS} LINKDEF UserAnalysisLinkDef.h)
@@ -81,6 +82,7 @@ set(SOURCE_LIB G__${COMPNAME}.cxx
                learn/UserProcLearn.cxx
                digibuilding/UserEventDigiBuilding.cxx
                digibuilding/UserProcDigiBuilding.cxx
+               calibration/SiCalibPars.cxx
                )
 
 add_library(${COMPNAME} SHARED ${SOURCE_LIB})

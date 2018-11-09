@@ -47,6 +47,7 @@
 #pragma link C++ class UserProcCentralTelescope+;
 #pragma link C++ class UserHistosCentralTelescope+;
 #pragma link C++ class UserParameterCentralTelescope+;
+#pragma link C++ class SiCalibPars+;
 
 // Learn step
 #pragma link C++ class UserEventLearn+;

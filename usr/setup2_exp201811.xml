@@ -39,7 +39,7 @@
 
 <crate name="VME0" procid="100">
 
-	<mapping addr="30"	elblock="RIO3"	startelectrch="0"	nelectrch="1"	station="rio3"	startstatch="0"	detector="DAQ_status"/>
+	<mapping addr="30"	elblock="RIO3"	startelectrch="0"	nelectrch="32"	station="rio3"	startstatch="0"	detector="DAQ_status"/>
 	<mapping addr="0"	elblock="V560N"	startelectrch="0"	nelectrch="16"	station="scalers"	startstatch="0"	detector="DAQ_status"/>
 
 	<mapping addr="1"	elblock="V775"	startelectrch="0"	nelectrch="16"	station="tSSD20_L"	startstatch="0"	detector="Left_telescope"	digicomp="time"/>
@@ -104,10 +104,10 @@
 </crate>
 
 <crate name="CAMAC" procid="101">
-	<mapping addr="0"	elblock="other"	startelectrch="0"	nelectrch="32"	station="MWPC1"	startstatch="0"	detector="Beam_detector_MWPC"	digicomp="amp"/>
-	<mapping addr="1"	elblock="other"	startelectrch="0"	nelectrch="32"	station="MWPC2"	startstatch="0"	detector="Beam_detector_MWPC"	digicomp="amp"/>
-	<mapping addr="2"	elblock="other"	startelectrch="0"	nelectrch="32"	station="MWPC3"	startstatch="0"	detector="Beam_detector_MWPC"	digicomp="amp"/>
-	<mapping addr="3"	elblock="other"	startelectrch="0"	nelectrch="32"	station="MWPC4"	startstatch="0"	detector="Beam_detector_MWPC"	digicomp="amp"/>
+	<mapping addr="0"	elblock="other"	startelectrch="0"	nelectrch="32"	station="MWPC1"	startstatch="0"	detector="Beam_detector"	digicomp="amp"/>
+	<mapping addr="1"	elblock="other"	startelectrch="0"	nelectrch="32"	station="MWPC2"	startstatch="0"	detector="Beam_detector"	digicomp="amp"/>
+	<mapping addr="2"	elblock="other"	startelectrch="0"	nelectrch="32"	station="MWPC3"	startstatch="0"	detector="Beam_detector"	digicomp="amp"/>
+	<mapping addr="3"	elblock="other"	startelectrch="0"	nelectrch="32"	station="MWPC4"	startstatch="0"	detector="Beam_detector"	digicomp="amp"/>
 
 </crate>
 
